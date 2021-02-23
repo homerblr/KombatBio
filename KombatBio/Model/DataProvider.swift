@@ -8,15 +8,15 @@
 import Foundation
 
 protocol DataProviderProtocol {
-    func fetchFighters(_ completion: @escaping (Result<[CharacterDetail], Error>) -> Void)
-    var fighterModel: [CharacterDetail] {get}
+    func fetchFighters(_ completion: @escaping (Result<[Characters], Error>) -> Void)
+    var fighterModel: [Characters] {get}
 }
 
 class DataProvider : DataProviderProtocol {
     private var loader: FighterDataSourceProtocol
-    var fighterModel: [CharacterDetail] = [CharacterDetail]()
+    var fighterModel: [Characters] = [Characters]()
 
-    func fetchFighters(_ completion: @escaping (Result<[CharacterDetail], Error>) -> Void) {
+    func fetchFighters(_ completion: @escaping (Result<[Characters], Error>) -> Void) {
         loader.fetchFightersList { [weak self] (result) in
             switch result {
             case .success(let fighterList):

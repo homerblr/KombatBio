@@ -9,7 +9,7 @@ import UIKit
 import Kingfisher
 
 class ViewController: UIViewController {
-    var fighter : [CharacterDetail] = []
+    var fighter : [Characters] = []
     var viewModel : IMainScreenViewModel?
 
     @IBOutlet weak var tableView: UITableView!

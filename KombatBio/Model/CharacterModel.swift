@@ -9,16 +9,16 @@ import Foundation
 
 // MARK: - Character
 
-struct Character: Codable {
-    let characterDetails: [CharacterDetail]
+struct CharacterModel: Codable {
+    let characters: [Characters]
 
     enum CodingKeys: String, CodingKey {
-        case characterDetails = "characterDetails"
+        case characters = "characters"
     }
 }
 
 // MARK: - CharacterDetail
-struct CharacterDetail: Codable {
+struct Characters: Codable {
     let id: Int
     let name: String
     let realName: String

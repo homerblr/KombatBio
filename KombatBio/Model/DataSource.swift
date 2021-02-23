@@ -8,16 +8,16 @@
 import Foundation
 
 protocol FighterDataSourceProtocol {
-    func fetchFightersList(_ completion: @escaping (Result<[CharacterDetail], Error>) -> Void)
+    func fetchFightersList(_ completion: @escaping (Result<[Characters], Error>) -> Void)
 }
 
 struct DataSource: FighterDataSourceProtocol {
-    func fetchFightersList(_ completion: @escaping (Result<[CharacterDetail], Error>) -> Void) {
+    func fetchFightersList(_ completion: @escaping (Result<[Characters], Error>) -> Void) {
         LocalNetworking.getFighters { (result) in
             switch result {
             case .success(let fighterModel):
                 guard let fighterModel = fighterModel else { return }
-                completion(.success(fighterModel.characterDetails))
+                completion(.success(fighterModel.characters))
             case .failure(let error):
                 print(error.localizedDescription)
             }
