@@ -21,6 +21,13 @@
 		CB8BB2D825E5700F00809D73 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2D725E5700F00809D73 /* DataSource.swift */; };
 		CB8BB2DC25E573C100809D73 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2DB25E573C100809D73 /* DataProvider.swift */; };
 		CB8BB2DF25E576A000809D73 /* MainScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2DE25E576A000809D73 /* MainScreenVM.swift */; };
+		CB8BB2F025E67EE600809D73 /* CollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2EF25E67EE600809D73 /* CollectionViewVC.swift */; };
+		CB8BB2F425E67F6D00809D73 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2F225E67F6D00809D73 /* CollectionViewCell.swift */; };
+		CB8BB2F525E67F6D00809D73 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8BB2F325E67F6D00809D73 /* CollectionViewCell.xib */; };
+		CB8BB2FA25E6828500809D73 /* CollectionViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2F925E6828500809D73 /* CollectionViewVM.swift */; };
+		CB8BB2FD25E6D11300809D73 /* MKtitle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB8BB2FC25E6D11300809D73 /* MKtitle.ttf */; };
+		CB8BB30325E6D4A900809D73 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB30225E6D4A900809D73 /* Colors.swift */; };
+		CB8BB30C25E7F5F300809D73 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB30B25E7F5F300809D73 /* ContainerVC.swift */; };
 		D50464F0D0011B1946CDBF03 /* Pods_KombatBio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF60B59B916909879EE2FCD4 /* Pods_KombatBio.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +50,13 @@
 		CB8BB2D725E5700F00809D73 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		CB8BB2DB25E573C100809D73 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		CB8BB2DE25E576A000809D73 /* MainScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenVM.swift; sourceTree = "<group>"; };
+		CB8BB2EF25E67EE600809D73 /* CollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVC.swift; sourceTree = "<group>"; };
+		CB8BB2F225E67F6D00809D73 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CB8BB2F325E67F6D00809D73 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		CB8BB2F925E6828500809D73 /* CollectionViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVM.swift; sourceTree = "<group>"; };
+		CB8BB2FC25E6D11300809D73 /* MKtitle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MKtitle.ttf; sourceTree = "<group>"; };
+		CB8BB30225E6D4A900809D73 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CB8BB30B25E7F5F300809D73 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		CF60B59B916909879EE2FCD4 /* Pods_KombatBio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KombatBio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,8 +118,10 @@
 				CB8BB2E925E57E0300809D73 /* Networking */,
 				CB8BB2E125E57DD600809D73 /* VIew */,
 				CB8BB2B625E5009E00809D73 /* Assets.xcassets */,
+				CB8BB30525E6D4AE00809D73 /* Helpers */,
 				CB8BB2B825E5009E00809D73 /* LaunchScreen.storyboard */,
 				CB8BB2C925E50F3E00809D73 /* Kombat.json */,
+				CB8BB2FC25E6D11300809D73 /* MKtitle.ttf */,
 				CB8BB2BB25E5009E00809D73 /* Info.plist */,
 			);
 			path = KombatBio;
@@ -117,6 +133,8 @@
 				CB8BB2B325E5009200809D73 /* Main.storyboard */,
 				CB8BB2CF25E5524C00809D73 /* FighterCell.swift */,
 				CB8BB2D025E5524C00809D73 /* FighterCell.xib */,
+				CB8BB2F225E67F6D00809D73 /* CollectionViewCell.swift */,
+				CB8BB2F325E67F6D00809D73 /* CollectionViewCell.xib */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -125,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				CB8BB2B125E5009200809D73 /* ViewController.swift */,
+				CB8BB2EF25E67EE600809D73 /* CollectionViewVC.swift */,
+				CB8BB30B25E7F5F300809D73 /* ContainerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -133,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				CB8BB2DE25E576A000809D73 /* MainScreenVM.swift */,
+				CB8BB2F925E6828500809D73 /* CollectionViewVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -153,6 +174,14 @@
 				CB8BB2C525E504CB00809D73 /* Networking.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		CB8BB30525E6D4AE00809D73 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BB30225E6D4A900809D73 /* Colors.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,8 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8BB2FD25E6D11300809D73 /* MKtitle.ttf in Resources */,
 				CB8BB2BA25E5009E00809D73 /* LaunchScreen.storyboard in Resources */,
 				CB8BB2CA25E50F3E00809D73 /* Kombat.json in Resources */,
+				CB8BB2F525E67F6D00809D73 /* CollectionViewCell.xib in Resources */,
 				CB8BB2D225E5524C00809D73 /* FighterCell.xib in Resources */,
 				CB8BB2B725E5009E00809D73 /* Assets.xcassets in Resources */,
 				CB8BB2B525E5009200809D73 /* Main.storyboard in Resources */,
@@ -278,8 +309,13 @@
 				CB8BB2C625E504CB00809D73 /* Networking.swift in Sources */,
 				CB8BB2D825E5700F00809D73 /* DataSource.swift in Sources */,
 				CB8BB2C325E502F100809D73 /* CharacterModel.swift in Sources */,
+				CB8BB2FA25E6828500809D73 /* CollectionViewVM.swift in Sources */,
+				CB8BB30C25E7F5F300809D73 /* ContainerVC.swift in Sources */,
+				CB8BB30325E6D4A900809D73 /* Colors.swift in Sources */,
 				CB8BB2AE25E5009200809D73 /* AppDelegate.swift in Sources */,
 				CB8BB2B025E5009200809D73 /* SceneDelegate.swift in Sources */,
+				CB8BB2F025E67EE600809D73 /* CollectionViewVC.swift in Sources */,
+				CB8BB2F425E67F6D00809D73 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

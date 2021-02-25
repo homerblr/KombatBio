@@ -10,8 +10,8 @@ import UIKit
 class FighterCell: UITableViewCell {
     
     @IBOutlet weak var fighterName: UILabel!
-    @IBOutlet weak var realName: UILabel!
-    @IBOutlet weak var fighterGender: UILabel!
+    @IBOutlet weak var fighterMotto: UILabel!
+
     
     @IBOutlet weak var fighterImage: UIImageView!
     

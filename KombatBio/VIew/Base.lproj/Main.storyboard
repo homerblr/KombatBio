@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BPF-yr-aUz">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Choose your fighter-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KombatBio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="tableViewVC" id="BYZ-38-t0r" customClass="ViewController" customModule="KombatBio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tZ4-vD-FdE">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <color key="backgroundColor" red="0.031372549019607843" green="0.047058823529411764" blue="0.062745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="RKR-ds-4hk"/>
@@ -32,19 +34,148 @@
                             <constraint firstAttribute="bottom" secondItem="tZ4-vD-FdE" secondAttribute="bottom" id="6HU-p0-V6b"/>
                             <constraint firstItem="tZ4-vD-FdE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GqT-a1-7r1"/>
                             <constraint firstItem="tZ4-vD-FdE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Lzf-rw-ule"/>
-                            <constraint firstItem="tZ4-vD-FdE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nb9-6w-Td4"/>
+                            <constraint firstItem="tZ4-vD-FdE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jnP-g2-nZ9"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Choose your fighter" id="dw1-wM-RFd"/>
                     <connections>
                         <outlet property="tableView" destination="tZ4-vD-FdE" id="oWe-Nn-6PV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-214.49275362318843" y="44.866071428571423"/>
+            <point key="canvasLocation" x="1645" y="-381"/>
+        </scene>
+        <!--Grid-->
+        <scene sceneID="oq6-nO-onq">
+            <objects>
+                <viewController storyboardIdentifier="gridVC" id="bWq-Lw-YNH" customClass="CollectionViewVC" customModule="KombatBio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mlf-Re-u5v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ccm-yb-2N9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.019607843137254902" green="0.031372549019607843" blue="0.039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="nE7-0O-ZQr">
+                                    <size key="itemSize" width="300" height="300"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="hsk-CF-RTt" customClass="CollectionViewCell" customModule="KombatBio" customModuleProvider="target">
+                                        <rect key="frame" x="57" y="0.0" width="300" height="300"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bDR-px-oWO">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="300" height="300"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="bWq-Lw-YNH" id="tPY-3s-BwK"/>
+                                    <outlet property="delegate" destination="bWq-Lw-YNH" id="b4S-6g-kyQ"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="d5X-mN-Ucj"/>
+                        <color key="backgroundColor" red="0.019607843137254902" green="0.031372549019607843" blue="0.039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ccm-yb-2N9" firstAttribute="trailing" secondItem="d5X-mN-Ucj" secondAttribute="trailing" id="6XE-aN-J0k"/>
+                            <constraint firstItem="Ccm-yb-2N9" firstAttribute="top" secondItem="mlf-Re-u5v" secondAttribute="top" id="fPz-B0-ILp"/>
+                            <constraint firstItem="Ccm-yb-2N9" firstAttribute="bottom" secondItem="mlf-Re-u5v" secondAttribute="bottom" id="jWl-BD-nnX"/>
+                            <constraint firstItem="Ccm-yb-2N9" firstAttribute="leading" secondItem="d5X-mN-Ucj" secondAttribute="leading" id="jaC-gI-sgC"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Grid" image="grid" catalog="system" id="2BC-Xn-vAy"/>
+                    <connections>
+                        <outlet property="collectionView" destination="Ccm-yb-2N9" id="tzx-21-kf2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ebf-LA-CG0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2416" y="-381"/>
+        </scene>
+        <!--Choose your fighter-->
+        <scene sceneID="eyA-q1-nsB">
+            <objects>
+                <viewController id="EYF-Wm-0YE" customClass="ContainerVC" customModule="KombatBio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iu1-RT-uqe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3ZF-yD-5LH">
+                                <rect key="frame" x="0.0" y="88" width="414" height="32"/>
+                                <color key="backgroundColor" name="segmentSelector"/>
+                                <segments>
+                                    <segment title="Grid"/>
+                                    <segment title="TableView"/>
+                                </segments>
+                                <color key="selectedSegmentTintColor" red="0.031372549020000001" green="0.047058823530000002" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="segmentedControlTapped:" destination="EYF-Wm-0YE" eventType="valueChanged" id="Vkd-5Q-syz"/>
+                                </connections>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AB8-19-zEr">
+                                <rect key="frame" x="0.0" y="119" width="414" height="777"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hoY-Tz-e7Q"/>
+                        <color key="backgroundColor" red="0.019607843137254902" green="0.031372549019607843" blue="0.039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hoY-Tz-e7Q" firstAttribute="trailing" secondItem="3ZF-yD-5LH" secondAttribute="trailing" id="2Im-gF-4nM"/>
+                            <constraint firstItem="3ZF-yD-5LH" firstAttribute="leading" secondItem="iu1-RT-uqe" secondAttribute="leading" id="OCF-GU-Zzb"/>
+                            <constraint firstItem="AB8-19-zEr" firstAttribute="trailing" secondItem="hoY-Tz-e7Q" secondAttribute="trailing" id="Sen-m4-PMt"/>
+                            <constraint firstItem="AB8-19-zEr" firstAttribute="leading" secondItem="hoY-Tz-e7Q" secondAttribute="leading" id="aGh-sN-eJW"/>
+                            <constraint firstItem="AB8-19-zEr" firstAttribute="top" secondItem="3ZF-yD-5LH" secondAttribute="bottom" id="tiw-X9-ycT"/>
+                            <constraint firstItem="3ZF-yD-5LH" firstAttribute="top" secondItem="hoY-Tz-e7Q" secondAttribute="top" id="xYK-GB-Jxm"/>
+                            <constraint firstAttribute="bottom" secondItem="AB8-19-zEr" secondAttribute="bottom" id="z99-6W-awW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Choose your fighter" id="8Fq-T7-auI"/>
+                    <connections>
+                        <outlet property="container" destination="AB8-19-zEr" id="lBt-bq-O0g"/>
+                        <outlet property="segmentedControl" destination="3ZF-yD-5LH" id="orh-7t-16e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aws-Ug-xv6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876.81159420289862" y="-381.02678571428572"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tEg-aC-ebi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BPF-yr-aUz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="u4H-t5-fmQ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="segmentSelector"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="MortalKombat-Regular" family="MK TITLE" pointSize="23"/>
+                            <color key="textColor" red="0.99215686270000003" green="0.66274509800000003" blue="0.058823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <offsetWrapper key="textShadowOffset" horizontal="-160" vertical="0.0"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="EYF-Wm-0YE" kind="relationship" relationship="rootViewController" id="hgL-m9-8il"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kBB-wh-Yh0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-33.333333333333336" y="-381.02678571428572"/>
         </scene>
     </scenes>
     <resources>
+        <image name="grid" catalog="system" width="128" height="112"/>
+        <namedColor name="segmentSelector">
+            <color red="0.56099998950958252" green="0.62699997425079346" blue="0.71399998664855957" alpha="0.15000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

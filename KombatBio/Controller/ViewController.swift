@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     var fighter : [Characters] = []
     var viewModel : IMainScreenViewModel?
 
+
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -19,8 +20,12 @@ class ViewController: UIViewController {
         tableView.register(UINib(nibName: FighterCell.nibName, bundle: nil), forCellReuseIdentifier: FighterCell.cellID)
         viewModel = MainScreenViewModel()
         viewModel?.fetchFightersModel()
+  
+        
     }
+    
 
+  
     
 }
 extension ViewController: UITableViewDataSource, UITableViewDelegate {

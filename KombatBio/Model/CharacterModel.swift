@@ -22,6 +22,7 @@ struct Characters: Codable {
     let id: Int
     let name: String
     let realName: String
+    let motto: String
     let gender: String
     let thumbImageURL: String
 
@@ -29,6 +30,7 @@ struct Characters: Codable {
         case id = "id"
         case name = "name"
         case realName = "real_name"
+        case motto = "motto"
         case gender = "gender"
         case thumbImageURL = "thumb_image_URL"
     }
