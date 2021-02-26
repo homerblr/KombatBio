@@ -44,7 +44,7 @@ class MainScreenViewModel: IMainScreenViewModel {
         DispatchQueue.main.async {
             cell.fighterName.text = model.name
             cell.fighterMotto.text = model.motto.uppercased()
-            cell.fighterImage.kf.setImage(with: URL(string: model.thumbImageURL))
+            cell.fighterImage.kf.setImage(with: URL(string: model.fullSizeImageURL))
         }
     }
     

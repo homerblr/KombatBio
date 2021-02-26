@@ -25,6 +25,7 @@ struct Characters: Codable {
     let motto: String
     let gender: String
     let thumbImageURL: String
+    let fullSizeImageURL: String
 
     enum CodingKeys: String, CodingKey {
         case id = "id"
@@ -33,6 +34,7 @@ struct Characters: Codable {
         case motto = "motto"
         case gender = "gender"
         case thumbImageURL = "thumb_image_URL"
+        case fullSizeImageURL = "fullsize_image_URL"
     }
 
 }

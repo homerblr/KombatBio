@@ -6,7 +6,8 @@
       "real_name": "Kuai Liang",
       "motto": "Redemption",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sub-zero/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sub-zero/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sub-zero/body.png"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "real_name": "Hanzo Hasashi",
       "motto": "Vengeance",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/scorpion/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/scorpion/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/scorpion/body.png"
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "real_name": "Shao",
       "motto": "Dominance",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/body.png"
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "real_name": "Unknown",
       "motto": "Security",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/raiden/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/raiden/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/raiden/body.png"
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "real_name": "Unknown",
       "motto": "Preservation",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/baraka/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/baraka/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/baraka/body.png"
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "real_name": "Jack Napier",
       "motto": "Chaos",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/the-joker/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/the-joker/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/the-joker/body.png"
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "real_name": "Bi-Han",
       "motto": "Recognition",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/body.png"
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "real_name": "Jackson Briggs",
       "motto": "Duty",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/body.png"
     },
     {
       "id": 9,
@@ -70,7 +78,8 @@
       "real_name": "尚宗",
       "motto": "Influence",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/body.png"
     },
     {
       "id": 10,
@@ -78,7 +87,8 @@
       "real_name": "John Rambo",
       "motto": "Freedom",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/rambo/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/rambo/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/rambo/body.png"
     },
     {
       "id": 11,
@@ -86,7 +96,8 @@
       "real_name": "Unknown",
       "motto": "Position",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/rain/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/rain/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/rain/body.png"
     },
     {
       "id": 12,
@@ -94,7 +105,8 @@
       "real_name": "Mileena Gammons",
       "motto": "Identity",
       "gender": "Female",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/mileena/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/mileena/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/mileena/body.png"
     },
     {
       "id": 13,
@@ -102,7 +114,8 @@
       "real_name": "Alex Murphy",
       "motto": "Justice",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/robocop/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/robocop/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/robocop/body.png"
     },
     {
       "id": 14,
@@ -110,7 +123,8 @@
       "real_name": "Unknown",
       "motto": "Equality",
       "gender": "Female",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sheeva/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sheeva/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sheeva/body.png"
     },
     {
       "id": 15,
@@ -118,7 +132,8 @@
       "real_name": "風神",
       "motto": "Security",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/fujin/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/fujin/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/fujin/body.png"
     },
     {
       "id": 16,
@@ -126,7 +141,8 @@
       "real_name": "Alber Simmons",
       "motto": "Atonement",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/spawn/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/spawn/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/spawn/body.png"
     },
     {
       "id": 17,
@@ -134,7 +150,8 @@
       "real_name": "Unknown",
       "motto": "Loyalty",
       "gender": "Female",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/jade/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/jade/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/jade/body.png"
     },
     {
       "id": 18,
@@ -142,7 +159,8 @@
       "real_name": "Erron Black",
       "motto": "Thrills",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/erron-black/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/erron-black/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/erron-black/body.png"
     },
     {
       "id": 19,
@@ -150,7 +168,8 @@
       "real_name": "Speedy Gonzalez",
       "motto": "Avarice",
       "gender": "Male",
-      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kabal/thumb-p.png"
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kabal/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kabal/body.png"
     }
   ]
 }
