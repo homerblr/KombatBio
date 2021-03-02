@@ -42,10 +42,9 @@ class MainScreenViewModel: IMainScreenViewModel {
         let model = fighterModel[indexPath.row]
         cell.fighterImage.image = nil
         DispatchQueue.main.async {
-            cell.fighterGender.text = "Gender: \(model.gender)"
-            cell.fighterName.text = "Nickname: \(model.name)"
-            cell.realName.text = "Real name: \(model.realName)"
-            cell.fighterImage.kf.setImage(with: URL(string: model.thumbImageURL))
+            cell.fighterName.text = model.name
+            cell.fighterMotto.text = model.motto.uppercased()
+            cell.fighterImage.kf.setImage(with: URL(string: model.fullSizeImageURL))
         }
     }
     

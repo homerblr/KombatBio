@@ -6,64 +6,70 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="MKtitle.ttf">
+            <string>MortalKombat-Regular</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FighterCell" rowHeight="259" id="KGk-i7-Jjw" customClass="FighterCell" customModule="KombatBio" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="396" height="259"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FighterCell" id="KGk-i7-Jjw" customClass="FighterCell" customModule="KombatBio" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="200"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="396" height="259"/>
+                <rect key="frame" x="0.0" y="0.0" width="380" height="200"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VuE-SJ-LFs">
-                        <rect key="frame" x="211" y="0.0" width="185" height="259"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fighters name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPg-rP-8Vk" userLabel="FighterName">
+                        <rect key="frame" x="16" y="36" width="169" height="23"/>
+                        <fontDescription key="fontDescription" name="MortalKombat-Regular" family="MK TITLE" pointSize="23"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VuE-SJ-LFs">
+                        <rect key="frame" x="180" y="0.0" width="200" height="200"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="185" id="O6d-uh-lse"/>
+                            <constraint firstAttribute="width" constant="200" id="PWZ-nd-Kia"/>
+                            <constraint firstAttribute="height" constant="200" id="Tmd-oP-O2g"/>
                         </constraints>
                     </imageView>
-                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="gc8-0t-nCk">
-                        <rect key="frame" x="9" y="77" width="113" height="87.5"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fighters name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPg-rP-8Vk" userLabel="FighterName">
-                                <rect key="frame" x="0.0" y="0.0" width="113" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Real Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9Q-12-JI5" userLabel="RealName">
-                                <rect key="frame" x="0.0" y="33.5" width="113" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mGK-B3-usP" userLabel="Gender">
-                                <rect key="frame" x="0.0" y="67" width="113" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separator" translatesAutoresizingMaskIntoConstraints="NO" id="tJl-pX-eP1">
+                        <rect key="frame" x="0.0" y="200" width="380" height="0.0"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Real Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9Q-12-JI5" userLabel="RealName">
+                        <rect key="frame" x="16" y="75" width="86.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
-                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <color key="backgroundColor" red="0.019607843137254902" green="0.031372549019607843" blue="0.039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="gc8-0t-nCk" secondAttribute="bottom" constant="94.5" id="Jvh-rY-1rR"/>
-                    <constraint firstItem="gc8-0t-nCk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="77" id="RJn-mt-01z"/>
-                    <constraint firstItem="VuE-SJ-LFs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Zmu-K3-8U1"/>
-                    <constraint firstAttribute="trailing" secondItem="VuE-SJ-LFs" secondAttribute="trailing" id="fs9-Np-0Hf"/>
-                    <constraint firstAttribute="bottom" secondItem="VuE-SJ-LFs" secondAttribute="bottom" id="ns8-1y-K58"/>
-                    <constraint firstItem="gc8-0t-nCk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="vay-Jr-iGu"/>
+                    <constraint firstItem="cPg-rP-8Vk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="36" id="2dr-RM-ZMS"/>
+                    <constraint firstItem="h9Q-12-JI5" firstAttribute="leading" secondItem="cPg-rP-8Vk" secondAttribute="leading" id="BH1-z6-s0V"/>
+                    <constraint firstAttribute="trailing" secondItem="tJl-pX-eP1" secondAttribute="trailing" id="DW5-io-U0y"/>
+                    <constraint firstAttribute="bottom" secondItem="tJl-pX-eP1" secondAttribute="bottom" id="Ld4-jG-cNM"/>
+                    <constraint firstItem="cPg-rP-8Vk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="QaR-Ie-c5v"/>
+                    <constraint firstItem="tJl-pX-eP1" firstAttribute="top" secondItem="VuE-SJ-LFs" secondAttribute="bottom" id="U7f-pP-S9c"/>
+                    <constraint firstAttribute="trailing" secondItem="VuE-SJ-LFs" secondAttribute="trailing" id="VCD-j9-q6V"/>
+                    <constraint firstItem="VuE-SJ-LFs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="VrA-FT-VAO"/>
+                    <constraint firstItem="h9Q-12-JI5" firstAttribute="top" secondItem="cPg-rP-8Vk" secondAttribute="bottom" constant="16" id="b7s-Kz-oE7"/>
+                    <constraint firstItem="tJl-pX-eP1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tz7-o1-37Y"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="fighterGender" destination="mGK-B3-usP" id="Dri-U9-Pvf"/>
                 <outlet property="fighterImage" destination="VuE-SJ-LFs" id="8n2-oh-f02"/>
+                <outlet property="fighterMotto" destination="h9Q-12-JI5" id="hM8-wA-JYK"/>
                 <outlet property="fighterName" destination="cPg-rP-8Vk" id="8nr-ap-yKu"/>
-                <outlet property="realName" destination="h9Q-12-JI5" id="hM8-wA-JYK"/>
             </connections>
-            <point key="canvasLocation" x="192.75362318840581" y="66.629464285714278"/>
+            <point key="canvasLocation" x="159" y="30"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="separator" width="764" height="20"/>
+    </resources>
 </document>

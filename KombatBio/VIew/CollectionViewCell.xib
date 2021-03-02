@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MKtitle.ttf">
+            <string>MortalKombat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="KombatBio" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="413"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="413"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fighterBackround" translatesAutoresizingMaskIntoConstraints="NO" id="r02-22-4Nq">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="413"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xar-AG-odR" userLabel="CharacterImage">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="413"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b2f-MG-rYd" userLabel="titleView">
+                        <rect key="frame" x="0.0" y="373" width="400" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHARACTER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIQ-oA-f3i" userLabel="characterName">
+                                <rect key="frame" x="146" y="9.5" width="108.5" height="21"/>
+                                <fontDescription key="fontDescription" name="MortalKombat-Regular" family="MK TITLE" pointSize="18"/>
+                                <color key="textColor" name="fighterName"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.031372549019607843" green="0.047058823529411764" blue="0.062745098039215685" alpha="0.70186748893893491" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="1P4-hU-8vI"/>
+                            <constraint firstItem="TIQ-oA-f3i" firstAttribute="centerX" secondItem="b2f-MG-rYd" secondAttribute="centerX" id="IXn-eo-dgV"/>
+                            <constraint firstItem="TIQ-oA-f3i" firstAttribute="centerY" secondItem="b2f-MG-rYd" secondAttribute="centerY" id="RrJ-NW-wAb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="b2f-MG-rYd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="BGd-GL-3GU"/>
+                <constraint firstItem="Xar-AG-odR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Fo5-cK-f1I"/>
+                <constraint firstAttribute="bottom" secondItem="Xar-AG-odR" secondAttribute="bottom" id="L8k-Qo-txn"/>
+                <constraint firstAttribute="bottom" secondItem="b2f-MG-rYd" secondAttribute="bottom" id="Qba-Aa-Dgg"/>
+                <constraint firstItem="r02-22-4Nq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ytp-M0-gts"/>
+                <constraint firstItem="r02-22-4Nq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ZWu-k1-A6n"/>
+                <constraint firstAttribute="bottom" secondItem="r02-22-4Nq" secondAttribute="bottom" id="dqP-oe-K6r"/>
+                <constraint firstItem="Xar-AG-odR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="duM-d2-1cb"/>
+                <constraint firstAttribute="trailing" secondItem="r02-22-4Nq" secondAttribute="trailing" id="eGH-Zh-ojC"/>
+                <constraint firstAttribute="trailing" secondItem="Xar-AG-odR" secondAttribute="trailing" id="qkr-kk-iSP"/>
+                <constraint firstAttribute="trailing" secondItem="b2f-MG-rYd" secondAttribute="trailing" id="wRX-IP-kEn"/>
+            </constraints>
+            <size key="customSize" width="400" height="413"/>
+            <connections>
+                <outlet property="fighterImage" destination="Xar-AG-odR" id="GAR-5d-4Sl"/>
+                <outlet property="fighterName" destination="TIQ-oA-f3i" id="FTg-ra-tFJ"/>
+                <outlet property="nameView" destination="b2f-MG-rYd" id="4Sc-XU-q6G"/>
+            </connections>
+            <point key="canvasLocation" x="349.27536231884062" y="142.29910714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="fighterBackround" width="372" height="444"/>
+        <namedColor name="fighterName">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
