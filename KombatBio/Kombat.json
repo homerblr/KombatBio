@@ -6,8 +6,10 @@
       "real_name": "Kuai Liang",
       "motto": "Redemption",
       "gender": "Male",
+      "description": "Grandmaster of the Lin Kuei clan. Kuai Liang beat death to redeem his clan for the evil committed by Sektor and the Cyber Lin Kuei. He rebuilt the Lin Kuei and brokered peace with their Shirai Ryu rivals. Now, he hopes to finally close the book on sins of Lin Kuei past",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sub-zero/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sub-zero/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sub-zero/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/sub-zero/video.mp4"
     },
     {
       "id": 2,
@@ -15,8 +17,10 @@
       "real_name": "Hanzo Hasashi",
       "motto": "Vengeance",
       "gender": "Male",
+      "description": "Grandmaster Scorpion of the Shirai Ryu. Driven by rage, Hanzo Hasashi went through Hell and back to avenge his family and clan, never resting until he cut down their murderer, Quan Chi. Now he leads a reborn Shirai Ryu, avenging those who cannot avenge themselves",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/scorpion/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/scorpion/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/scorpion/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/scropion/video.mp4"
     },
     {
       "id": 3,
@@ -24,8 +28,10 @@
       "real_name": "Shao",
       "motto": "Dominance",
       "gender": "Male",
+      "description": "Emperor of Outworld. For millennia, Shao Kahn dominated the realms, rapidly expanding his Empire by conquest. But when he set out to claim Earthrealm, he was blocked by the rules of Mortal Kombat. Deterred but determined, Shao Kahn demands absolute victory",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/video.mp4"
     },
     {
       "id": 4,
@@ -33,8 +39,10 @@
       "real_name": "Unknown",
       "motto": "Security",
       "gender": "Male",
+      "description": "Immortal God of Thunder, Protector of Earthrealm. Raiden has saved Earthrealm time and again by rallying the bravest and strongest warriors of the day to defend it. After centuries of kombat and bloodshed, he fears unintended consequences for humanity, and himself",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/raiden/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/raiden/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/raiden/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/raiden/video.mp4"
     },
     {
       "id": 5,
@@ -42,8 +50,10 @@
       "real_name": "Unknown",
       "motto": "Preservation",
       "gender": "Male",
+      "description": "War Chief of the nomadic Tarkatan tribe, a carnivorous people considered subhuman by the Outworld Empire. Baraka dutifully serves Shao Kahn to preserve his tribe’s way of life, who roam the harsh Wastelands, meat carts in tow, consuming everything and everyone in their path",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/baraka/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/baraka/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/baraka/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/baraka/video.mp4"
     },
     {
       "id": 6,
@@ -51,8 +61,10 @@
       "real_name": "Jack Napier",
       "motto": "Chaos",
       "gender": "Male",
+      "description": "Unpredictable, violent and incredibly dangerous, The Joker is chaos personified. He’s killed a Robin, crippled Batgirl and tortured and murdered countless people throughout the DC universe. And now, he’s the latest Kombatant to join in Mortal Kombat",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/the-joker/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/the-joker/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/the-joker/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/the-joker/video.mp4"
     },
     {
       "id": 7,
@@ -60,8 +72,10 @@
       "real_name": "Bi-Han",
       "motto": "Recognition",
       "gender": "Male",
+      "description": "Shadow of the Netherrealm. In life, Noob Saibot was known as Sub-Zero. Unjustly murdered by Scorpion, he was resurrected by Quan Chi and granted power over darkness, but as Quan Chi’s slave. Now, Quan Chi is dead. Noob Saibot is finally free to reclaim the honor that was stolen from him",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/video.mp4"
     },
     {
       "id": 8,
@@ -69,8 +83,10 @@
       "real_name": "Jackson Briggs",
       "motto": "Duty",
       "gender": "Male",
+      "description": "Cyber-enhanced officer of the Special Forces. Jax Briggs lost both arms in the line of duty, but he came back to the battlefield twice as strong thanks to cybernetic upgrades. Even with that power, Jax’s sacrifices burden him. He soldiers onward, honorbound to protect Earthrealm",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/video.mp4"
     },
     {
       "id": 9,
@@ -78,8 +94,10 @@
       "real_name": "尚宗",
       "motto": "Influence",
       "gender": "Male",
+      "description": "Soul Sorcerer and historic host of the Mortal Kombat. Born in Earthrealm, Shang Tsung’s relentless pursuit of powerful magic led him to Outworld, where Shao Kahn offered him a dark power that no sorcerer on Earthrealm could. Shang Tsung pledged his eternal loyalty to Shao Kahn in exchange for this evil magic, but he is no faithful servant. He dreams of the day his sorcery will overtake Shao Kahn’s, and he’ll pay any price to get there",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/video.mp4"
     },
     {
       "id": 10,
@@ -87,8 +105,10 @@
       "real_name": "John Rambo",
       "motto": "Freedom",
       "gender": "Male",
+      "description": "John J. Rambo is a former United States Special Forces soldier deeply haunted by his time in Vietnam. He is rough, aggressive and is well known for entering exceptionally dangerous situations alone. Rambo has reactivated his ruthless fighting skills to infiltrate the MK universe",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/rambo/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/rambo/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/rambo/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4"
     },
     {
       "id": 11,
@@ -96,8 +116,10 @@
       "real_name": "Unknown",
       "motto": "Position",
       "gender": "Male",
+      "description": "Growing up an orphan, Rain joined Edenia’s army. His strategic genius earned him quick promotion, which he used to learn he was the bastard son of the god Argus, Edenia’s Protector. Armed with the knowledge that he’s a half god, Rain battles for his place in Edenia’s pantheon",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/rain/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/rain/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/rain/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4"
     },
     {
       "id": 12,
@@ -105,8 +127,10 @@
       "real_name": "Mileena Gammons",
       "motto": "Identity",
       "gender": "Female",
+      "description": "Mileena is the product of Shang Tsung’s diabolical cloning experiments: a perfect blend of Tarkatan ferocity and athletic grace. Brought forward in the timeline by Kronika, Mileena has learned of her tragic future. Her enemies now must submit, or die",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/mileena/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/mileena/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/mileena/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4"
     },
     {
       "id": 13,
@@ -114,8 +138,10 @@
       "real_name": "Alex Murphy",
       "motto": "Justice",
       "gender": "Male",
+      "description": "Alex Murphy was a dutiful police officer who was brutally executed by a local gang. Brought back to life through OCP technology, Murphy was transformed into RoboCop, a highly advanced cybernetic police officer designed to uphold the law and protect the innocent. Now entering the Mortal Kombat universe, RoboCop has received a few upgrades and is ready to serve the public by apprehending any Kombatants that stand in his way",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/robocop/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/robocop/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/robocop/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4"
     },
     {
       "id": 14,
@@ -123,8 +149,10 @@
       "real_name": "Unknown",
       "motto": "Equality",
       "gender": "Female",
+      "description": "The male Shokan scoffed when Sheeva entered their contest to choose the Shokan’s next leader. But Sheeva proved herself more than their equal. After a resounding victory, she was crowned the first Queen of the Shokan. As Queen, Sheeva now leads her people in the fight to attain their rightful place, as partners in Outworld’s rule",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sheeva/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sheeva/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sheeva/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4"
     },
     {
       "id": 15,
@@ -132,8 +160,10 @@
       "real_name": "風神",
       "motto": "Security",
       "gender": "Male",
+      "description": "The God of Wind, Fujin serves the Elder Gods alongside his brother, Raiden, as Protectors of Earthrealm. Affable and lighthearted, he’s adept at inspiring peoples’ innate capacity for goodness and heroism to conquer forces of hatred and tyranny. Fujin believes Earthrealm’s best days are still to come, and he fights to ensure that bright future",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/fujin/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/fujin/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/fujin/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4"
     },
     {
       "id": 16,
@@ -141,8 +171,10 @@
       "real_name": "Alber Simmons",
       "motto": "Atonement",
       "gender": "Male",
+      "description": "Al Simmons, once the U.S. government’s greatest soldier and most effective assassin, was mercilessly executed by his own men. Resurrected from the ashes of his own grave in a flawed agreement with the powers of darkness, Simmons is reborn as a creature from the depths of Hell. A Hellspawn. Now he is thrust into the world of Mortal Kombat, where he will fight for supremacy against all Kombatants",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/spawn/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/spawn/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/spawn/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/spawn/video.mp4"
     },
     {
       "id": 17,
@@ -150,8 +182,10 @@
       "real_name": "Unknown",
       "motto": "Loyalty",
       "gender": "Female",
+      "description": "Stealth assassin and Imperial Bodyguard. Jade’s family traded her to Shao Kahn as a child. Though he was the only parent and master she ever knew, Jade refused his orders to kill her closest friend, Kitana. The Emperor turned against Jade. Now she vows to end his reign",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/jade/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/jade/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/jade/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/jade/video.mp4"
     },
     {
       "id": 18,
@@ -159,8 +193,10 @@
       "real_name": "Erron Black",
       "motto": "Thrills",
       "gender": "Male",
+      "description": "The best shot in Texas left home to seek adventure and excitement in Outworld with Kano and the Black Dragon. Outworld turned out to be the playground of Erron’s ultraviolent dreams. He decided to make his home there as the deadliest outlander in Outworld",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/erron-black/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/erron-black/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/erron-black/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/erron-black/video.mp4"
     },
     {
       "id": 19,
@@ -168,8 +204,10 @@
       "real_name": "Speedy Gonzalez",
       "motto": "Avarice",
       "gender": "Male",
+      "description": "Fleet-footed Black Dragon enforcer. Kabal’s sprinting speed is only outpaced by his greed. He was a rookie cop until Kano tempted him to sell out his police department for cash money and a spot in the Black Dragon. Kabal has run down anyone who's crossed Kano ever since",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kabal/thumb-p.png",
-      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kabal/body.png"
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kabal/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/kabal/video.mp4"
     }
   ]
 }
