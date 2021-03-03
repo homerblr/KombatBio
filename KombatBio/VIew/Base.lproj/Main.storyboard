@@ -98,6 +98,7 @@
                     <tabBarItem key="tabBarItem" title="Grid" image="grid" catalog="system" id="2BC-Xn-vAy"/>
                     <connections>
                         <outlet property="collectionView" destination="Ccm-yb-2N9" id="tzx-21-kf2"/>
+                        <segue destination="r35-a2-DV8" kind="show" identifier="fromGridToDetail" id="578-wQ-ii0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ebf-LA-CG0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -176,6 +177,13 @@
                                                     <constraint firstAttribute="height" constant="305" id="HG2-Xz-3ha"/>
                                                 </constraints>
                                             </view>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Sfv-aV-tYP">
+                                                <rect key="frame" x="182" y="652" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="L12-mj-bng"/>
+                                                    <constraint firstAttribute="height" constant="50" id="e3Z-Dd-yng"/>
+                                                </constraints>
+                                            </activityIndicatorView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.12939286229999999" green="0.12942266459999999" blue="0.12939092520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -188,12 +196,14 @@
                                             <constraint firstItem="GyP-0m-4Xh" firstAttribute="top" secondItem="m28-O8-Mzw" secondAttribute="top" constant="32" id="F5r-wX-1EH"/>
                                             <constraint firstItem="YZZ-h3-hNs" firstAttribute="top" secondItem="1sr-bm-YNH" secondAttribute="bottom" constant="15" id="GL4-0G-FuH"/>
                                             <constraint firstItem="pOw-aO-rjj" firstAttribute="leading" secondItem="m28-O8-Mzw" secondAttribute="leading" id="OCq-6i-AOw"/>
+                                            <constraint firstItem="Sfv-aV-tYP" firstAttribute="centerX" secondItem="pOw-aO-rjj" secondAttribute="centerX" id="ODg-zl-nFG"/>
                                             <constraint firstItem="WPx-RQ-oct" firstAttribute="leading" secondItem="m28-O8-Mzw" secondAttribute="leading" id="SVU-XY-Rql"/>
                                             <constraint firstAttribute="trailing" secondItem="4CG-bz-8ra" secondAttribute="trailing" id="VYz-Ow-TM0"/>
                                             <constraint firstItem="4CG-bz-8ra" firstAttribute="leading" secondItem="m28-O8-Mzw" secondAttribute="leading" id="XIU-5e-g1z"/>
                                             <constraint firstAttribute="bottom" secondItem="pOw-aO-rjj" secondAttribute="bottom" constant="5" id="Y2m-Cv-9dO"/>
                                             <constraint firstAttribute="trailing" secondItem="WPx-RQ-oct" secondAttribute="trailing" id="aLg-FD-80w"/>
                                             <constraint firstAttribute="trailing" secondItem="pOw-aO-rjj" secondAttribute="trailing" id="bJm-u6-neF"/>
+                                            <constraint firstItem="Sfv-aV-tYP" firstAttribute="centerY" secondItem="pOw-aO-rjj" secondAttribute="centerY" id="bKz-2T-gaJ"/>
                                             <constraint firstItem="tSt-Ny-yVR" firstAttribute="leading" secondItem="Teo-5u-LsI" secondAttribute="leading" id="cdB-N9-TjJ"/>
                                             <constraint firstItem="GyP-0m-4Xh" firstAttribute="centerX" secondItem="m28-O8-Mzw" secondAttribute="centerX" id="cxh-31-cIs"/>
                                             <constraint firstItem="YZZ-h3-hNs" firstAttribute="centerX" secondItem="m28-O8-Mzw" secondAttribute="centerX" id="dvm-YJ-nYu"/>
@@ -234,6 +244,7 @@
                     <navigationItem key="navigationItem" id="sNC-fV-5CM"/>
                     <size key="freeformSize" width="414" height="1200"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="Sfv-aV-tYP" id="0cr-14-ES4"/>
                         <outlet property="fighterDescription" destination="1sr-bm-YNH" id="laz-EL-JYh"/>
                         <outlet property="fighterImage" destination="GyP-0m-4Xh" id="sUJ-iz-3FD"/>
                         <outlet property="fighterMotto" destination="tSt-Ny-yVR" id="0Dh-h6-0dq"/>
@@ -255,7 +266,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3ZF-yD-5LH">
-                                <rect key="frame" x="0.0" y="88" width="414" height="32"/>
+                                <rect key="frame" x="15" y="93" width="384" height="32"/>
                                 <color key="backgroundColor" name="segmentSelector"/>
                                 <segments>
                                     <segment title="Grid"/>
@@ -267,19 +278,19 @@
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AB8-19-zEr">
-                                <rect key="frame" x="0.0" y="119" width="414" height="777"/>
+                                <rect key="frame" x="0.0" y="124" width="414" height="772"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hoY-Tz-e7Q"/>
                         <color key="backgroundColor" red="0.019607843137254902" green="0.031372549019607843" blue="0.039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="hoY-Tz-e7Q" firstAttribute="trailing" secondItem="3ZF-yD-5LH" secondAttribute="trailing" id="2Im-gF-4nM"/>
-                            <constraint firstItem="3ZF-yD-5LH" firstAttribute="leading" secondItem="iu1-RT-uqe" secondAttribute="leading" id="OCF-GU-Zzb"/>
+                            <constraint firstItem="hoY-Tz-e7Q" firstAttribute="trailing" secondItem="3ZF-yD-5LH" secondAttribute="trailing" constant="15" id="2Im-gF-4nM"/>
+                            <constraint firstItem="3ZF-yD-5LH" firstAttribute="leading" secondItem="iu1-RT-uqe" secondAttribute="leading" constant="15" id="OCF-GU-Zzb"/>
                             <constraint firstItem="AB8-19-zEr" firstAttribute="trailing" secondItem="hoY-Tz-e7Q" secondAttribute="trailing" id="Sen-m4-PMt"/>
                             <constraint firstItem="AB8-19-zEr" firstAttribute="leading" secondItem="hoY-Tz-e7Q" secondAttribute="leading" id="aGh-sN-eJW"/>
                             <constraint firstItem="AB8-19-zEr" firstAttribute="top" secondItem="3ZF-yD-5LH" secondAttribute="bottom" id="tiw-X9-ycT"/>
-                            <constraint firstItem="3ZF-yD-5LH" firstAttribute="top" secondItem="hoY-Tz-e7Q" secondAttribute="top" id="xYK-GB-Jxm"/>
+                            <constraint firstItem="3ZF-yD-5LH" firstAttribute="top" secondItem="hoY-Tz-e7Q" secondAttribute="top" constant="5" id="xYK-GB-Jxm"/>
                             <constraint firstAttribute="bottom" secondItem="AB8-19-zEr" secondAttribute="bottom" id="z99-6W-awW"/>
                         </constraints>
                     </view>
@@ -319,6 +330,9 @@
             <point key="canvasLocation" x="-33.333333333333336" y="-381.02678571428572"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Scs-T6-hQg"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="erron" width="924" height="854"/>
         <image name="grid" catalog="system" width="128" height="112"/>

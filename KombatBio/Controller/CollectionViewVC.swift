@@ -11,11 +11,12 @@ class CollectionViewVC: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     var viewModel: ICollectionViewViewModel?
+    
+    private let segueID = "fromGridToDetail"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.collectionViewLayout = createLayout()
-
-//        collectionView.register(CollectionViewCell.self, forCellWithReuseIdentifier: CollectionViewCell.cellID)
         collectionView.register(UINib(nibName: CollectionViewCell.nibName, bundle: nil), forCellWithReuseIdentifier: CollectionViewCell.cellID)
         viewModel = CollectionViewVM()
         viewModel?.fetchFightersModel()
@@ -47,6 +48,19 @@ extension CollectionViewVC: UICollectionViewDelegate, UICollectionViewDataSource
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: segueID, sender: indexPath)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == segueID {
+            guard let destinationVC = segue.destination as? DetailVC else {return}
+            guard let row = (sender as? NSIndexPath)?.row else {return}
+            let selectedFighter = viewModel?.fighterModel[row]
+            destinationVC.selectedFighter = selectedFighter
+            //destinationVC.viewModel = DetailScreenViewModel(photoProvider: viewModel?.photoProvider as! PhotoDataProviderProtocol)
+        }
+    }
     
 }
 
