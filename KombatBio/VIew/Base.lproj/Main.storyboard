@@ -117,7 +117,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m28-O8-Mzw" userLabel="background">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="834.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="955.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="erron" translatesAutoresizingMaskIntoConstraints="NO" id="GyP-0m-4Xh">
                                                 <rect key="frame" x="101" y="32" width="212" height="280"/>
@@ -171,33 +171,51 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pOw-aO-rjj" userLabel="VideoPlayer">
-                                                <rect key="frame" x="0.0" y="524.5" width="414" height="305"/>
+                                                <rect key="frame" x="0.0" y="645.5" width="414" height="305"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="305" id="HG2-Xz-3ha"/>
                                                 </constraints>
                                             </view>
                                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Sfv-aV-tYP">
-                                                <rect key="frame" x="182" y="652" width="50" height="50"/>
+                                                <rect key="frame" x="182" y="773" width="50" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="L12-mj-bng"/>
                                                     <constraint firstAttribute="height" constant="50" id="e3Z-Dd-yng"/>
                                                 </constraints>
                                             </activityIndicatorView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3te-zP-9bE">
+                                                <rect key="frame" x="16" y="551.5" width="382" height="52"/>
+                                                <color key="backgroundColor" red="0.99215686270000003" green="0.66274509800000003" blue="0.058823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="52" id="dxi-jv-55R"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                <state key="normal" title="Klassic Tower endigs, Combo Guide and Finishers">
+                                                    <color key="titleColor" name="fighterName"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="finishersButtonTapped:" destination="r35-a2-DV8" eventType="touchUpInside" id="3Au-Pt-6aX"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.12939286229999999" green="0.12942266459999999" blue="0.12939092520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="4CG-bz-8ra" firstAttribute="centerX" secondItem="m28-O8-Mzw" secondAttribute="centerX" id="0e7-FS-eVV"/>
+                                            <constraint firstAttribute="trailing" secondItem="3te-zP-9bE" secondAttribute="trailing" constant="16" id="1Pe-ym-1Wq"/>
                                             <constraint firstItem="Teo-5u-LsI" firstAttribute="leading" secondItem="4CG-bz-8ra" secondAttribute="leading" constant="30" id="3UI-9g-mxT"/>
                                             <constraint firstItem="Teo-5u-LsI" firstAttribute="centerY" secondItem="4CG-bz-8ra" secondAttribute="centerY" id="44I-I2-LSm"/>
                                             <constraint firstItem="1sr-bm-YNH" firstAttribute="leading" secondItem="m28-O8-Mzw" secondAttribute="leading" constant="16" id="7k2-2J-fBL"/>
                                             <constraint firstAttribute="trailing" secondItem="YZZ-h3-hNs" secondAttribute="trailing" id="9Dw-gu-kfh"/>
                                             <constraint firstItem="WPx-RQ-oct" firstAttribute="top" secondItem="tSt-Ny-yVR" secondAttribute="bottom" constant="9" id="9P8-f3-2uD"/>
+                                            <constraint firstItem="pOw-aO-rjj" firstAttribute="top" secondItem="3te-zP-9bE" secondAttribute="bottom" constant="42" id="C8X-DW-kew"/>
                                             <constraint firstItem="GyP-0m-4Xh" firstAttribute="top" secondItem="m28-O8-Mzw" secondAttribute="top" constant="32" id="F5r-wX-1EH"/>
+                                            <constraint firstItem="3te-zP-9bE" firstAttribute="top" secondItem="YZZ-h3-hNs" secondAttribute="bottom" constant="32" id="FeI-lr-sZI"/>
                                             <constraint firstItem="YZZ-h3-hNs" firstAttribute="top" secondItem="1sr-bm-YNH" secondAttribute="bottom" constant="15" id="GL4-0G-FuH"/>
                                             <constraint firstItem="pOw-aO-rjj" firstAttribute="leading" secondItem="m28-O8-Mzw" secondAttribute="leading" id="OCq-6i-AOw"/>
                                             <constraint firstItem="Sfv-aV-tYP" firstAttribute="centerX" secondItem="pOw-aO-rjj" secondAttribute="centerX" id="ODg-zl-nFG"/>
                                             <constraint firstItem="WPx-RQ-oct" firstAttribute="leading" secondItem="m28-O8-Mzw" secondAttribute="leading" id="SVU-XY-Rql"/>
+                                            <constraint firstItem="3te-zP-9bE" firstAttribute="centerX" secondItem="m28-O8-Mzw" secondAttribute="centerX" id="VLt-T3-Ix8"/>
                                             <constraint firstAttribute="trailing" secondItem="4CG-bz-8ra" secondAttribute="trailing" id="VYz-Ow-TM0"/>
                                             <constraint firstItem="4CG-bz-8ra" firstAttribute="leading" secondItem="m28-O8-Mzw" secondAttribute="leading" id="XIU-5e-g1z"/>
                                             <constraint firstAttribute="bottom" secondItem="pOw-aO-rjj" secondAttribute="bottom" constant="5" id="Y2m-Cv-9dO"/>
@@ -208,8 +226,8 @@
                                             <constraint firstItem="GyP-0m-4Xh" firstAttribute="centerX" secondItem="m28-O8-Mzw" secondAttribute="centerX" id="cxh-31-cIs"/>
                                             <constraint firstItem="YZZ-h3-hNs" firstAttribute="centerX" secondItem="m28-O8-Mzw" secondAttribute="centerX" id="dvm-YJ-nYu"/>
                                             <constraint firstItem="WPx-RQ-oct" firstAttribute="centerX" secondItem="m28-O8-Mzw" secondAttribute="centerX" id="fyz-EV-TqH"/>
-                                            <constraint firstItem="pOw-aO-rjj" firstAttribute="top" secondItem="YZZ-h3-hNs" secondAttribute="bottom" constant="5" id="g3R-gk-hm5"/>
                                             <constraint firstItem="1sr-bm-YNH" firstAttribute="top" secondItem="WPx-RQ-oct" secondAttribute="bottom" constant="5" id="ieB-st-sAb"/>
+                                            <constraint firstItem="3te-zP-9bE" firstAttribute="leading" secondItem="m28-O8-Mzw" secondAttribute="leading" constant="16" id="pGY-mL-Yin"/>
                                             <constraint firstItem="tSt-Ny-yVR" firstAttribute="top" secondItem="4CG-bz-8ra" secondAttribute="bottom" constant="8" symbolic="YES" id="wNg-Xr-HhU"/>
                                             <constraint firstAttribute="trailing" secondItem="1sr-bm-YNH" secondAttribute="trailing" constant="16" id="xCQ-LX-A5W"/>
                                             <constraint firstItem="4CG-bz-8ra" firstAttribute="top" secondItem="GyP-0m-4Xh" secondAttribute="bottom" constant="-40" id="xID-gn-2Yu"/>
@@ -251,11 +269,106 @@
                         <outlet property="fighterName" destination="Teo-5u-LsI" id="rP0-oy-3VL"/>
                         <outlet property="playerView" destination="pOw-aO-rjj" id="xC2-a3-bH9"/>
                         <outlet property="scrollView" destination="KbZ-Sg-BeT" id="BOy-bd-wYh"/>
+                        <segue destination="PVj-4v-JoW" kind="show" identifier="goToFinishersVC" id="WQV-MK-yKH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ibL-nZ-gRH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1960.8695652173915" y="-381.02678571428572"/>
+        </scene>
+        <!--FinishersVC-->
+        <scene sceneID="cqc-Su-mRa">
+            <objects>
+                <viewController id="PVj-4v-JoW" customClass="FinishersVC" customModule="KombatBio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GQp-BK-51u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pOe-Tl-qV8" userLabel="FatalityPlayerView" customClass="YTPlayerView">
+                                <rect key="frame" x="16" y="5" width="382" height="220"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="wek-H9-Td9"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Klassic tower ending" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lsg-Kg-1op">
+                                <rect key="frame" x="16" y="235" width="382" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1Im-ed-xoM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MortalKombat-Regular" family="MK TITLE" pointSize="17"/>
+                                <color key="textColor" name="fighterName"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QjJ-cC-31V" userLabel="BrutalityPlayerView" customClass="YTPlayerView">
+                                <rect key="frame" x="16" y="273" width="382" height="220"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="FfV-Ze-5tW"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Combo guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EnV-4S-oL4">
+                                <rect key="frame" x="16" y="503" width="382" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="B9f-nR-usN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MortalKombat-Regular" family="MK TITLE" pointSize="17"/>
+                                <color key="textColor" name="fighterName"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivw-VB-SaS" userLabel="FriendshipPlayerView" customClass="YTPlayerView">
+                                <rect key="frame" x="16" y="543" width="382" height="220"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="XkO-01-i0k"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finishers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODE-lT-dDf">
+                                <rect key="frame" x="16" y="766" width="382" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TJk-Sh-xZS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MortalKombat-Regular" family="MK TITLE" pointSize="17"/>
+                                <color key="textColor" name="fighterName"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WML-j8-tJK"/>
+                        <color key="backgroundColor" red="0.12939286229999999" green="0.12942266459999999" blue="0.12939092520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pOe-Tl-qV8" firstAttribute="top" secondItem="WML-j8-tJK" secondAttribute="top" constant="5" id="1f0-4h-yZt"/>
+                            <constraint firstItem="Lsg-Kg-1op" firstAttribute="trailing" secondItem="pOe-Tl-qV8" secondAttribute="trailing" id="5GA-gY-aWg"/>
+                            <constraint firstItem="ODE-lT-dDf" firstAttribute="top" secondItem="ivw-VB-SaS" secondAttribute="bottom" constant="3" id="61m-JO-MAz"/>
+                            <constraint firstItem="ODE-lT-dDf" firstAttribute="leading" secondItem="ivw-VB-SaS" secondAttribute="leading" id="CW1-i8-fd5"/>
+                            <constraint firstItem="Lsg-Kg-1op" firstAttribute="centerX" secondItem="WML-j8-tJK" secondAttribute="centerX" id="Fux-x4-Gei"/>
+                            <constraint firstAttribute="trailing" secondItem="pOe-Tl-qV8" secondAttribute="trailing" constant="16" id="Hfe-fG-ztO"/>
+                            <constraint firstItem="ivw-VB-SaS" firstAttribute="leading" secondItem="WML-j8-tJK" secondAttribute="leading" constant="16" id="IMR-Ow-Wwj"/>
+                            <constraint firstItem="EnV-4S-oL4" firstAttribute="trailing" secondItem="QjJ-cC-31V" secondAttribute="trailing" id="MJg-pl-oWg"/>
+                            <constraint firstItem="pOe-Tl-qV8" firstAttribute="centerX" secondItem="WML-j8-tJK" secondAttribute="centerX" id="NYd-qu-RUD"/>
+                            <constraint firstItem="EnV-4S-oL4" firstAttribute="top" secondItem="QjJ-cC-31V" secondAttribute="bottom" constant="10" id="RA6-ai-cSe"/>
+                            <constraint firstItem="QjJ-cC-31V" firstAttribute="leading" secondItem="WML-j8-tJK" secondAttribute="leading" constant="16" id="RiS-8H-A7G"/>
+                            <constraint firstItem="ODE-lT-dDf" firstAttribute="trailing" secondItem="ivw-VB-SaS" secondAttribute="trailing" id="SjN-l5-UkF"/>
+                            <constraint firstItem="ivw-VB-SaS" firstAttribute="centerX" secondItem="WML-j8-tJK" secondAttribute="centerX" id="WWv-aR-6Og"/>
+                            <constraint firstItem="Lsg-Kg-1op" firstAttribute="top" secondItem="pOe-Tl-qV8" secondAttribute="bottom" constant="10" id="cpJ-3x-y8f"/>
+                            <constraint firstItem="WML-j8-tJK" firstAttribute="trailing" secondItem="ivw-VB-SaS" secondAttribute="trailing" constant="16" id="eve-mG-kjd"/>
+                            <constraint firstItem="ivw-VB-SaS" firstAttribute="top" secondItem="EnV-4S-oL4" secondAttribute="bottom" constant="10" id="fiK-yU-bdV"/>
+                            <constraint firstItem="WML-j8-tJK" firstAttribute="trailing" secondItem="QjJ-cC-31V" secondAttribute="trailing" constant="16" id="iYP-Wa-vH8"/>
+                            <constraint firstItem="pOe-Tl-qV8" firstAttribute="leading" secondItem="GQp-BK-51u" secondAttribute="leading" constant="16" id="nia-Uh-buZ"/>
+                            <constraint firstItem="Lsg-Kg-1op" firstAttribute="leading" secondItem="pOe-Tl-qV8" secondAttribute="leading" id="pG9-mb-qJX"/>
+                            <constraint firstItem="QjJ-cC-31V" firstAttribute="top" secondItem="Lsg-Kg-1op" secondAttribute="bottom" constant="8" symbolic="YES" id="rUK-gP-8VN"/>
+                            <constraint firstItem="EnV-4S-oL4" firstAttribute="leading" secondItem="QjJ-cC-31V" secondAttribute="leading" id="t2L-oO-PT8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="7QA-td-ADN"/>
+                    <connections>
+                        <outlet property="comboView" destination="ivw-VB-SaS" id="YJi-6s-MGA"/>
+                        <outlet property="endingView" destination="pOe-Tl-qV8" id="mHw-tF-Y8z"/>
+                        <outlet property="fatalityView" destination="ivw-VB-SaS" id="a0E-p6-Kbi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Xh-Sq-cB0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2811.594202898551" y="-388.39285714285711"/>
         </scene>
         <!--Choose your fighter-->
         <scene sceneID="eyA-q1-nsB">
@@ -338,6 +451,9 @@
         <image name="grid" catalog="system" width="128" height="112"/>
         <image name="nameBackground" width="820" height="140"/>
         <image name="separator" width="764" height="20"/>
+        <namedColor name="fighterName">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="segmentSelector">
             <color red="0.56099998950958252" green="0.62699997425079346" blue="0.71399998664855957" alpha="0.15000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

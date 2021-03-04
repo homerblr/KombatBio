@@ -26,6 +26,8 @@ class DetailVC: UIViewController {
     var videoURL: URL?
     var selectedFighter: Characters?
     
+    let segueID = "goToFinishersVC"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
@@ -81,5 +83,20 @@ class DetailVC: UIViewController {
      // Pass the selected object to the new view controller.
      }
      */
+    @IBAction func finishersButtonTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: segueID, sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == segueID {
+            guard let destinationVC = segue.destination as? FinishersVC else {return}
+            let endingVideoID = selectedFighter?.storyEndingVideoID
+            let fighterName = selectedFighter?.name
+            destinationVC.endingVideoID = endingVideoID
+            destinationVC.fighterName = fighterName
+            
+            //destinationVC.viewModel = DetailScreenViewModel(photoProvider: viewModel?.photoProvider as! PhotoDataProviderProtocol)
+        }
+    }
     
 }

@@ -7,5 +7,7 @@ target 'KombatBio' do
 
   # Pods for KombatBio
  pod 'Kingfisher', '~> 6.0'
+pod 'SwiftyGif'
+pod 'youtube-ios-player-helper'
 
 end

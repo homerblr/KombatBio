@@ -31,6 +31,7 @@
 		CB8BB2FD25E6D11300809D73 /* MKtitle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB8BB2FC25E6D11300809D73 /* MKtitle.ttf */; };
 		CB8BB30325E6D4A900809D73 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB30225E6D4A900809D73 /* Colors.swift */; };
 		CB8BB30C25E7F5F300809D73 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB30B25E7F5F300809D73 /* ContainerVC.swift */; };
+		CB9F4DFE25F113EB0033C077 /* FinishersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9F4DFD25F113EB0033C077 /* FinishersVC.swift */; };
 		D50464F0D0011B1946CDBF03 /* Pods_KombatBio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF60B59B916909879EE2FCD4 /* Pods_KombatBio.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		CB8BB2FC25E6D11300809D73 /* MKtitle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MKtitle.ttf; sourceTree = "<group>"; };
 		CB8BB30225E6D4A900809D73 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		CB8BB30B25E7F5F300809D73 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		CB9F4DFD25F113EB0033C077 /* FinishersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishersVC.swift; sourceTree = "<group>"; };
 		CF60B59B916909879EE2FCD4 /* Pods_KombatBio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KombatBio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -153,6 +155,7 @@
 				CB8BB2EF25E67EE600809D73 /* CollectionViewVC.swift */,
 				CB8BB30B25E7F5F300809D73 /* ContainerVC.swift */,
 				CB2DE22825E91B7A001A8F5E /* DetailVC.swift */,
+				CB9F4DFD25F113EB0033C077 /* FinishersVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				CB8BB2B225E5009200809D73 /* ViewController.swift in Sources */,
 				CB8BB2D125E5524C00809D73 /* FighterCell.swift in Sources */,
 				CB8BB2DF25E576A000809D73 /* MainScreenVM.swift in Sources */,
+				CB9F4DFE25F113EB0033C077 /* FinishersVC.swift in Sources */,
 				CB8BB2DC25E573C100809D73 /* DataProvider.swift in Sources */,
 				CB8BB2C625E504CB00809D73 /* Networking.swift in Sources */,
 				CB2DE22C25EE4BF6001A8F5E /* DetailScreenVM.swift in Sources */,

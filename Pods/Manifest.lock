@@ -1,16 +1,24 @@
 PODS:
   - Kingfisher (6.1.1)
+  - SwiftyGif (5.4.0)
+  - youtube-ios-player-helper (1.0.3)
 
 DEPENDENCIES:
   - Kingfisher (~> 6.0)
+  - SwiftyGif
+  - youtube-ios-player-helper
 
 SPEC REPOS:
   trunk:
     - Kingfisher
+    - SwiftyGif
+    - youtube-ios-player-helper
 
 SPEC CHECKSUMS:
   Kingfisher: 676d63307fbef6ed5d5ed400bff36983480d7500
+  SwiftyGif: 5d4af95df24caf1c570dbbcb32a3b8a0763bc6d7
+  youtube-ios-player-helper: 0185c57db23c80d63d6ca11251d110abb8a4ca61
 
-PODFILE CHECKSUM: a292652b38ebe93932ac4442e87c9643f1219d94
+PODFILE CHECKSUM: b480cb3a91c70709f632fb8ae58662c2fe736b71
 
 COCOAPODS: 1.10.1
