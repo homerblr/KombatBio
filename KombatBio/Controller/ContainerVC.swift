@@ -65,8 +65,9 @@ extension ContainerVC: SwiftyGifDelegate {
         logoAnimationView.isHidden = true
     }
 }
+
+
 extension UIView {
-    
     func pinEdgesToSuperView() {
         guard let superView = superview else { return }
         translatesAutoresizingMaskIntoConstraints = false
@@ -75,5 +76,4 @@ extension UIView {
         bottomAnchor.constraint(equalTo: superView.bottomAnchor).isActive = true
         rightAnchor.constraint(equalTo: superView.rightAnchor).isActive = true
     }
-    
 }

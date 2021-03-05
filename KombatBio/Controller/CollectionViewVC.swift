@@ -20,22 +20,10 @@ class CollectionViewVC: UIViewController {
         collectionView.register(UINib(nibName: CollectionViewCell.nibName, bundle: nil), forCellWithReuseIdentifier: CollectionViewCell.cellID)
         viewModel = CollectionViewVM()
         viewModel?.fetchFightersModel()
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 
+//MARK: CollectionView DataSource and Delegate
 extension CollectionViewVC: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return viewModel?.fighterModel.count ?? 0
@@ -43,7 +31,6 @@ extension CollectionViewVC: UICollectionViewDelegate, UICollectionViewDataSource
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCell.cellID, for: indexPath) as? CollectionViewCell else { return UICollectionViewCell()}
-        
         viewModel?.configureCell(forIndexPath: indexPath, cell: cell)
         return cell
     }
@@ -52,13 +39,13 @@ extension CollectionViewVC: UICollectionViewDelegate, UICollectionViewDataSource
         performSegue(withIdentifier: segueID, sender: indexPath)
     }
     
+//MARK: Prepare for Segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == segueID {
             guard let destinationVC = segue.destination as? DetailVC else {return}
             guard let row = (sender as? NSIndexPath)?.row else {return}
             let selectedFighter = viewModel?.fighterModel[row]
             destinationVC.selectedFighter = selectedFighter
-            //destinationVC.viewModel = DetailScreenViewModel(photoProvider: viewModel?.photoProvider as! PhotoDataProviderProtocol)
         }
     }
     
@@ -82,9 +69,3 @@ extension CollectionViewVC {
         return layout
     }
 }
-//extension CollectionViewVC: UICollectionViewDelegateFlowLayout {
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//        let frameSize = collectionView.frame.size
-//        return CGSize(width: frameSize.width, height: frameSize.height)
-//    }
-//}

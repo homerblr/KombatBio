@@ -6,14 +6,13 @@
 //
 
 import UIKit
-import Kingfisher
 
 class ViewController: UIViewController {
     var fighter : [Characters] = []
     var viewModel : IMainScreenViewModel?
     
     private let segueID = "goToDetail"
-
+    
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -21,16 +20,12 @@ class ViewController: UIViewController {
         tableView.register(UINib(nibName: FighterCell.nibName, bundle: nil), forCellReuseIdentifier: FighterCell.cellID)
         viewModel = MainScreenViewModel()
         viewModel?.fetchFightersModel()
-  
-        
     }
     
-
-  
-    
 }
+
+//MARK: TableView Data Source, Delegate
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel?.fighterModel.count ?? 0
     }
@@ -47,16 +42,15 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         performSegue(withIdentifier: segueID, sender: indexPath)
     }
     
+    
+    //MARK: Prepare for Segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == segueID {
             guard let destinationVC = segue.destination as? DetailVC else {return}
             guard let row = (sender as? NSIndexPath)?.row else {return}
             let selectedFighter = viewModel?.fighterModel[row]
             destinationVC.selectedFighter = selectedFighter
-            //destinationVC.viewModel = DetailScreenViewModel(photoProvider: viewModel?.photoProvider as! PhotoDataProviderProtocol)
         }
     }
-
-    
 }
 
