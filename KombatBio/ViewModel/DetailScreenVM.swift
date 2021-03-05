@@ -12,7 +12,7 @@ class DetailScreenVM {
     
     var fighterModel: [Characters] = []
     var fighterProvider: DataProviderProtocol
-    
+    //var
 //    func configureView(fighterName: String, fighterMotto: String, fighterImage: UIImageView, indexPath: IndexPath) {
 //        
 //        let model = fighterModel[indexPath.row]

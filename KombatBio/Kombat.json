@@ -9,7 +9,10 @@
       "description": "Grandmaster of the Lin Kuei clan. Kuai Liang beat death to redeem his clan for the evil committed by Sektor and the Cyber Lin Kuei. He rebuilt the Lin Kuei and brokered peace with their Shirai Ryu rivals. Now, he hopes to finally close the book on sins of Lin Kuei past",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sub-zero/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sub-zero/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/sub-zero/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/sub-zero/video.mp4",
+      "story_ending_video_id": "h-josprK2uM",
+      "combo_video_id": "ZwYJ0fXn05I",
+      "finisher_video_id": "lWqKlrP5MTo"
     },
     {
       "id": 2,
@@ -20,7 +23,10 @@
       "description": "Grandmaster Scorpion of the Shirai Ryu. Driven by rage, Hanzo Hasashi went through Hell and back to avenge his family and clan, never resting until he cut down their murderer, Quan Chi. Now he leads a reborn Shirai Ryu, avenging those who cannot avenge themselves",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/scorpion/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/scorpion/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/scropion/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/scropion/video.mp4",
+      "story_ending_video_id": "A9MtG_Q5820",
+      "combo_video_id": "7Zs3oFQc6Y",
+      "finisher_video_id": "1g36fg9EfvM"
     },
     {
       "id": 3,
@@ -31,7 +37,10 @@
       "description": "Emperor of Outworld. For millennia, Shao Kahn dominated the realms, rapidly expanding his Empire by conquest. But when he set out to claim Earthrealm, he was blocked by the rules of Mortal Kombat. Deterred but determined, Shao Kahn demands absolute victory",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/video.mp4",
+      "story_ending_video_id": "emS0DtT7oeU",
+      "combo_video_id": "0rtmyJPdkUU",
+      "finisher_video_id": "pfX8zABBob0"
     },
     {
       "id": 4,
@@ -42,7 +51,10 @@
       "description": "Immortal God of Thunder, Protector of Earthrealm. Raiden has saved Earthrealm time and again by rallying the bravest and strongest warriors of the day to defend it. After centuries of kombat and bloodshed, he fears unintended consequences for humanity, and himself",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/raiden/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/raiden/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/raiden/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/raiden/video.mp4",
+      "story_ending_video_id": "3tbsZQK4SSg",
+      "combo_video_id": "Rcwh5tzTd0M",
+      "finisher_video_id": "-xnAOP_ipV0"
     },
     {
       "id": 5,
@@ -53,7 +65,10 @@
       "description": "War Chief of the nomadic Tarkatan tribe, a carnivorous people considered subhuman by the Outworld Empire. Baraka dutifully serves Shao Kahn to preserve his tribe’s way of life, who roam the harsh Wastelands, meat carts in tow, consuming everything and everyone in their path",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/baraka/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/baraka/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/baraka/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/baraka/video.mp4",
+      "story_ending_video_id": "45JaR9p99_0",
+      "combo_video_id": "CQh-lIWp3Y4",
+      "finisher_video_id": "7cR34sj-Yto"
     },
     {
       "id": 6,
@@ -64,7 +79,10 @@
       "description": "Unpredictable, violent and incredibly dangerous, The Joker is chaos personified. He’s killed a Robin, crippled Batgirl and tortured and murdered countless people throughout the DC universe. And now, he’s the latest Kombatant to join in Mortal Kombat",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/the-joker/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/the-joker/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/the-joker/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/the-joker/video.mp4",
+      "story_ending_video_id": "xh3eGLYjOq4",
+      "combo_video_id": "JfVZO_f3r-w",
+      "finisher_video_id": "71nNs28JfBA"
     },
     {
       "id": 7,
@@ -75,7 +93,10 @@
       "description": "Shadow of the Netherrealm. In life, Noob Saibot was known as Sub-Zero. Unjustly murdered by Scorpion, he was resurrected by Quan Chi and granted power over darkness, but as Quan Chi’s slave. Now, Quan Chi is dead. Noob Saibot is finally free to reclaim the honor that was stolen from him",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/video.mp4",
+      "story_ending_video_id": "c1DoNuS9rh8",
+      "combo_video_id": "5Y_S1iKmlIA",
+      "finisher_video_id": "DVHpOShx9no"
     },
     {
       "id": 8,
@@ -86,7 +107,10 @@
       "description": "Cyber-enhanced officer of the Special Forces. Jax Briggs lost both arms in the line of duty, but he came back to the battlefield twice as strong thanks to cybernetic upgrades. Even with that power, Jax’s sacrifices burden him. He soldiers onward, honorbound to protect Earthrealm",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/video.mp4",
+      "story_ending_video_id": "Sr_umBEssZE",
+      "combo_video_id": "COC_Z4EC5KQ",
+      "finisher_video_id": "M4wFsMAGIew"
     },
     {
       "id": 9,
@@ -97,7 +121,10 @@
       "description": "Soul Sorcerer and historic host of the Mortal Kombat. Born in Earthrealm, Shang Tsung’s relentless pursuit of powerful magic led him to Outworld, where Shao Kahn offered him a dark power that no sorcerer on Earthrealm could. Shang Tsung pledged his eternal loyalty to Shao Kahn in exchange for this evil magic, but he is no faithful servant. He dreams of the day his sorcery will overtake Shao Kahn’s, and he’ll pay any price to get there",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/video.mp4",
+      "story_ending_video_id": "JNSBbW2b96g",
+      "combo_video_id": "WuYD0IAIXYs",
+      "finisher_video_id": "RzEwxSx6He8"
     },
     {
       "id": 10,
@@ -108,7 +135,10 @@
       "description": "John J. Rambo is a former United States Special Forces soldier deeply haunted by his time in Vietnam. He is rough, aggressive and is well known for entering exceptionally dangerous situations alone. Rambo has reactivated his ruthless fighting skills to infiltrate the MK universe",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/rambo/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/rambo/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
+      "story_ending_video_id": "c_7IS-ChDjY",
+      "combo_video_id": "0CXLrr8qvb4",
+      "finisher_video_id": "ZWZF5vSZKR4"
     },
     {
       "id": 11,
@@ -119,7 +149,10 @@
       "description": "Growing up an orphan, Rain joined Edenia’s army. His strategic genius earned him quick promotion, which he used to learn he was the bastard son of the god Argus, Edenia’s Protector. Armed with the knowledge that he’s a half god, Rain battles for his place in Edenia’s pantheon",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/rain/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/rain/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
+      "story_ending_video_id": "ubeFAFuDQO8",
+      "combo_video_id": "wGC6ysSg2Sc",
+      "finisher_video_id": "dbU4KKWxKqE"
     },
     {
       "id": 12,
@@ -130,7 +163,10 @@
       "description": "Mileena is the product of Shang Tsung’s diabolical cloning experiments: a perfect blend of Tarkatan ferocity and athletic grace. Brought forward in the timeline by Kronika, Mileena has learned of her tragic future. Her enemies now must submit, or die",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/mileena/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/mileena/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
+      "story_ending_video_id": "Ioe2YNFSKHI",
+      "combo_video_id": "8gTL_MrSEgw",
+      "finisher_video_id": "fpvzIGHueqo"
     },
     {
       "id": 13,
@@ -141,7 +177,10 @@
       "description": "Alex Murphy was a dutiful police officer who was brutally executed by a local gang. Brought back to life through OCP technology, Murphy was transformed into RoboCop, a highly advanced cybernetic police officer designed to uphold the law and protect the innocent. Now entering the Mortal Kombat universe, RoboCop has received a few upgrades and is ready to serve the public by apprehending any Kombatants that stand in his way",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/robocop/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/robocop/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
+      "story_ending_video_id": "tkqMYcAjpbU",
+      "combo_video_id": "wUsyTpFALYo",
+      "finisher_video_id": "XS6UhRtcEM"
     },
     {
       "id": 14,
@@ -152,7 +191,10 @@
       "description": "The male Shokan scoffed when Sheeva entered their contest to choose the Shokan’s next leader. But Sheeva proved herself more than their equal. After a resounding victory, she was crowned the first Queen of the Shokan. As Queen, Sheeva now leads her people in the fight to attain their rightful place, as partners in Outworld’s rule",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sheeva/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sheeva/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
+      "story_ending_video_id": "iikMjGo5K7k",
+      "combo_video_id": "C8lBVavw8Ms",
+      "finisher_video_id": "PvOg6NHU1KI"
     },
     {
       "id": 15,
@@ -163,7 +205,10 @@
       "description": "The God of Wind, Fujin serves the Elder Gods alongside his brother, Raiden, as Protectors of Earthrealm. Affable and lighthearted, he’s adept at inspiring peoples’ innate capacity for goodness and heroism to conquer forces of hatred and tyranny. Fujin believes Earthrealm’s best days are still to come, and he fights to ensure that bright future",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/fujin/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/fujin/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
+      "story_ending_video_id": "7A1xcC2Zp78",
+      "combo_video_id": "tIxFIBCW4WE",
+      "finisher_video_id": "Hs7-XP7KgyM"
     },
     {
       "id": 16,
@@ -174,7 +219,10 @@
       "description": "Al Simmons, once the U.S. government’s greatest soldier and most effective assassin, was mercilessly executed by his own men. Resurrected from the ashes of his own grave in a flawed agreement with the powers of darkness, Simmons is reborn as a creature from the depths of Hell. A Hellspawn. Now he is thrust into the world of Mortal Kombat, where he will fight for supremacy against all Kombatants",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/spawn/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/spawn/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/spawn/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/spawn/video.mp4",
+      "story_ending_video_id": "ubvpV_J4PIE",
+      "combo_video_id": "4tktQTUmnOE",
+      "finisher_video_id": "_G4-82G2IVY"
     },
     {
       "id": 17,
@@ -185,7 +233,10 @@
       "description": "Stealth assassin and Imperial Bodyguard. Jade’s family traded her to Shao Kahn as a child. Though he was the only parent and master she ever knew, Jade refused his orders to kill her closest friend, Kitana. The Emperor turned against Jade. Now she vows to end his reign",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/jade/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/jade/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/jade/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/jade/video.mp4",
+      "story_ending_video_id": "_iFKqhjV45g",
+      "combo_video_id": "5rUptMmuS5M",
+      "finisher_video_id": "ZSkzl8NAbZw"
     },
     {
       "id": 18,
@@ -196,7 +247,10 @@
       "description": "The best shot in Texas left home to seek adventure and excitement in Outworld with Kano and the Black Dragon. Outworld turned out to be the playground of Erron’s ultraviolent dreams. He decided to make his home there as the deadliest outlander in Outworld",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/erron-black/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/erron-black/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/erron-black/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/erron-black/video.mp4",
+      "story_ending_video_id": "zNZ62roSJEQ",
+      "combo_video_id": "jicE4htaNGI",
+      "finisher_video_id": "Z2yFMoRw1wI"
     },
     {
       "id": 19,
@@ -207,7 +261,262 @@
       "description": "Fleet-footed Black Dragon enforcer. Kabal’s sprinting speed is only outpaced by his greed. He was a rookie cop until Kano tempted him to sell out his police department for cash money and a spot in the Black Dragon. Kabal has run down anyone who's crossed Kano ever since",
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kabal/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kabal/body.png",
-      "intro_video": "https://cdn-prod.mortalkombat.com/roster/kabal/video.mp4"
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/kabal/video.mp4",
+      "story_ending_video_id": "hVYmqOsyV-w",
+      "combo_video_id": "ItOfXafm7hg",
+      "finisher_video_id": "sypURo8t8S0"
+    },
+    {
+      "id": 20,
+      "name": "Kung Lao",
+      "real_name": "Kung Lao",
+      "motto": "Respect",
+      "gender": "Male",
+      "description": "Shaolin monk and descendant of Great Kung Lao. The younger Kung Lao claimed his greatness by beating the deadly alliance of Shang Tsung and Quan Chi in Mortal Kombat. Reckless and rebellious, but courageous and indomitable, Kung Lao fights to prove worthy of his glorious ancestors.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kung-lao/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kung-lao/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/kung-lao/video.mp4",
+      "story_ending_video_id": "i9WuTTosd6o",
+      "combo_video_id": "dSi0OdpoqTg",
+      "finisher_video_id": "fSii-isptdQ"
+    },
+    {
+      "id": 21,
+      "name": "Cetrion",
+      "real_name": "Unknown",
+      "motto": "Balanced",
+      "gender": "Female",
+      "description": "Elder Goddess of Virtue, Guardian of Life. When Shinnok threatened to conquer the Elder Gods, Cetrion cast him into the Netherrealm. Her blessings answer the prayers of warriors battling against darkness. But at times, the heroic virtues she upholds are at odds with her quest for universal balance.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/cetrion/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/cetrion/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/cetrion/video.mp4",
+      "story_ending_video_id": "DmGjmXC_zhY",
+      "combo_video_id": "jg_2CK1BLRc",
+      "finisher_video_id": "_h33aRhs4r4"
+    },
+    {
+      "id": 22,
+      "name": "Frost",
+      "real_name": "Unknown",
+      "motto": "Defience",
+      "gender": "Female",
+      "description": "Grandmaster Sub-Zero’s most dangerous apprentice. When Sub-Zero made historic peace with his clan’s enemy, Scorpion, defiant Frost challenged her Grandmaster as unfit to lead. Sub-Zero defeated and banished Frost. For years, she sought the power to destroy him. Now she has it.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/frost/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/frost/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/frost/video.mp4",
+      "story_ending_video_id": "b3uRgSitCy0",
+      "combo_video_id": "1jFzYiiYixQ",
+      "finisher_video_id": "xnDGYQHftdc"
+    },
+    {
+      "id": 23,
+      "name": "D'Vorah",
+      "real_name": "Deborah",
+      "motto": "Survival",
+      "gender": "Female",
+      "description": "One among many Kytinn, a swarm of sentient insects who share a hive mind. D’vorah has served Shao Kahn, Kotal Kahn, and Shinnok, but her true allegiance is to the swarm. She lies, cheats, and backstabs so that when everyone else has died, the Kytinn hive will survive.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/d-vorah/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/d-vorah/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/d-vorah/video.mp4",
+      "story_ending_video_id": "klQAK6KmVTI",
+      "combo_video_id": "eMsexzaCECk",
+      "finisher_video_id": "TgmBCFmGS_s"
+    },
+    {
+      "id": 24,
+      "name": "Geras",
+      "real_name": "Unknown",
+      "motto": "Service",
+      "gender": "Male",
+      "description": "An artificial construct, built by Kronika, he faithfully serves her goal of restarting time and rewriting history. By Kronika’s design, Geras exists as a fixed point in time. Every time Geras is killed he is reborn, each time becoming more resilient against the manner of his death.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/geras/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/geras/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/geras/video.mp4",
+      "story_ending_video_id": "gnNCYlJdHrE",
+      "combo_video_id": "qvK08hmFDhY",
+      "finisher_video_id": "rNjKuDSBA84"
+    },
+    {
+      "id": 25,
+      "name": "Kano",
+      "real_name": "Unknown",
+      "motto": "Greed",
+      "gender": "Male",
+      "description": "Arms dealer and leader of the Black Dragon. Kano prides himself as the ultimate deal- maker, with a black market network that spans the realms, but he is never satisfied. Even his loyal followers know he’d stab his mother in the back if the price was right.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kano/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kano/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/kano/video.mp4",
+      "story_ending_video_id": "vqwgIBZjtrE",
+      "combo_video_id": "ZmLnuGuRVc4",
+      "finisher_video_id": "KVp-b_ThCzY"
+    },
+    {
+      "id": 26,
+      "name": "The Terminator",
+      "real_name": "Arnold T-800",
+      "motto": "Termination",
+      "gender": "Male",
+      "description": "The Terminator T-800 from “Terminator: Dark Fate” is a cyborg assassin, sent back in time from a post-apocalyptic future. He is nearly indestructible and possesses superior technology, fighting skills and artificial intelligence making him the ultimate killing machine.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/terminator/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/terminator/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/terminator/video.mp4",
+      "story_ending_video_id": "fQ9ooCNtwzc",
+      "combo_video_id": "iM_KDRCoBU8",
+      "finisher_video_id": "pArw05oPu9w"
+    },
+    {
+      "id": 27,
+      "name": "Nightwolf",
+      "real_name": "Grey Cloud",
+      "motto": "Restoration",
+      "gender": "Male",
+      "description": "Every generation, the Great Spirit chooses a worthy warrior to become Nightwolf: the Matoka’s champion and protector. Grey Cloud proved worthy when he laid down his life to prevent the Black Dragon from plundering what remained of his tribe’s sacred artifacts. As Nightwolf, Grey Cloud possesses extraordinary magic granted by the Great Spirit. He uses it not only to fight for the Matoka’s future, but also to defend all of Earthrealm.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/nightwolf/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/nightwolf/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/nightwolf/video.mp4",
+      "story_ending_video_id": "RDhwPU0J54I",
+      "combo_video_id": "7WcP6dJPVYA",
+      "finisher_video_id": "8mN9byKRCts"
+    },
+    {
+      "id": 28,
+      "name": "Cassie Cage",
+      "real_name": "Cassie Cage",
+      "motto": "Approval",
+      "gender": "Female",
+      "description": "The offspring of Johnny Cage and Sonya Blade laid the smackdown on Shinnok a few years back, but even that wasn’t enough to escape the shadow of her legendary parents. Whenever Cassie isn’t defending Earthrealm, she’s fighting to prove worthy of their legacy.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/cassie-cage/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/cassie-cage/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/cassie-cage/video.mp4",
+      "story_ending_video_id": "lQ_TJL6d59I",
+      "combo_video_id": "K-QX1S_QYMM",
+      "finisher_video_id": "nvTayJVRWqQ"
+    },
+    {
+      "id": 29,
+      "name": "Kotal Kahn",
+      "real_name": "Kotal",
+      "motto": "Order",
+      "gender": "Male",
+      "description": "Osh-Tekk warrior and Emperor of Outworld. Years ago, Kotal saved the Empire from chaos and claimed the throne of Kahn. Now his reign is plagued by rising tensions at home and abroad. Determined to keep order, Kotal wrestles with the temptation to exercise the same brutal tactics as his predecessors.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kotal-kahn/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kotal-kahn/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/kotal-kahn/video.mp4",
+      "story_ending_video_id": "apzNsQF0rEQ",
+      "combo_video_id": "9MdHZOkrQMw",
+      "finisher_video_id": "nWPqDo1-ulU"
+    },
+    {
+      "id": 30,
+      "name": "Skarlet",
+      "real_name": "Unknown",
+      "motto": "Acceptance",
+      "gender": "Female",
+      "description": "Blood mage and Imperial Bodyguard. Skarlet was a starving wretch before Shao Kahn anointed her in blood. Reborn by his sorcery with an insatiable bloodlust and the power to feed it, her crimson cravings are rivaled by her desire for Shao Kahn’s praise. She is his deadliest, most faithful creation.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/skarlet/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/skarlet/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/skarlet/video.mp4",
+      "story_ending_video_id": "WGWOus63wvo",
+      "combo_video_id": "FvV47HblTtU",
+      "finisher_video_id": "WTpO-WsLBIE"
+    },
+    {
+      "id": 31,
+      "name": "Sonya Blade",
+      "real_name": "Sonya Blade",
+      "motto": "Vigilance",
+      "gender": "Female",
+      "description": "Decorated officer of the Special Forces. Sonya braved the Mortal Kombat tournament, defended Earthrealm, and rescued her partner, Jax Briggs. Serious to a fault, she never takes time for personal leave, preferring to remain vigilant until all realms are safe from conquest.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sonya-blade/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sonya-blade/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/sonya-blade/video.mp4",
+      "story_ending_video_id": "JOP_Um58cbA",
+      "combo_video_id": "oAz5gwMucR8",
+      "finisher_video_id": "XL1p-W2yxFc"
+    },
+    {
+      "id": 32,
+      "name": "Johnny Cage",
+      "real_name": "Johnny Cage",
+      "motto": "Vanity",
+      "gender": "Male",
+      "description": "B-list celebrity, recipient of no acting awards. Following a string of lowbrow direct-to- VHS sequels to Ninja Mime , Johnny Cage’s career peaked at the age of 28. Now, he fights against all odds to save Earthrealm and prove that he’s an even braver hero in real life than on the silver screen.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/johnny-cage/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/johnny-cage/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/johnny-cage/video.mp4",
+      "story_ending_video_id": "65_HN_9IV3w",
+      "combo_video_id": "tBxSM1ikoqI",
+      "finisher_video_id": "66wlE8iNcXM"
+    },
+    {
+      "id": 33,
+      "name": "Kollector",
+      "real_name": "Unknown",
+      "motto": "Rank",
+      "gender": "Male",
+      "description": "Tribute collector for the Outworld Empire. Born into poverty, the Kollector seized his imperial collections duty with a zeal that impressed Shao Kahn. He stole riches from Outworld’s people, rewarding himself with wealth and status in turn. He’ll kill anyone to keep it.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kollector/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kollector/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/kollector/video.mp4",
+      "story_ending_video_id": "ZE5QJX_ta7Y",
+      "combo_video_id": "LNGb_L8JlMM",
+      "finisher_video_id": "IiKEP5G4o_c"
+    },
+    {
+      "id": 34,
+      "name": "Kitana",
+      "real_name": "Kitana",
+      "motto": "Identity",
+      "gender": "Female",
+      "description": "10,000-year-old assassin and Princess of Outworld. Shao Kahn married Kitana’s mother and raised Kitana as his loyal heir, concealing the truth that he murdered her father to conquer Edenia. Now that this truth is out, Kitana is on a quest to avenge her father’s name.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kitana/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kitana/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/kitana/video.mp4",
+      "story_ending_video_id": "lvgNimBdgEI",
+      "combo_video_id": "D_T0MM2jpeg",
+      "finisher_video_id": "IlY5IbQ-nG4"
+    },
+    {
+      "id": 34,
+      "name": "Jacqui Briggs",
+      "real_name": "Jacqui Briggs",
+      "motto": "Protection",
+      "gender": "Female",
+      "description": "The daughter of Jax Briggs. Jacqui defied her father when she joined the Special Forces. Seeing what he sacrificed as a soldier didn’t scare her. It stirred a desire to protect her family and her homeland. She hustles hard and punches above her weight, proudly carrying on the Briggs legacy.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/jacqui-briggs/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/jacqui-briggs/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/jacqui-briggs/video.mp4",
+      "story_ending_video_id": "ElFPFeUVXIM",
+      "combo_video_id": "-0SGKJB0hWE",
+      "finisher_video_id": "B4z4Z5azMYw"
+    },
+    {
+      "id": 35,
+      "name": "Liu Kang",
+      "real_name": "Liu Kang",
+      "motto": "Responsibility",
+      "gender": "Male",
+      "description": "Shaolin monk and Champion of Earthrealm. Liu Kang was an orphan adopted and trained in the arts of kombat by the Shaolin order. He honored them by defeating Shang Tsung in Mortal Kombat and saving Earthrealm as 'the Chosen One', a title that weighs heavy on his shoulders.",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/liu-kang/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/liu-kang/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/liu-kang/video.mp4",
+      "story_ending_video_id": "BT2jHhp6B4w",
+      "combo_video_id": "PxapOKmyjQE",
+      "finisher_video_id": "s7UMZQuz0Uk"
+    },
+    {
+      "id": 36,
+      "name": "Sindel",
+      "real_name": "Sindel",
+      "motto": "Privelege",
+      "gender": "Female",
+      "description": "The former Queen of Edenia will stop at nothing to keep her place. When threatened with the loss of her throne when Shao Kahn conquered her realm, Sindel betrayed her husband, and her people, to keep her privileged position. Now Shao Kahn’s wife and Queen of Outworld, she enjoys power and wealth beyond most people’s imagination. Good luck to anyone who tries to take it from her..",
+      "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sindel/thumb-p.png",
+      "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sindel/body.png",
+      "intro_video": "https://cdn-prod.mortalkombat.com/roster/sindel/video.mp4",
+      "story_ending_video_id": "M3hONezSxaI",
+      "combo_video_id": "T-_8ZldbKuI",
+      "finisher_video_id": "-eg7a0qepF8"
     }
   ]
 }
