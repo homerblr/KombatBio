@@ -65,6 +65,7 @@ class DetailVC: UIViewController {
         }
     }
     
+    //TODO: implement MMVM
     func configureView() {
         if let selectedFigher = selectedFighter, let imageURL = URL(string: selectedFigher.fullSizeImageURL) {
             fighterImage.kf.setImage(with: imageURL)
