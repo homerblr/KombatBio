@@ -15,12 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mklogogif1stframe" translatesAutoresizingMaskIntoConstraints="NO" id="riB-56-yaI">
-                                <rect key="frame" x="32" y="328" width="350" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="YXO-my-2Wc"/>
-                                    <constraint firstAttribute="width" constant="350" id="Zpg-gi-YtS"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RaidenSplash" translatesAutoresizingMaskIntoConstraints="NO" id="riB-56-yaI">
+                                <rect key="frame" x="-33" y="93" width="480" height="720"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -37,6 +33,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="mklogogif1stframe" width="800" height="600"/>
+        <image name="RaidenSplash" width="480" height="720"/>
     </resources>
 </document>

@@ -9,7 +9,7 @@ import UIKit
 import youtube_ios_player_helper
 
 class FinishersVC: UIViewController {
-
+    
     @IBOutlet weak var endingView: YTPlayerView!
     @IBOutlet weak var comboView: YTPlayerView!
     @IBOutlet weak var fatalityView: YTPlayerView!
@@ -19,30 +19,23 @@ class FinishersVC: UIViewController {
     var fighterName: String?
     var finisherVideoID: String?
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-   
-        
+        navigationController?.navigationBar.standardAppearance.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 0)
+        setIDForYoutube()
+    }
+    
+    func setIDForYoutube() {
         if let endingVideoId = endingVideoID, let combovideoID = combovideoID,  let fighterName = fighterName, let finisherVideoID = finisherVideoID {
             endingView.load(withVideoId: endingVideoId)
             comboView.load(withVideoId: combovideoID)
             fatalityView.load(withVideoId: finisherVideoID)
             self.title = fighterName
         }
-        
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.navigationBar.standardAppearance.titlePositionAdjustment = UIOffset(horizontal: -110, vertical: 0)
     }
-    */
-
 }

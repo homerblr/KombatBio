@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB2DE22625E91B62001A8F5E /* testVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CB2DE22525E91B62001A8F5E /* testVideo.mp4 */; };
 		CB2DE22925E91B7A001A8F5E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DE22825E91B7A001A8F5E /* DetailVC.swift */; };
-		CB2DE22C25EE4BF6001A8F5E /* DetailScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DE22B25EE4BF6001A8F5E /* DetailScreenVM.swift */; };
 		CB8BB2AE25E5009200809D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2AD25E5009200809D73 /* AppDelegate.swift */; };
 		CB8BB2B025E5009200809D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2AF25E5009200809D73 /* SceneDelegate.swift */; };
 		CB8BB2B225E5009200809D73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2B125E5009200809D73 /* ViewController.swift */; };
@@ -34,15 +32,14 @@
 		CB9F4DFE25F113EB0033C077 /* FinishersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9F4DFD25F113EB0033C077 /* FinishersVC.swift */; };
 		CBC685A525F235E200FAFCC8 /* mklogogif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBC685A425F235E200FAFCC8 /* mklogogif.gif */; };
 		CBC685A825F236B600FAFCC8 /* LogoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC685A725F236B600FAFCC8 /* LogoAnimationView.swift */; };
+		CBE6C35525F24A6C008F34D6 /* raidenGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBE6C35425F24A6C008F34D6 /* raidenGif.gif */; };
 		D50464F0D0011B1946CDBF03 /* Pods_KombatBio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF60B59B916909879EE2FCD4 /* Pods_KombatBio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36E73328AADE86143A10DDE7 /* Pods-KombatBio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KombatBio.debug.xcconfig"; path = "Target Support Files/Pods-KombatBio/Pods-KombatBio.debug.xcconfig"; sourceTree = "<group>"; };
 		BBD1D5D735A1329F992AF93B /* Pods-KombatBio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KombatBio.release.xcconfig"; path = "Target Support Files/Pods-KombatBio/Pods-KombatBio.release.xcconfig"; sourceTree = "<group>"; };
-		CB2DE22525E91B62001A8F5E /* testVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testVideo.mp4; sourceTree = "<group>"; };
 		CB2DE22825E91B7A001A8F5E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
-		CB2DE22B25EE4BF6001A8F5E /* DetailScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenVM.swift; sourceTree = "<group>"; };
 		CB8BB2AA25E5009200809D73 /* KombatBio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KombatBio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8BB2AD25E5009200809D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB8BB2AF25E5009200809D73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +66,7 @@
 		CB9F4DFD25F113EB0033C077 /* FinishersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishersVC.swift; sourceTree = "<group>"; };
 		CBC685A425F235E200FAFCC8 /* mklogogif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mklogogif.gif; sourceTree = "<group>"; };
 		CBC685A725F236B600FAFCC8 /* LogoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimationView.swift; sourceTree = "<group>"; };
+		CBE6C35425F24A6C008F34D6 /* raidenGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = raidenGif.gif; sourceTree = "<group>"; };
 		CF60B59B916909879EE2FCD4 /* Pods_KombatBio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KombatBio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,12 +128,11 @@
 				CB8BB2E925E57E0300809D73 /* Networking */,
 				CB8BB2E125E57DD600809D73 /* VIew */,
 				CB8BB2B625E5009E00809D73 /* Assets.xcassets */,
+				CBE6C35925F258A1008F34D6 /* Fonts */,
 				CB8BB30525E6D4AE00809D73 /* Helpers */,
 				CB8BB2B825E5009E00809D73 /* LaunchScreen.storyboard */,
-				CB2DE22525E91B62001A8F5E /* testVideo.mp4 */,
 				CBC685A425F235E200FAFCC8 /* mklogogif.gif */,
-				CB8BB2C925E50F3E00809D73 /* Kombat.json */,
-				CB8BB2FC25E6D11300809D73 /* MKtitle.ttf */,
+				CBE6C35425F24A6C008F34D6 /* raidenGif.gif */,
 				CB8BB2BB25E5009E00809D73 /* Info.plist */,
 			);
 			path = KombatBio;
@@ -171,7 +168,6 @@
 			children = (
 				CB8BB2DE25E576A000809D73 /* MainScreenVM.swift */,
 				CB8BB2F925E6828500809D73 /* CollectionViewVM.swift */,
-				CB2DE22B25EE4BF6001A8F5E /* DetailScreenVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -190,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				CB8BB2C525E504CB00809D73 /* Networking.swift */,
+				CB8BB2C925E50F3E00809D73 /* Kombat.json */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -200,6 +197,14 @@
 				CB8BB30225E6D4A900809D73 /* Colors.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CBE6C35925F258A1008F34D6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CB8BB2FC25E6D11300809D73 /* MKtitle.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +269,8 @@
 				CB8BB2FD25E6D11300809D73 /* MKtitle.ttf in Resources */,
 				CB8BB2BA25E5009E00809D73 /* LaunchScreen.storyboard in Resources */,
 				CB8BB2CA25E50F3E00809D73 /* Kombat.json in Resources */,
-				CB2DE22625E91B62001A8F5E /* testVideo.mp4 in Resources */,
 				CB8BB2F525E67F6D00809D73 /* CollectionViewCell.xib in Resources */,
+				CBE6C35525F24A6C008F34D6 /* raidenGif.gif in Resources */,
 				CB8BB2D225E5524C00809D73 /* FighterCell.xib in Resources */,
 				CB8BB2B725E5009E00809D73 /* Assets.xcassets in Resources */,
 				CBC685A525F235E200FAFCC8 /* mklogogif.gif in Resources */,
@@ -329,7 +334,6 @@
 				CB9F4DFE25F113EB0033C077 /* FinishersVC.swift in Sources */,
 				CB8BB2DC25E573C100809D73 /* DataProvider.swift in Sources */,
 				CB8BB2C625E504CB00809D73 /* Networking.swift in Sources */,
-				CB2DE22C25EE4BF6001A8F5E /* DetailScreenVM.swift in Sources */,
 				CB2DE22925E91B7A001A8F5E /* DetailVC.swift in Sources */,
 				CB8BB2D825E5700F00809D73 /* DataSource.swift in Sources */,
 				CB8BB2C325E502F100809D73 /* CharacterModel.swift in Sources */,

@@ -14,5 +14,11 @@ extension UIColor {
     @nonobjc class var splashBackgroundColor : UIColor {
         return UIColor(named: "splashBackgroundColor")!
     }
+    @nonobjc class var navBarColor : UIColor {
+        return UIColor(named: "navBarColor")!
+    }
+    @nonobjc class var charactersColor : UIColor {
+        return UIColor(named: "charactersColor")!
+    }
     
 }

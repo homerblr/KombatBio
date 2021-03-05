@@ -21,6 +21,7 @@ class DetailVC: UIViewController {
     
     private var playerLayer = AVPlayerLayer()
     private var playerLooper : AVPlayerLooper?
+    
     var audioQueueStallObserver : Any?
     
     var videoURL: URL?
@@ -74,15 +75,7 @@ class DetailVC: UIViewController {
         }
         
     }
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
+  
     @IBAction func finishersButtonTapped(_ sender: UIButton) {
         performSegue(withIdentifier: segueID, sender: self)
     }
@@ -98,7 +91,6 @@ class DetailVC: UIViewController {
             destinationVC.fighterName = fighterName
             destinationVC.combovideoID = comboVideoID
             destinationVC.finisherVideoID = finisherVideoID
-            //destinationVC.viewModel = DetailScreenViewModel(photoProvider: viewModel?.photoProvider as! PhotoDataProviderProtocol)
         }
     }
     
