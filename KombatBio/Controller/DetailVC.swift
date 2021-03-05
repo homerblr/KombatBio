@@ -92,9 +92,12 @@ class DetailVC: UIViewController {
             guard let destinationVC = segue.destination as? FinishersVC else {return}
             let endingVideoID = selectedFighter?.storyEndingVideoID
             let fighterName = selectedFighter?.name
+            let comboVideoID = selectedFighter?.comboVideoID
+            let finisherVideoID = selectedFighter?.finisherVideoID
             destinationVC.endingVideoID = endingVideoID
             destinationVC.fighterName = fighterName
-            
+            destinationVC.combovideoID = comboVideoID
+            destinationVC.finisherVideoID = finisherVideoID
             //destinationVC.viewModel = DetailScreenViewModel(photoProvider: viewModel?.photoProvider as! PhotoDataProviderProtocol)
         }
     }

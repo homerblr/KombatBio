@@ -286,7 +286,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pOe-Tl-qV8" userLabel="FatalityPlayerView" customClass="YTPlayerView">
                                 <rect key="frame" x="16" y="5" width="382" height="220"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.12939286229999999" green="0.12942266459999999" blue="0.12939092520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="220" id="wek-H9-Td9"/>
                                 </constraints>
@@ -302,7 +302,7 @@
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QjJ-cC-31V" userLabel="BrutalityPlayerView" customClass="YTPlayerView">
                                 <rect key="frame" x="16" y="273" width="382" height="220"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.12939286229999999" green="0.12942266459999999" blue="0.12939092520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="220" id="FfV-Ze-5tW"/>
                                 </constraints>
@@ -318,7 +318,7 @@
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivw-VB-SaS" userLabel="FriendshipPlayerView" customClass="YTPlayerView">
                                 <rect key="frame" x="16" y="543" width="382" height="220"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.12939286229999999" green="0.12942266459999999" blue="0.12939092520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="220" id="XkO-01-i0k"/>
                                 </constraints>
@@ -361,7 +361,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="7QA-td-ADN"/>
                     <connections>
-                        <outlet property="comboView" destination="ivw-VB-SaS" id="YJi-6s-MGA"/>
+                        <outlet property="comboView" destination="QjJ-cC-31V" id="X9y-Jc-g1I"/>
                         <outlet property="endingView" destination="pOe-Tl-qV8" id="mHw-tF-Y8z"/>
                         <outlet property="fatalityView" destination="ivw-VB-SaS" id="a0E-p6-Kbi"/>
                     </connections>
@@ -426,6 +426,7 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" name="segmentSelector"/>
+                        <color key="tintColor" red="0.99215686270000003" green="0.66274509800000003" blue="0.058823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="MortalKombat-Regular" family="MK TITLE" pointSize="23"/>

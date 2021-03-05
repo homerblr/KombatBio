@@ -15,13 +15,19 @@ class FinishersVC: UIViewController {
     @IBOutlet weak var fatalityView: YTPlayerView!
     
     var endingVideoID: String?
+    var combovideoID: String?
     var fighterName: String?
+    var finisherVideoID: String?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let endingVideoId = endingVideoID, let fighterName = fighterName {
+   
+        
+        if let endingVideoId = endingVideoID, let combovideoID = combovideoID,  let fighterName = fighterName, let finisherVideoID = finisherVideoID {
             endingView.load(withVideoId: endingVideoId)
+            comboView.load(withVideoId: combovideoID)
+            fatalityView.load(withVideoId: finisherVideoID)
             self.title = fighterName
         }
         

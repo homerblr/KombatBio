@@ -11,4 +11,8 @@ extension UIColor {
     @nonobjc class var cellBorderColor : UIColor {
         return UIColor(named: "cellBorderColor")!
     }
+    @nonobjc class var splashBackgroundColor : UIColor {
+        return UIColor(named: "splashBackgroundColor")!
+    }
+    
 }

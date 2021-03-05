@@ -29,6 +29,8 @@ struct Characters: Codable {
     let fullSizeImageURL: String
     let introVideo: String
     let storyEndingVideoID: String
+    let comboVideoID: String
+    let finisherVideoID: String
    
 
     enum CodingKeys: String, CodingKey {
@@ -42,6 +44,8 @@ struct Characters: Codable {
         case fullSizeImageURL = "fullsize_image_URL"
         case introVideo = "intro_video"
         case storyEndingVideoID = "story_ending_video_id"
+        case comboVideoID = "combo_video_id"
+        case finisherVideoID =  "finisher_video_id"
     }
 
 }

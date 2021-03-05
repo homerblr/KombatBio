@@ -10,7 +10,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sub-zero/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sub-zero/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/sub-zero/video.mp4",
-      "story_ending_video_id": "h-josprK2uM"
+      "story_ending_video_id": "h-josprK2uM",
+      "combo_video_id": "ZwYJ0fXn05I",
+      "finisher_video_id": "lWqKlrP5MTo"
     },
     {
       "id": 2,
@@ -22,7 +24,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/scorpion/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/scorpion/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/scropion/video.mp4",
-      "story_ending_video_id": "A9MtG_Q5820"
+      "story_ending_video_id": "A9MtG_Q5820",
+      "combo_video_id": "7Zs3oFQc6Y",
+      "finisher_video_id": "1g36fg9EfvM"
     },
     {
       "id": 3,
@@ -34,7 +38,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/video.mp4",
-      "story_ending_video_id": "emS0DtT7oeU"
+      "story_ending_video_id": "emS0DtT7oeU",
+      "combo_video_id": "0rtmyJPdkUU",
+      "finisher_video_id": "pfX8zABBob0"
     },
     {
       "id": 4,
@@ -46,7 +52,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/raiden/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/raiden/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/raiden/video.mp4",
-      "story_ending_video_id": "3tbsZQK4SSg"
+      "story_ending_video_id": "3tbsZQK4SSg",
+      "combo_video_id": "Rcwh5tzTd0M",
+      "finisher_video_id": "-xnAOP_ipV0"
     },
     {
       "id": 5,
@@ -58,7 +66,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/baraka/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/baraka/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/baraka/video.mp4",
-      "story_ending_video_id": "45JaR9p99_0"
+      "story_ending_video_id": "45JaR9p99_0",
+      "combo_video_id": "CQh-lIWp3Y4",
+      "finisher_video_id": "7cR34sj-Yto"
     },
     {
       "id": 6,
@@ -70,7 +80,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/the-joker/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/the-joker/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/the-joker/video.mp4",
-      "story_ending_video_id": "xh3eGLYjOq4"
+      "story_ending_video_id": "xh3eGLYjOq4",
+      "combo_video_id": "JfVZO_f3r-w",
+      "finisher_video_id": "71nNs28JfBA"
     },
     {
       "id": 7,
@@ -82,7 +94,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/video.mp4",
-      "story_ending_video_id": "c1DoNuS9rh8"
+      "story_ending_video_id": "c1DoNuS9rh8",
+      "combo_video_id": "5Y_S1iKmlIA",
+      "finisher_video_id": "DVHpOShx9no"
     },
     {
       "id": 8,
@@ -94,7 +108,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/video.mp4",
-      "story_ending_video_id": "Sr_umBEssZE"
+      "story_ending_video_id": "Sr_umBEssZE",
+      "combo_video_id": "COC_Z4EC5KQ",
+      "finisher_video_id": "M4wFsMAGIew"
     },
     {
       "id": 9,
@@ -106,7 +122,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/video.mp4",
-      "story_ending_video_id": "JNSBbW2b96g"
+      "story_ending_video_id": "JNSBbW2b96g",
+      "combo_video_id": "WuYD0IAIXYs",
+      "finisher_video_id": "RzEwxSx6He8"
     },
     {
       "id": 10,
@@ -118,7 +136,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/rambo/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/rambo/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
-      "story_ending_video_id": "c_7IS-ChDjY"
+      "story_ending_video_id": "c_7IS-ChDjY",
+      "combo_video_id": "0CXLrr8qvb4",
+      "finisher_video_id": "ZWZF5vSZKR4"
     },
     {
       "id": 11,
@@ -130,7 +150,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/rain/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/rain/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
-      "story_ending_video_id": "ubeFAFuDQO8"
+      "story_ending_video_id": "ubeFAFuDQO8",
+      "combo_video_id": "wGC6ysSg2Sc",
+      "finisher_video_id": "dbU4KKWxKqE"
     },
     {
       "id": 12,
@@ -142,7 +164,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/mileena/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/mileena/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
-      "story_ending_video_id": "Ioe2YNFSKHI"
+      "story_ending_video_id": "Ioe2YNFSKHI",
+      "combo_video_id": "8gTL_MrSEgw",
+      "finisher_video_id": "fpvzIGHueqo"
     },
     {
       "id": 13,
@@ -154,7 +178,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/robocop/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/robocop/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
-      "story_ending_video_id": "tkqMYcAjpbU"
+      "story_ending_video_id": "tkqMYcAjpbU",
+      "combo_video_id": "wUsyTpFALYo",
+      "finisher_video_id": "XS6UhRtcEM"
     },
     {
       "id": 14,
@@ -166,7 +192,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sheeva/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sheeva/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
-      "story_ending_video_id": "iikMjGo5K7k"
+      "story_ending_video_id": "iikMjGo5K7k",
+      "combo_video_id": "C8lBVavw8Ms",
+      "finisher_video_id": "PvOg6NHU1KI"
     },
     {
       "id": 15,
@@ -178,7 +206,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/fujin/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/fujin/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
-      "story_ending_video_id": "7A1xcC2Zp78"
+      "story_ending_video_id": "7A1xcC2Zp78",
+      "combo_video_id": "tIxFIBCW4WE",
+      "finisher_video_id": "Hs7-XP7KgyM"
     },
     {
       "id": 16,
@@ -190,7 +220,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/spawn/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/spawn/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/spawn/video.mp4",
-      "story_ending_video_id": "ubvpV_J4PIE"
+      "story_ending_video_id": "ubvpV_J4PIE",
+      "combo_video_id": "4tktQTUmnOE",
+      "finisher_video_id": "_G4-82G2IVY"
     },
     {
       "id": 17,
@@ -202,7 +234,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/jade/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/jade/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/jade/video.mp4",
-      "story_ending_video_id": "_iFKqhjV45g"
+      "story_ending_video_id": "_iFKqhjV45g",
+      "combo_video_id": "5rUptMmuS5M",
+      "finisher_video_id": "ZSkzl8NAbZw"
     },
     {
       "id": 18,
@@ -214,7 +248,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/erron-black/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/erron-black/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/erron-black/video.mp4",
-      "story_ending_video_id": "zNZ62roSJEQ"
+      "story_ending_video_id": "zNZ62roSJEQ",
+      "combo_video_id": "jicE4htaNGI",
+      "finisher_video_id": "Z2yFMoRw1wI"
     },
     {
       "id": 19,
@@ -226,7 +262,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kabal/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kabal/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/kabal/video.mp4",
-      "story_ending_video_id": "hVYmqOsyV-w"
+      "story_ending_video_id": "hVYmqOsyV-w",
+      "combo_video_id": "ItOfXafm7hg",
+      "finisher_video_id": "sypURo8t8S0"
     },
     {
       "id": 20,
@@ -238,7 +276,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kung-lao/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kung-lao/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/kung-lao/video.mp4",
-      "story_ending_video_id": "i9WuTTosd6o"
+      "story_ending_video_id": "i9WuTTosd6o",
+      "combo_video_id": "dSi0OdpoqTg",
+      "finisher_video_id": "fSii-isptdQ"
     },
     {
       "id": 21,
@@ -250,7 +290,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/cetrion/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/cetrion/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/cetrion/video.mp4",
-      "story_ending_video_id": "DmGjmXC_zhY"
+      "story_ending_video_id": "DmGjmXC_zhY",
+      "combo_video_id": "jg_2CK1BLRc",
+      "finisher_video_id": "_h33aRhs4r4"
     },
     {
       "id": 22,
@@ -262,7 +304,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/frost/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/frost/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/frost/video.mp4",
-      "story_ending_video_id": "b3uRgSitCy0"
+      "story_ending_video_id": "b3uRgSitCy0",
+      "combo_video_id": "1jFzYiiYixQ",
+      "finisher_video_id": "xnDGYQHftdc"
     },
     {
       "id": 23,
@@ -274,7 +318,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/d-vorah/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/d-vorah/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/d-vorah/video.mp4",
-      "story_ending_video_id": "klQAK6KmVTI"
+      "story_ending_video_id": "klQAK6KmVTI",
+      "combo_video_id": "eMsexzaCECk",
+      "finisher_video_id": "TgmBCFmGS_s"
     },
     {
       "id": 24,
@@ -286,7 +332,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/geras/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/geras/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/geras/video.mp4",
-      "story_ending_video_id": "gnNCYlJdHrE"
+      "story_ending_video_id": "gnNCYlJdHrE",
+      "combo_video_id": "qvK08hmFDhY",
+      "finisher_video_id": "rNjKuDSBA84"
     },
     {
       "id": 25,
@@ -298,7 +346,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kano/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kano/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/kano/video.mp4",
-      "story_ending_video_id": "vqwgIBZjtrE"
+      "story_ending_video_id": "vqwgIBZjtrE",
+      "combo_video_id": "ZmLnuGuRVc4",
+      "finisher_video_id": "KVp-b_ThCzY"
     },
     {
       "id": 26,
@@ -310,7 +360,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/terminator/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/terminator/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/terminator/video.mp4",
-      "story_ending_video_id": "fQ9ooCNtwzc"
+      "story_ending_video_id": "fQ9ooCNtwzc",
+      "combo_video_id": "iM_KDRCoBU8",
+      "finisher_video_id": "pArw05oPu9w"
     },
     {
       "id": 27,
@@ -322,7 +374,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/nightwolf/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/nightwolf/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/nightwolf/video.mp4",
-      "story_ending_video_id": "RDhwPU0J54I"
+      "story_ending_video_id": "RDhwPU0J54I",
+      "combo_video_id": "7WcP6dJPVYA",
+      "finisher_video_id": "8mN9byKRCts"
     },
     {
       "id": 28,
@@ -334,7 +388,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/cassie-cage/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/cassie-cage/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/cassie-cage/video.mp4",
-      "story_ending_video_id": "lQ_TJL6d59I"
+      "story_ending_video_id": "lQ_TJL6d59I",
+      "combo_video_id": "K-QX1S_QYMM",
+      "finisher_video_id": "nvTayJVRWqQ"
     },
     {
       "id": 29,
@@ -346,7 +402,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kotal-kahn/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kotal-kahn/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/kotal-kahn/video.mp4",
-      "story_ending_video_id": "apzNsQF0rEQ"
+      "story_ending_video_id": "apzNsQF0rEQ",
+      "combo_video_id": "9MdHZOkrQMw",
+      "finisher_video_id": "nWPqDo1-ulU"
     },
     {
       "id": 30,
@@ -358,7 +416,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/skarlet/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/skarlet/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/skarlet/video.mp4",
-      "story_ending_video_id": "WGWOus63wvo"
+      "story_ending_video_id": "WGWOus63wvo",
+      "combo_video_id": "FvV47HblTtU",
+      "finisher_video_id": "WTpO-WsLBIE"
     },
     {
       "id": 31,
@@ -370,7 +430,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sonya-blade/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sonya-blade/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/sonya-blade/video.mp4",
-      "story_ending_video_id": "JOP_Um58cbA"
+      "story_ending_video_id": "JOP_Um58cbA",
+      "combo_video_id": "oAz5gwMucR8",
+      "finisher_video_id": "XL1p-W2yxFc"
     },
     {
       "id": 32,
@@ -382,7 +444,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/johnny-cage/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/johnny-cage/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/johnny-cage/video.mp4",
-      "story_ending_video_id": "65_HN_9IV3w"
+      "story_ending_video_id": "65_HN_9IV3w",
+      "combo_video_id": "tBxSM1ikoqI",
+      "finisher_video_id": "66wlE8iNcXM"
     },
     {
       "id": 33,
@@ -394,7 +458,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kollector/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kollector/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/kollector/video.mp4",
-      "story_ending_video_id": "ZE5QJX_ta7Y"
+      "story_ending_video_id": "ZE5QJX_ta7Y",
+      "combo_video_id": "LNGb_L8JlMM",
+      "finisher_video_id": "IiKEP5G4o_c"
     },
     {
       "id": 34,
@@ -406,7 +472,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/kitana/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/kitana/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/kitana/video.mp4",
-      "story_ending_video_id": "lvgNimBdgEI"
+      "story_ending_video_id": "lvgNimBdgEI",
+      "combo_video_id": "D_T0MM2jpeg",
+      "finisher_video_id": "IlY5IbQ-nG4"
     },
     {
       "id": 34,
@@ -418,7 +486,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/jacqui-briggs/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/jacqui-briggs/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/jacqui-briggs/video.mp4",
-      "story_ending_video_id": "ElFPFeUVXIM"
+      "story_ending_video_id": "ElFPFeUVXIM",
+      "combo_video_id": "-0SGKJB0hWE",
+      "finisher_video_id": "B4z4Z5azMYw"
     },
     {
       "id": 35,
@@ -430,7 +500,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/liu-kang/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/liu-kang/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/liu-kang/video.mp4",
-      "story_ending_video_id": "BT2jHhp6B4w"
+      "story_ending_video_id": "BT2jHhp6B4w",
+      "combo_video_id": "PxapOKmyjQE",
+      "finisher_video_id": "s7UMZQuz0Uk"
     },
     {
       "id": 36,
@@ -442,7 +514,9 @@
       "thumb_image_URL": "https://cdn-prod.mortalkombat.com/roster/sindel/thumb-p.png",
       "fullsize_image_URL": "https://cdn-prod.mortalkombat.com/roster/sindel/body.png",
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/sindel/video.mp4",
-      "story_ending_video_id": "M3hONezSxaI"
+      "story_ending_video_id": "M3hONezSxaI",
+      "combo_video_id": "T-_8ZldbKuI",
+      "finisher_video_id": "-eg7a0qepF8"
     }
   ]
 }

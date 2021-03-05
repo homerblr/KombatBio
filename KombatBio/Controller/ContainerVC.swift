@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import SwiftyGif
 class ContainerVC: UIViewController {
     
     @IBOutlet weak var container: UIView!
@@ -15,14 +15,23 @@ class ContainerVC: UIViewController {
     let story = UIStoryboard(name: "Main", bundle: nil)
     lazy var gridVC = story.instantiateViewController(identifier: "gridVC")
     lazy var tableViewVC = story.instantiateViewController(identifier: "tableViewVC")
+    let logoAnimationView = LogoAnimationView()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setup()
+        view.addSubview(logoAnimationView)
+        logoAnimationView.pinEdgesToSuperView()
+        logoAnimationView.logoGifImageView.delegate = self
+        setupChildViews()
     }
     
-    private func setup() {
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        logoAnimationView.logoGifImageView.startAnimatingGif()
+    }
+    
+    private func setupChildViews() {
         addChild(gridVC)
         addChild(tableViewVC)
         container.addSubview(gridVC.view)
@@ -49,4 +58,22 @@ class ContainerVC: UIViewController {
             break
         }
     }
+}
+
+extension ContainerVC: SwiftyGifDelegate {
+    func gifDidStop(sender: UIImageView) {
+        logoAnimationView.isHidden = true
+    }
+}
+extension UIView {
+    
+    func pinEdgesToSuperView() {
+        guard let superView = superview else { return }
+        translatesAutoresizingMaskIntoConstraints = false
+        topAnchor.constraint(equalTo: superView.topAnchor).isActive = true
+        leftAnchor.constraint(equalTo: superView.leftAnchor).isActive = true
+        bottomAnchor.constraint(equalTo: superView.bottomAnchor).isActive = true
+        rightAnchor.constraint(equalTo: superView.rightAnchor).isActive = true
+    }
+    
 }
