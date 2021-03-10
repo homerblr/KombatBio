@@ -12,7 +12,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/sub-zero/video.mp4",
       "story_ending_video_id": "h-josprK2uM",
       "combo_video_id": "ZwYJ0fXn05I",
-      "finisher_video_id": "lWqKlrP5MTo"
+      "finisher_video_id": "lWqKlrP5MTo",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kuai_Liang"
     },
     {
       "id": 2,
@@ -26,7 +27,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/scropion/video.mp4",
       "story_ending_video_id": "A9MtG_Q5820",
       "combo_video_id": "7Zs3oFQc6Y",
-      "finisher_video_id": "1g36fg9EfvM"
+      "finisher_video_id": "1g36fg9EfvM",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Scorpion"
     },
     {
       "id": 3,
@@ -40,7 +42,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/shao-kahn/video.mp4",
       "story_ending_video_id": "emS0DtT7oeU",
       "combo_video_id": "0rtmyJPdkUU",
-      "finisher_video_id": "pfX8zABBob0"
+      "finisher_video_id": "pfX8zABBob0",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Shao_Kahn"
     },
     {
       "id": 4,
@@ -54,7 +57,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/raiden/video.mp4",
       "story_ending_video_id": "3tbsZQK4SSg",
       "combo_video_id": "Rcwh5tzTd0M",
-      "finisher_video_id": "-xnAOP_ipV0"
+      "finisher_video_id": "-xnAOP_ipV0",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Raiden"
     },
     {
       "id": 5,
@@ -68,7 +72,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/baraka/video.mp4",
       "story_ending_video_id": "45JaR9p99_0",
       "combo_video_id": "CQh-lIWp3Y4",
-      "finisher_video_id": "7cR34sj-Yto"
+      "finisher_video_id": "7cR34sj-Yto",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Baraka"
     },
     {
       "id": 6,
@@ -82,7 +87,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/the-joker/video.mp4",
       "story_ending_video_id": "xh3eGLYjOq4",
       "combo_video_id": "JfVZO_f3r-w",
-      "finisher_video_id": "71nNs28JfBA"
+      "finisher_video_id": "71nNs28JfBA",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/The_Joker"
     },
     {
       "id": 7,
@@ -96,7 +102,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/noob-saibot/video.mp4",
       "story_ending_video_id": "c1DoNuS9rh8",
       "combo_video_id": "5Y_S1iKmlIA",
-      "finisher_video_id": "DVHpOShx9no"
+      "finisher_video_id": "DVHpOShx9no",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Bi-Han"
     },
     {
       "id": 8,
@@ -110,7 +117,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/jax-briggs/video.mp4",
       "story_ending_video_id": "Sr_umBEssZE",
       "combo_video_id": "COC_Z4EC5KQ",
-      "finisher_video_id": "M4wFsMAGIew"
+      "finisher_video_id": "M4wFsMAGIew",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Jax_Briggs"
     },
     {
       "id": 9,
@@ -124,7 +132,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/shang-tsung/video.mp4",
       "story_ending_video_id": "JNSBbW2b96g",
       "combo_video_id": "WuYD0IAIXYs",
-      "finisher_video_id": "RzEwxSx6He8"
+      "finisher_video_id": "RzEwxSx6He8",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Shang_Tsung"
     },
     {
       "id": 10,
@@ -138,7 +147,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
       "story_ending_video_id": "c_7IS-ChDjY",
       "combo_video_id": "0CXLrr8qvb4",
-      "finisher_video_id": "ZWZF5vSZKR4"
+      "finisher_video_id": "ZWZF5vSZKR4",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/John_Rambo"
     },
     {
       "id": 11,
@@ -152,7 +162,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
       "story_ending_video_id": "ubeFAFuDQO8",
       "combo_video_id": "wGC6ysSg2Sc",
-      "finisher_video_id": "dbU4KKWxKqE"
+      "finisher_video_id": "dbU4KKWxKqE",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Rain"
     },
     {
       "id": 12,
@@ -166,7 +177,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
       "story_ending_video_id": "Ioe2YNFSKHI",
       "combo_video_id": "8gTL_MrSEgw",
-      "finisher_video_id": "fpvzIGHueqo"
+      "finisher_video_id": "fpvzIGHueqo",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Mileena"
     },
     {
       "id": 13,
@@ -180,7 +192,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
       "story_ending_video_id": "tkqMYcAjpbU",
       "combo_video_id": "wUsyTpFALYo",
-      "finisher_video_id": "XS6UhRtcEM"
+      "finisher_video_id": "XS6UhRtcEM",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/RoboCop"
     },
     {
       "id": 14,
@@ -194,7 +207,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
       "story_ending_video_id": "iikMjGo5K7k",
       "combo_video_id": "C8lBVavw8Ms",
-      "finisher_video_id": "PvOg6NHU1KI"
+      "finisher_video_id": "PvOg6NHU1KI",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Sheeva"
     },
     {
       "id": 15,
@@ -208,7 +222,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/ultimate/home/featured/ultimate.mp4",
       "story_ending_video_id": "7A1xcC2Zp78",
       "combo_video_id": "tIxFIBCW4WE",
-      "finisher_video_id": "Hs7-XP7KgyM"
+      "finisher_video_id": "Hs7-XP7KgyM",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Fujin"
     },
     {
       "id": 16,
@@ -222,7 +237,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/spawn/video.mp4",
       "story_ending_video_id": "ubvpV_J4PIE",
       "combo_video_id": "4tktQTUmnOE",
-      "finisher_video_id": "_G4-82G2IVY"
+      "finisher_video_id": "_G4-82G2IVY",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Spawn"
     },
     {
       "id": 17,
@@ -236,7 +252,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/jade/video.mp4",
       "story_ending_video_id": "_iFKqhjV45g",
       "combo_video_id": "5rUptMmuS5M",
-      "finisher_video_id": "ZSkzl8NAbZw"
+      "finisher_video_id": "ZSkzl8NAbZw",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Jade"
     },
     {
       "id": 18,
@@ -250,7 +267,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/erron-black/video.mp4",
       "story_ending_video_id": "zNZ62roSJEQ",
       "combo_video_id": "jicE4htaNGI",
-      "finisher_video_id": "Z2yFMoRw1wI"
+      "finisher_video_id": "Z2yFMoRw1wI",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Erron_Black"
     },
     {
       "id": 19,
@@ -264,7 +282,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/kabal/video.mp4",
       "story_ending_video_id": "hVYmqOsyV-w",
       "combo_video_id": "ItOfXafm7hg",
-      "finisher_video_id": "sypURo8t8S0"
+      "finisher_video_id": "sypURo8t8S0",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kabal"
     },
     {
       "id": 20,
@@ -278,7 +297,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/kung-lao/video.mp4",
       "story_ending_video_id": "i9WuTTosd6o",
       "combo_video_id": "dSi0OdpoqTg",
-      "finisher_video_id": "fSii-isptdQ"
+      "finisher_video_id": "fSii-isptdQ",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kung_Lao"
     },
     {
       "id": 21,
@@ -292,7 +312,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/cetrion/video.mp4",
       "story_ending_video_id": "DmGjmXC_zhY",
       "combo_video_id": "jg_2CK1BLRc",
-      "finisher_video_id": "_h33aRhs4r4"
+      "finisher_video_id": "_h33aRhs4r4",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Cetrion"
     },
     {
       "id": 22,
@@ -306,7 +327,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/frost/video.mp4",
       "story_ending_video_id": "b3uRgSitCy0",
       "combo_video_id": "1jFzYiiYixQ",
-      "finisher_video_id": "xnDGYQHftdc"
+      "finisher_video_id": "xnDGYQHftdc",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Frost"
     },
     {
       "id": 23,
@@ -320,7 +342,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/d-vorah/video.mp4",
       "story_ending_video_id": "klQAK6KmVTI",
       "combo_video_id": "eMsexzaCECk",
-      "finisher_video_id": "TgmBCFmGS_s"
+      "finisher_video_id": "TgmBCFmGS_s",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/D%27Vorah"
     },
     {
       "id": 24,
@@ -334,7 +357,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/geras/video.mp4",
       "story_ending_video_id": "gnNCYlJdHrE",
       "combo_video_id": "qvK08hmFDhY",
-      "finisher_video_id": "rNjKuDSBA84"
+      "finisher_video_id": "rNjKuDSBA84",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Geras"
     },
     {
       "id": 25,
@@ -348,7 +372,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/kano/video.mp4",
       "story_ending_video_id": "vqwgIBZjtrE",
       "combo_video_id": "ZmLnuGuRVc4",
-      "finisher_video_id": "KVp-b_ThCzY"
+      "finisher_video_id": "KVp-b_ThCzY",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kano"
     },
     {
       "id": 26,
@@ -362,7 +387,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/terminator/video.mp4",
       "story_ending_video_id": "fQ9ooCNtwzc",
       "combo_video_id": "iM_KDRCoBU8",
-      "finisher_video_id": "pArw05oPu9w"
+      "finisher_video_id": "pArw05oPu9w",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/The_Terminator"
     },
     {
       "id": 27,
@@ -376,7 +402,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/nightwolf/video.mp4",
       "story_ending_video_id": "RDhwPU0J54I",
       "combo_video_id": "7WcP6dJPVYA",
-      "finisher_video_id": "8mN9byKRCts"
+      "finisher_video_id": "8mN9byKRCts",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Nightwolf"
     },
     {
       "id": 28,
@@ -390,7 +417,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/cassie-cage/video.mp4",
       "story_ending_video_id": "lQ_TJL6d59I",
       "combo_video_id": "K-QX1S_QYMM",
-      "finisher_video_id": "nvTayJVRWqQ"
+      "finisher_video_id": "nvTayJVRWqQ",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Cassie_Cage"
     },
     {
       "id": 29,
@@ -404,7 +432,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/kotal-kahn/video.mp4",
       "story_ending_video_id": "apzNsQF0rEQ",
       "combo_video_id": "9MdHZOkrQMw",
-      "finisher_video_id": "nWPqDo1-ulU"
+      "finisher_video_id": "nWPqDo1-ulU",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kotal_Kahn"
     },
     {
       "id": 30,
@@ -418,7 +447,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/skarlet/video.mp4",
       "story_ending_video_id": "WGWOus63wvo",
       "combo_video_id": "FvV47HblTtU",
-      "finisher_video_id": "WTpO-WsLBIE"
+      "finisher_video_id": "WTpO-WsLBIE",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Skarlet"
     },
     {
       "id": 31,
@@ -432,7 +462,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/sonya-blade/video.mp4",
       "story_ending_video_id": "JOP_Um58cbA",
       "combo_video_id": "oAz5gwMucR8",
-      "finisher_video_id": "XL1p-W2yxFc"
+      "finisher_video_id": "XL1p-W2yxFc",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Sonya_Blade"
     },
     {
       "id": 32,
@@ -446,7 +477,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/johnny-cage/video.mp4",
       "story_ending_video_id": "65_HN_9IV3w",
       "combo_video_id": "tBxSM1ikoqI",
-      "finisher_video_id": "66wlE8iNcXM"
+      "finisher_video_id": "66wlE8iNcXM",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Johnny_Cage"
     },
     {
       "id": 33,
@@ -460,7 +492,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/kollector/video.mp4",
       "story_ending_video_id": "ZE5QJX_ta7Y",
       "combo_video_id": "LNGb_L8JlMM",
-      "finisher_video_id": "IiKEP5G4o_c"
+      "finisher_video_id": "IiKEP5G4o_c",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kollector"
     },
     {
       "id": 34,
@@ -474,7 +507,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/kitana/video.mp4",
       "story_ending_video_id": "lvgNimBdgEI",
       "combo_video_id": "D_T0MM2jpeg",
-      "finisher_video_id": "IlY5IbQ-nG4"
+      "finisher_video_id": "IlY5IbQ-nG4",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kitana"
     },
     {
       "id": 34,
@@ -488,7 +522,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/jacqui-briggs/video.mp4",
       "story_ending_video_id": "ElFPFeUVXIM",
       "combo_video_id": "-0SGKJB0hWE",
-      "finisher_video_id": "B4z4Z5azMYw"
+      "finisher_video_id": "B4z4Z5azMYw",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Jacqui_Briggs"
     },
     {
       "id": 35,
@@ -502,7 +537,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/liu-kang/video.mp4",
       "story_ending_video_id": "BT2jHhp6B4w",
       "combo_video_id": "PxapOKmyjQE",
-      "finisher_video_id": "s7UMZQuz0Uk"
+      "finisher_video_id": "s7UMZQuz0Uk",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Liu_Kang"
     },
     {
       "id": 36,
@@ -516,7 +552,8 @@
       "intro_video": "https://cdn-prod.mortalkombat.com/roster/sindel/video.mp4",
       "story_ending_video_id": "M3hONezSxaI",
       "combo_video_id": "T-_8ZldbKuI",
-      "finisher_video_id": "-eg7a0qepF8"
+      "finisher_video_id": "-eg7a0qepF8",
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Sindel"
     }
   ]
 }

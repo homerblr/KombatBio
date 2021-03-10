@@ -24,11 +24,13 @@ class ContainerVC: UIViewController {
         logoAnimationView.pinEdgesToSuperView()
         logoAnimationView.logoGifImageView.delegate = self
         setupChildViews()
+        self.title = "Loading fighters..."
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         logoAnimationView.logoGifImageView.startAnimatingGif()
+        
     }
     
     private func setupChildViews() {
@@ -63,6 +65,7 @@ class ContainerVC: UIViewController {
 extension ContainerVC: SwiftyGifDelegate {
     func gifDidStop(sender: UIImageView) {
         logoAnimationView.isHidden = true
+        self.title = "Choose your fighter"
     }
 }
 

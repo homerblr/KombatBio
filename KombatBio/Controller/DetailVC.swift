@@ -18,6 +18,7 @@ class DetailVC: UIViewController {
     @IBOutlet weak var fighterDescription: UILabel!
     @IBOutlet weak var playerView: UIView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var fandomButton: UIButton!
     
     private var playerLayer = AVPlayerLayer()
     private var playerLooper : AVPlayerLooper?
@@ -31,6 +32,8 @@ class DetailVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        fandomButton.layer.borderColor = UIColor.white.cgColor
+        fandomButton.layer.borderWidth = 1
         configureView()
         playVideo()
     }
@@ -77,6 +80,12 @@ class DetailVC: UIViewController {
         
     }
   
+    @IBAction func fandomButtonTapped(_ sender: UIButton) {
+        if let fandomURL = selectedFighter?.fandomURL, let url = URL(string: fandomURL) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+    }
+    
     @IBAction func finishersButtonTapped(_ sender: UIButton) {
         performSegue(withIdentifier: segueID, sender: self)
     }
@@ -88,6 +97,7 @@ class DetailVC: UIViewController {
             let fighterName = selectedFighter?.name
             let comboVideoID = selectedFighter?.comboVideoID
             let finisherVideoID = selectedFighter?.finisherVideoID
+            
             destinationVC.endingVideoID = endingVideoID
             destinationVC.fighterName = fighterName
             destinationVC.combovideoID = comboVideoID
