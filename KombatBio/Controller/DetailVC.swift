@@ -30,13 +30,21 @@ class DetailVC: UIViewController {
     
     let finishersScreenSegueID = "goToFinishersVC"
     
-    var detailVM : IDetailScreenVM?
+    var detailVM : DetailScreenVMProtocol! {
+        didSet {
+            fighterName.text = detailVM.fighterName
+            fighterMotto.text  = detailVM.fighterMotto
+            fighterDescription.text = detailVM.fighterDescription
+            fighterImage.kf.setImage(with: detailVM.fighterImageURL)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        detailVM = DetailScreenVM()
-        detailVM?.configureScreen(fighter: selectedFighter, fighterImage: fighterImage, fighterName: fighterName, fighterMotto: fighterMotto, fighterDescription: fighterDescription, fandomButton: fandomButton)
+        detailVM = DetailScreenVM(fighter: selectedFighter)
         playVideo(with: videoURL)
+        fandomButton.layer.borderColor = UIColor.white.cgColor
+        fandomButton.layer.borderWidth = 1
     }
     
     func playVideo(with url: URL?) {
