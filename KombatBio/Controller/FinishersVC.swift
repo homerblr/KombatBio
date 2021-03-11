@@ -8,16 +8,20 @@
 import UIKit
 import youtube_ios_player_helper
 
+struct finishersVideosID {
+    var endingVideoID: String
+    var combovideoID: String
+    var fighterName: String
+    var finisherVideoID: String
+}
+
 class FinishersVC: UIViewController {
     
     @IBOutlet weak var endingView: YTPlayerView!
     @IBOutlet weak var comboView: YTPlayerView!
     @IBOutlet weak var fatalityView: YTPlayerView!
     
-    var endingVideoID: String?
-    var combovideoID: String?
-    var fighterName: String?
-    var finisherVideoID: String?
+    var finishersID : finishersVideosID?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,11 +30,11 @@ class FinishersVC: UIViewController {
     }
     
     func setIDForYoutube() {
-        if let endingVideoId = endingVideoID, let combovideoID = combovideoID,  let fighterName = fighterName, let finisherVideoID = finisherVideoID {
-            endingView.load(withVideoId: endingVideoId)
-            comboView.load(withVideoId: combovideoID)
-            fatalityView.load(withVideoId: finisherVideoID)
-            self.title = fighterName
+        if let finishersID = finishersID {
+            endingView.load(withVideoId: finishersID.endingVideoID)
+            comboView.load(withVideoId: finishersID.combovideoID)
+            fatalityView.load(withVideoId: finishersID.finisherVideoID)
+            self.title = finishersID.fighterName
         }
     }
     

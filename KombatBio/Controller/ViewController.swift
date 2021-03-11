@@ -31,7 +31,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: FighterCell.cellID, for: indexPath) as? FighterCell else {return UITableViewCell()}
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: FighterCell.cellID, for: indexPath) as? FighterCell else {fatalError("fatal error at cellForRowAt indexPath tableview's method")}
         
         viewModel?.configureCell(forIndexPath: indexPath, cell: cell)
         

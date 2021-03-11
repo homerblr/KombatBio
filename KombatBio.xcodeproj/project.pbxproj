@@ -33,6 +33,7 @@
 		CBC685A525F235E200FAFCC8 /* mklogogif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBC685A425F235E200FAFCC8 /* mklogogif.gif */; };
 		CBC685A825F236B600FAFCC8 /* LogoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC685A725F236B600FAFCC8 /* LogoAnimationView.swift */; };
 		CBE6C35525F24A6C008F34D6 /* raidenGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBE6C35425F24A6C008F34D6 /* raidenGif.gif */; };
+		CBE6C35D25FA16E1008F34D6 /* DetailScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6C35C25FA16E1008F34D6 /* DetailScreenVM.swift */; };
 		D50464F0D0011B1946CDBF03 /* Pods_KombatBio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF60B59B916909879EE2FCD4 /* Pods_KombatBio.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		CBC685A425F235E200FAFCC8 /* mklogogif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mklogogif.gif; sourceTree = "<group>"; };
 		CBC685A725F236B600FAFCC8 /* LogoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimationView.swift; sourceTree = "<group>"; };
 		CBE6C35425F24A6C008F34D6 /* raidenGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = raidenGif.gif; sourceTree = "<group>"; };
+		CBE6C35C25FA16E1008F34D6 /* DetailScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenVM.swift; sourceTree = "<group>"; };
 		CF60B59B916909879EE2FCD4 /* Pods_KombatBio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KombatBio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -168,6 +170,7 @@
 			children = (
 				CB8BB2DE25E576A000809D73 /* MainScreenVM.swift */,
 				CB8BB2F925E6828500809D73 /* CollectionViewVM.swift */,
+				CBE6C35C25FA16E1008F34D6 /* DetailScreenVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				CB8BB30325E6D4A900809D73 /* Colors.swift in Sources */,
 				CB8BB2AE25E5009200809D73 /* AppDelegate.swift in Sources */,
 				CB8BB2B025E5009200809D73 /* SceneDelegate.swift in Sources */,
+				CBE6C35D25FA16E1008F34D6 /* DetailScreenVM.swift in Sources */,
 				CB8BB2F025E67EE600809D73 /* CollectionViewVC.swift in Sources */,
 				CB8BB2F425E67F6D00809D73 /* CollectionViewCell.swift in Sources */,
 			);

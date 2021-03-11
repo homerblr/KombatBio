@@ -11,10 +11,8 @@ import Kingfisher
 protocol IMainScreenViewModel {
     func fetchFightersModel()
     func configureCell(forIndexPath indexPath: IndexPath, cell: FighterCell)
-    //var boxPhotoModel : Box<[PhotoObject]> {get}
     var fighterModel : [Characters] {get}
     var fighterProvider: DataProviderProtocol {get}
-    //var loadingButtonBox: Box<ButtonState> {get}
 }
 
 class MainScreenViewModel: IMainScreenViewModel {
@@ -22,11 +20,8 @@ class MainScreenViewModel: IMainScreenViewModel {
     var fighterModel : [Characters] = []
     var fighterProvider: DataProviderProtocol = DataProvider(loader: DataSource())
     
-//    var boxPhotoModel: Box<[PhotoObject]> = Box([PhotoObject]())
-//    let loadingButtonBox = Box<ButtonState>(.doingNothing)
     
     func fetchFightersModel() {
-        //loadingButtonBox.value = .downloading
         fighterProvider.fetchFighters { [weak self] (result) in
             guard let self = self else { return }
             switch result {

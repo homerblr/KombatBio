@@ -12,10 +12,8 @@ import Kingfisher
 protocol ICollectionViewViewModel {
     func fetchFightersModel()
     func configureCell(forIndexPath indexPath: IndexPath, cell: CollectionViewCell)
-    //var boxPhotoModel : Box<[PhotoObject]> {get}
     var fighterModel : [Characters] {get}
     var fighterProvider: DataProviderProtocol {get}
-    //var loadingButtonBox: Box<ButtonState> {get}
 }
 
 class CollectionViewVM: ICollectionViewViewModel {

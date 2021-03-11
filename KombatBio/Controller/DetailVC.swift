@@ -7,7 +7,7 @@
 
 import UIKit
 import AVKit
-import Kingfisher
+
 
 class DetailVC: UIViewController {
     
@@ -28,18 +28,19 @@ class DetailVC: UIViewController {
     var videoURL: URL?
     var selectedFighter: Characters?
     
-    let segueID = "goToFinishersVC"
+    let finishersScreenSegueID = "goToFinishersVC"
+    
+    var detailVM : IDetailScreenVM?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fandomButton.layer.borderColor = UIColor.white.cgColor
-        fandomButton.layer.borderWidth = 1
-        configureView()
-        playVideo()
+        detailVM = DetailScreenVM()
+        detailVM?.configureScreen(fighter: selectedFighter, fighterImage: fighterImage, fighterName: fighterName, fighterMotto: fighterMotto, fighterDescription: fighterDescription, fandomButton: fandomButton)
+        playVideo(with: videoURL)
     }
     
-    func playVideo() {
-        if let url = videoURL {
+    func playVideo(with url: URL?) {
+        if let introURL = selectedFighter?.introVideo, let url = URL(string: introURL) {
             let playerItem = AVPlayerItem(url: url)
             let player = AVQueuePlayer(playerItem: playerItem)
             playerLayer.player = player
@@ -50,36 +51,19 @@ class DetailVC: UIViewController {
             player.play()
             audioQueueStallObserver = player.observe(\.timeControlStatus, options: [.new, .old], changeHandler: { [weak self]
                 (playerItem, change)  in
-                if #available(iOS 10.0, *) {
-                    switch (playerItem.timeControlStatus) {
-                    case AVPlayerTimeControlStatus.paused:
-                        self?.activityIndicator.isHidden = false
-                    case AVPlayerTimeControlStatus.playing:
-                        self?.activityIndicator.isHidden = true
-                        print("Media Playing")
-                    case AVPlayerTimeControlStatus.waitingToPlayAtSpecifiedRate:
-                        self?.activityIndicator.isHidden = false
-                    }
-                }
-                else {
-                    // Fallback on earlier versions
+                switch (playerItem.timeControlStatus) {
+                case AVPlayerTimeControlStatus.paused:
+                    self?.activityIndicator.isHidden = false
+                case AVPlayerTimeControlStatus.playing:
+                    self?.activityIndicator.isHidden = true
+                    print("Media Playing")
+                case AVPlayerTimeControlStatus.waitingToPlayAtSpecifiedRate:
+                    self?.activityIndicator.isHidden = false
                 }
             })
         }
     }
     
-    //TODO: implement MMVM
-    func configureView() {
-        if let selectedFigher = selectedFighter, let imageURL = URL(string: selectedFigher.fullSizeImageURL) {
-            fighterImage.kf.setImage(with: imageURL)
-            videoURL = URL(string: selectedFigher.introVideo)
-            fighterName.text = selectedFigher.name
-            fighterMotto.text = selectedFigher.motto
-            fighterDescription.text = selectedFigher.description
-        }
-        
-    }
-  
     @IBAction func fandomButtonTapped(_ sender: UIButton) {
         if let fandomURL = selectedFighter?.fandomURL, let url = URL(string: fandomURL) {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
@@ -87,21 +71,17 @@ class DetailVC: UIViewController {
     }
     
     @IBAction func finishersButtonTapped(_ sender: UIButton) {
-        performSegue(withIdentifier: segueID, sender: self)
+        performSegue(withIdentifier: finishersScreenSegueID, sender: self)
     }
     
+    //MARK: Prepare for Segue
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == segueID {
+        if segue.identifier == finishersScreenSegueID {
             guard let destinationVC = segue.destination as? FinishersVC else {return}
-            let endingVideoID = selectedFighter?.storyEndingVideoID
-            let fighterName = selectedFighter?.name
-            let comboVideoID = selectedFighter?.comboVideoID
-            let finisherVideoID = selectedFighter?.finisherVideoID
-            
-            destinationVC.endingVideoID = endingVideoID
-            destinationVC.fighterName = fighterName
-            destinationVC.combovideoID = comboVideoID
-            destinationVC.finisherVideoID = finisherVideoID
+            if let selectedFighter = selectedFighter {
+                destinationVC.finishersID = .init(endingVideoID: selectedFighter.storyEndingVideoID, combovideoID: selectedFighter.comboVideoID, fighterName: selectedFighter.name, finisherVideoID: selectedFighter.finisherVideoID)
+            }
         }
     }
     
