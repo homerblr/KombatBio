@@ -32,6 +32,10 @@ struct Characters: Codable {
     let comboVideoID: String
     let finisherVideoID: String
     let fandomURL: String
+    let strength1: String
+    let strength2: String
+    let weakness1: String
+    let weakness2: String
    
 
     enum CodingKeys: String, CodingKey {
@@ -48,6 +52,10 @@ struct Characters: Codable {
         case comboVideoID = "combo_video_id"
         case finisherVideoID =  "finisher_video_id"
         case fandomURL = "fandom_url"
+        case strength1 = "strength1"
+        case strength2 = "strength2"
+        case weakness1 = "weakness1"
+        case weakness2 = "weakness2"
     }
 
 }

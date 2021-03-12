@@ -13,7 +13,11 @@
       "story_ending_video_id": "h-josprK2uM",
       "combo_video_id": "ZwYJ0fXn05I",
       "finisher_video_id": "lWqKlrP5MTo",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kuai_Liang"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kuai_Liang",
+      "strength1": "Great Krushing Blows",
+      "strength2": "Quick movement",
+      "weakness1": "Unsafe",
+      "weakness2": "Weak neutral"
     },
     {
       "id": 2,
@@ -28,7 +32,11 @@
       "story_ending_video_id": "A9MtG_Q5820",
       "combo_video_id": "7Zs3oFQc6Y",
       "finisher_video_id": "1g36fg9EfvM",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Scorpion"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Scorpion",
+      "strength1": "High mobility",
+      "strength2": "High damage",
+      "weakness1": "Slow normals",
+      "weakness2": "Easy to detect specials"
     },
     {
       "id": 3,
@@ -43,7 +51,11 @@
       "story_ending_video_id": "emS0DtT7oeU",
       "combo_video_id": "0rtmyJPdkUU",
       "finisher_video_id": "pfX8zABBob0",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Shao_Kahn"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Shao_Kahn",
+      "strength1": "Great anti-airs",
+      "strength2": "High damage",
+      "weakness1": "Unsafe",
+      "weakness2": "Slow punishes"
     },
     {
       "id": 4,
@@ -58,7 +70,11 @@
       "story_ending_video_id": "3tbsZQK4SSg",
       "combo_video_id": "Rcwh5tzTd0M",
       "finisher_video_id": "-xnAOP_ipV0",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Raiden"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Raiden",
+      "strength1": "Great counterzoning",
+      "strength2": "Fast normals",
+      "weakness1": "Unsafe",
+      "weakness2": "Weak Krushing blows"
     },
     {
       "id": 5,
@@ -73,7 +89,11 @@
       "story_ending_video_id": "45JaR9p99_0",
       "combo_video_id": "CQh-lIWp3Y4",
       "finisher_video_id": "7cR34sj-Yto",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Baraka"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Baraka",
+      "strength1": "High damage",
+      "strength2": "Long-reaching normals",
+      "weakness1": "Slow movement",
+      "weakness2": "Flawless Blockable gaps"
     },
     {
       "id": 6,
@@ -88,7 +108,11 @@
       "story_ending_video_id": "xh3eGLYjOq4",
       "combo_video_id": "JfVZO_f3r-w",
       "finisher_video_id": "71nNs28JfBA",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/The_Joker"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/The_Joker",
+      "strength1": "Fast normals",
+      "strength2": "Good mix-ups",
+      "weakness1": "Slow projectiles",
+      "weakness2": "Hates society"
     },
     {
       "id": 7,
@@ -103,7 +127,11 @@
       "story_ending_video_id": "c1DoNuS9rh8",
       "combo_video_id": "5Y_S1iKmlIA",
       "finisher_video_id": "DVHpOShx9no",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Bi-Han"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Bi-Han",
+      "strength1": "Great anti-airs",
+      "strength2": "Strong counterzoning",
+      "weakness1": "Slow movement",
+      "weakness2": "Limited normal movesets"
     },
     {
       "id": 8,
@@ -118,7 +146,11 @@
       "story_ending_video_id": "Sr_umBEssZE",
       "combo_video_id": "COC_Z4EC5KQ",
       "finisher_video_id": "M4wFsMAGIew",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Jax_Briggs"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Jax_Briggs",
+      "strength1": "Good throws",
+      "strength2": "Great pressure",
+      "weakness1": "Weak punishes",
+      "weakness2": "Bad neutral"
     },
     {
       "id": 9,
@@ -133,7 +165,11 @@
       "story_ending_video_id": "JNSBbW2b96g",
       "combo_video_id": "WuYD0IAIXYs",
       "finisher_video_id": "RzEwxSx6He8",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Shang_Tsung"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Shang_Tsung",
+      "strength1": "Fast normals",
+      "strength2": "Good zoning",
+      "weakness1": "Low damage",
+      "weakness2": "Weak Krushing Blows"
     },
     {
       "id": 10,
@@ -148,7 +184,11 @@
       "story_ending_video_id": "c_7IS-ChDjY",
       "combo_video_id": "0CXLrr8qvb4",
       "finisher_video_id": "ZWZF5vSZKR4",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/John_Rambo"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/John_Rambo",
+      "strength1": "Good mix-ups",
+      "strength2": "Strong anti-zoning",
+      "weakness1": "Weak punishes",
+      "weakness2": "Short-ranged normals"
     },
     {
       "id": 11,
@@ -163,7 +203,11 @@
       "story_ending_video_id": "ubeFAFuDQO8",
       "combo_video_id": "wGC6ysSg2Sc",
       "finisher_video_id": "dbU4KKWxKqE",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Rain"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Rain",
+      "strength1": "Quick movement",
+      "strength2": "Good pressure",
+      "weakness1": "Short-ranged normals",
+      "weakness2": "Not so good krushing blows"
     },
     {
       "id": 12,
@@ -178,7 +222,11 @@
       "story_ending_video_id": "Ioe2YNFSKHI",
       "combo_video_id": "8gTL_MrSEgw",
       "finisher_video_id": "fpvzIGHueqo",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Mileena"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Mileena",
+      "strength1": "Fast normals",
+      "strength2": "Strong counterzoning",
+      "weakness1": "Short-ranged normals",
+      "weakness2": "Weak endings"
     },
     {
       "id": 13,
@@ -193,7 +241,11 @@
       "story_ending_video_id": "tkqMYcAjpbU",
       "combo_video_id": "wUsyTpFALYo",
       "finisher_video_id": "XS6UhRtcEM",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/RoboCop"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/RoboCop",
+      "strength1": "Strong zoning",
+      "strength2": "Fast normals",
+      "weakness1": "Weak combo starters",
+      "weakness2": "Short-ranged normals"
     },
     {
       "id": 14,
@@ -208,7 +260,11 @@
       "story_ending_video_id": "iikMjGo5K7k",
       "combo_video_id": "C8lBVavw8Ms",
       "finisher_video_id": "PvOg6NHU1KI",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Sheeva"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Sheeva",
+      "strength1": "Fast normals",
+      "strength2": "Strong mix-ups",
+      "weakness1": "Highly punishable",
+      "weakness2": "Weak Getup / Flawless Block Attacks"
     },
     {
       "id": 15,
@@ -223,7 +279,11 @@
       "story_ending_video_id": "7A1xcC2Zp78",
       "combo_video_id": "tIxFIBCW4WE",
       "finisher_video_id": "Hs7-XP7KgyM",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Fujin"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Fujin",
+      "strength1": "High mobility",
+      "strength2": "Long-ranged normals",
+      "weakness1": "Slow normals",
+      "weakness2": "Weak Krushing blows"
     },
     {
       "id": 16,
@@ -238,7 +298,11 @@
       "story_ending_video_id": "ubvpV_J4PIE",
       "combo_video_id": "4tktQTUmnOE",
       "finisher_video_id": "_G4-82G2IVY",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Spawn"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Spawn",
+      "strength1": "High damage",
+      "strength2": "Great pressure",
+      "weakness1": "Unsafe on whiff",
+      "weakness2": "The Green World"
     },
     {
       "id": 17,
@@ -253,7 +317,11 @@
       "story_ending_video_id": "_iFKqhjV45g",
       "combo_video_id": "5rUptMmuS5M",
       "finisher_video_id": "ZSkzl8NAbZw",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Jade"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Jade",
+      "strength1": "Strong anti-airs",
+      "strength2": "Good counterzoning",
+      "weakness1": "Low damage",
+      "weakness2": "Lack of powerfull combos"
     },
     {
       "id": 18,
@@ -268,7 +336,11 @@
       "story_ending_video_id": "zNZ62roSJEQ",
       "combo_video_id": "jicE4htaNGI",
       "finisher_video_id": "Z2yFMoRw1wI",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Erron_Black"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Erron_Black",
+      "strength1": "Fast normals",
+      "strength2": "Great pokes",
+      "weakness1": "Weak Flawless Block Attacks",
+      "weakness2": "Short-ranged normals"
     },
     {
       "id": 19,
@@ -283,7 +355,11 @@
       "story_ending_video_id": "hVYmqOsyV-w",
       "combo_video_id": "ItOfXafm7hg",
       "finisher_video_id": "sypURo8t8S0",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kabal"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kabal",
+      "strength1": "Long-reaching normals",
+      "strength2": "Strong Krushing Blows",
+      "weakness1": "Slow movement",
+      "weakness2": "Combos are not agressive"
     },
     {
       "id": 20,
@@ -298,7 +374,11 @@
       "story_ending_video_id": "i9WuTTosd6o",
       "combo_video_id": "dSi0OdpoqTg",
       "finisher_video_id": "fSii-isptdQ",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kung_Lao"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kung_Lao",
+      "strength1": "High damage",
+      "strength2": "Strong counterzoning",
+      "weakness1": "Short-ranged normals",
+      "weakness2": "Complex to control"
     },
     {
       "id": 21,
@@ -313,7 +393,11 @@
       "story_ending_video_id": "DmGjmXC_zhY",
       "combo_video_id": "jg_2CK1BLRc",
       "finisher_video_id": "_h33aRhs4r4",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Cetrion"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Cetrion",
+      "strength1": "Good pressure",
+      "strength2": "Long-ranged normals",
+      "weakness1": "Slow pokes",
+      "weakness2": "Low damage"
     },
     {
       "id": 22,
@@ -328,7 +412,11 @@
       "story_ending_video_id": "b3uRgSitCy0",
       "combo_video_id": "1jFzYiiYixQ",
       "finisher_video_id": "xnDGYQHftdc",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Frost"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Frost",
+      "strength1": "Great anti-airs",
+      "strength2": "Long-ranged normals",
+      "weakness1": "Slow projectiles",
+      "weakness2": "Flawless Blockable gaps"
     },
     {
       "id": 23,
@@ -343,7 +431,11 @@
       "story_ending_video_id": "klQAK6KmVTI",
       "combo_video_id": "eMsexzaCECk",
       "finisher_video_id": "TgmBCFmGS_s",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/D%27Vorah"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/D%27Vorah",
+      "strength1": "Strong jump attacks",
+      "strength2": "Good setups",
+      "weakness1": "Weak punishes",
+      "weakness2": "Slow normals"
     },
     {
       "id": 24,
@@ -358,7 +450,11 @@
       "story_ending_video_id": "gnNCYlJdHrE",
       "combo_video_id": "qvK08hmFDhY",
       "finisher_video_id": "rNjKuDSBA84",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Geras"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Geras",
+      "strength1": "High damage",
+      "strength2": "Strong Flawless Block Attacks",
+      "weakness1": "Short-ranged normals",
+      "weakness2": "Lacks a standard projectile"
     },
     {
       "id": 25,
@@ -373,7 +469,11 @@
       "story_ending_video_id": "vqwgIBZjtrE",
       "combo_video_id": "ZmLnuGuRVc4",
       "finisher_video_id": "KVp-b_ThCzY",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kano"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kano",
+      "strength1": "Good pressure",
+      "strength2": "Good mix-ups",
+      "weakness1": "Slow normals",
+      "weakness2": "Unsafe"
     },
     {
       "id": 26,
@@ -388,7 +488,11 @@
       "story_ending_video_id": "fQ9ooCNtwzc",
       "combo_video_id": "iM_KDRCoBU8",
       "finisher_video_id": "pArw05oPu9w",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/The_Terminator"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/The_Terminator",
+      "strength1": "Strong Krushing Blows",
+      "strength2": "Great mix-ups",
+      "weakness1": "Short-ranged normals",
+      "weakness2": "Unsafe"
     },
     {
       "id": 27,
@@ -403,7 +507,11 @@
       "story_ending_video_id": "RDhwPU0J54I",
       "combo_video_id": "7WcP6dJPVYA",
       "finisher_video_id": "8mN9byKRCts",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Nightwolf"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Nightwolf",
+      "strength1": "Quick movement",
+      "strength2": "High damage",
+      "weakness1": "Weak anti-airs",
+      "weakness2": "None"
     },
     {
       "id": 28,
@@ -418,7 +526,11 @@
       "story_ending_video_id": "lQ_TJL6d59I",
       "combo_video_id": "K-QX1S_QYMM",
       "finisher_video_id": "nvTayJVRWqQ",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Cassie_Cage"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Cassie_Cage",
+      "strength1": "Fast normals",
+      "strength2": "Good zoning",
+      "weakness1": "Slow Fatal Blow",
+      "weakness2": "Slow pokes"
     },
     {
       "id": 29,
@@ -433,7 +545,11 @@
       "story_ending_video_id": "apzNsQF0rEQ",
       "combo_video_id": "9MdHZOkrQMw",
       "finisher_video_id": "nWPqDo1-ulU",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kotal_Kahn"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kotal_Kahn",
+      "strength1": "High damage",
+      "strength2": "Fast movement",
+      "weakness1": "Weak Krushing Blows",
+      "weakness2": "Slow normals"
     },
     {
       "id": 30,
@@ -448,7 +564,11 @@
       "story_ending_video_id": "WGWOus63wvo",
       "combo_video_id": "FvV47HblTtU",
       "finisher_video_id": "WTpO-WsLBIE",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Skarlet"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Skarlet",
+      "strength1": "Strong zoning",
+      "strength2": "Health regeneration",
+      "weakness1": "Low damage",
+      "weakness2": "Slow normals"
     },
     {
       "id": 31,
@@ -463,7 +583,11 @@
       "story_ending_video_id": "JOP_Um58cbA",
       "combo_video_id": "oAz5gwMucR8",
       "finisher_video_id": "XL1p-W2yxFc",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Sonya_Blade"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Sonya_Blade",
+      "strength1": "High damage",
+      "strength2": "Strong mix-ups",
+      "weakness1": "Short-ranged normals",
+      "weakness2": "Unsafe"
     },
     {
       "id": 32,
@@ -478,7 +602,11 @@
       "story_ending_video_id": "65_HN_9IV3w",
       "combo_video_id": "tBxSM1ikoqI",
       "finisher_video_id": "66wlE8iNcXM",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Johnny_Cage"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Johnny_Cage",
+      "strength1": "Great anti-airs",
+      "strength2": "Great pressure",
+      "weakness1": "Slow normals",
+      "weakness2": "Weak Krushing Blows"
     },
     {
       "id": 33,
@@ -493,7 +621,11 @@
       "story_ending_video_id": "ZE5QJX_ta7Y",
       "combo_video_id": "LNGb_L8JlMM",
       "finisher_video_id": "IiKEP5G4o_c",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kollector"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kollector",
+      "strength1": "Long-ranged normals",
+      "strength2": "Strong mix-ups",
+      "weakness1": "Slow pokes",
+      "weakness2": "Slow movements"
     },
     {
       "id": 34,
@@ -508,7 +640,11 @@
       "story_ending_video_id": "lvgNimBdgEI",
       "combo_video_id": "D_T0MM2jpeg",
       "finisher_video_id": "IlY5IbQ-nG4",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kitana"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Kitana",
+      "strength1": "Long-ranged normals",
+      "strength2": "Great mobility",
+      "weakness1": "Low damage",
+      "weakness2": "Slow normals"
     },
     {
       "id": 34,
@@ -523,7 +659,11 @@
       "story_ending_video_id": "ElFPFeUVXIM",
       "combo_video_id": "-0SGKJB0hWE",
       "finisher_video_id": "B4z4Z5azMYw",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Jacqui_Briggs"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Jacqui_Briggs",
+      "strength1": "Fast normals",
+      "strength2": "Great pressure",
+      "weakness1": "Short-ranged normals",
+      "weakness2": "Short-ranged projectiles"
     },
     {
       "id": 35,
@@ -538,7 +678,11 @@
       "story_ending_video_id": "BT2jHhp6B4w",
       "combo_video_id": "PxapOKmyjQE",
       "finisher_video_id": "s7UMZQuz0Uk",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Liu_Kang"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Liu_Kang",
+      "strength1": "Strong Krushing Blows",
+      "strength2": "Great pressure",
+      "weakness1": "Low damage",
+      "weakness2": "Short-ranged normals"
     },
     {
       "id": 36,
@@ -553,7 +697,11 @@
       "story_ending_video_id": "M3hONezSxaI",
       "combo_video_id": "T-_8ZldbKuI",
       "finisher_video_id": "-eg7a0qepF8",
-      "fandom_url": "https://mortalkombat.fandom.com/wiki/Sindel"
+      "fandom_url": "https://mortalkombat.fandom.com/wiki/Sindel",
+      "strength1": "Long-ranged normals",
+      "strength2": "Fast movement",
+      "weakness1": "Slow pokes",
+      "weakness2": "Slow normals"
     }
   ]
 }

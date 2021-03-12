@@ -19,6 +19,12 @@ class DetailVC: UIViewController {
     @IBOutlet weak var playerView: UIView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var fandomButton: UIButton!
+    @IBOutlet weak var strengthLabel: UILabel!
+    @IBOutlet weak var strength1: UILabel!
+    @IBOutlet weak var strength2: UILabel!
+    @IBOutlet weak var weaknessesLabel: UILabel!
+    @IBOutlet weak var weakness1: UILabel!
+    @IBOutlet weak var weakness2: UILabel!
     
     private var playerLayer = AVPlayerLayer()
     private var playerLooper : AVPlayerLooper?
@@ -35,6 +41,10 @@ class DetailVC: UIViewController {
             fighterName.text = detailVM.fighterName
             fighterMotto.text  = detailVM.fighterMotto
             fighterDescription.text = detailVM.fighterDescription
+            strength1.text = detailVM.fighterStrength1
+            strength2.text = detailVM.fighterStrength2
+            weakness1.text = detailVM.fighterWeakness1
+            weakness2.text = detailVM.fighterWeakness2
             fighterImage.kf.setImage(with: detailVM.fighterImageURL)
         }
     }
