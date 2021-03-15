@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,6 +26,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         finishersAppereance.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 0)
         finishersAppereance.titleTextAttributes = [.foregroundColor: UIColor.charactersColor, .font: UIFont(name: "MortalKombat-Regular", size: 20)]
         UINavigationBar.appearance().compactAppearance = finishersAppereance
+        
+        FirebaseApp.configure()
         
         // Override point for customization after application launch.
         return true

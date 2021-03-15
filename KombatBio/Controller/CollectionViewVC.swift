@@ -18,8 +18,16 @@ class CollectionViewVC: UIViewController {
         super.viewDidLoad()
         collectionView.collectionViewLayout = createLayout()
         collectionView.register(UINib(nibName: CollectionViewCell.nibName, bundle: nil), forCellWithReuseIdentifier: CollectionViewCell.cellID)
+//        viewModel = CollectionViewVM()
+//        viewModel?.fetchFightersModelFirebase()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         viewModel = CollectionViewVM()
-        viewModel?.fetchFightersModel()
+        viewModel?.fetchFightersModelFirebase {[weak self] in
+            self?.collectionView.reloadData()
+        }
     }
 }
 

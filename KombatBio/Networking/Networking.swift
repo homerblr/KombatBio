@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Firebase
 
 
 protocol MKNetwork {
@@ -26,10 +27,22 @@ struct LocalNetworking: MKNetwork {
                 completion(.failure(error))
                 print(error.localizedDescription)
             }
-            
-           
-         
         }
     }
     
 }
+
+
+struct FirebaseNetworking {
+    static func getFighters(_ completion: @escaping (Result<DataSnapshot, Error>) -> Void) {
+        let ref = Database.database().reference()
+        ref.child("characters").observe(.value) { (snapshot) in
+            for item in snapshot.children {
+                completion(.success(item as! DataSnapshot))
+            }
+        }
+    }
+    //ERROR???
+}
+
+

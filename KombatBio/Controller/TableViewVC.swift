@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TableViewVC: UIViewController {
     var fighter : [Characters] = []
     var viewModel : IMainScreenViewModel?
     
@@ -18,14 +18,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName: FighterCell.nibName, bundle: nil), forCellReuseIdentifier: FighterCell.cellID)
-        viewModel = MainScreenViewModel()
-        viewModel?.fetchFightersModel()
+        
+        
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        viewModel = MainScreenViewModel()
+        viewModel?.fetchFightersModelFirebase { [weak self] in
+            self?.tableView.reloadData()
+        }
+    }
 }
 
+
 //MARK: TableView Data Source, Delegate
-extension ViewController: UITableViewDataSource, UITableViewDelegate {
+extension TableViewVC: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel?.fighterModel.count ?? 0
     }

@@ -7,6 +7,8 @@
 
 import UIKit
 import SwiftyGif
+import Firebase
+
 class ContainerVC: UIViewController {
     
     @IBOutlet weak var container: UIView!
@@ -17,6 +19,9 @@ class ContainerVC: UIViewController {
     lazy var tableViewVC = story.instantiateViewController(identifier: "tableViewVC")
     let logoAnimationView = LogoAnimationView()
     
+    var ref: DatabaseReference!
+    var testCharacters: [Characters] = []
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +30,19 @@ class ContainerVC: UIViewController {
         logoAnimationView.logoGifImageView.delegate = self
         setupChildViews()
         self.title = "Loading fighters..."
+        
+        ref = Database.database().reference()
+        ref.child("characters").observe(.value) { (snapshot) in
+        
+            for item in snapshot.children {
+                let fighter = Characters(snapshot: item as! DataSnapshot)
+                self.testCharacters.append(fighter)
+            }
+           
+           
+            
+        }
+       
     }
     
     override func viewDidAppear(_ animated: Bool) {

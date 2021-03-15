@@ -11,6 +11,7 @@ import Kingfisher
 
 protocol ICollectionViewViewModel {
     func fetchFightersModel()
+    func fetchFightersModelFirebase(completion: @escaping ()->())
     func configureCell(forIndexPath indexPath: IndexPath, cell: CollectionViewCell)
     var fighterModel : [Characters] {get}
     var fighterProvider: DataProviderProtocol {get}
@@ -28,6 +29,19 @@ class CollectionViewVM: ICollectionViewViewModel {
             switch result {
             case .success(let response):
                 self.fighterModel = response
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func fetchFightersModelFirebase(completion: @escaping ()->()) {
+        fighterProvider.fetchFightersFirebase { [weak self] (result) in
+            guard let self = self else { return }
+            switch result {
+            case .success(let response):
+                self.fighterModel = response
+                completion()
             case .failure(let error):
                 print(error.localizedDescription)
             }
