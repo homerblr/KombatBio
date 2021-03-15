@@ -9,7 +9,7 @@ import UIKit
 import Kingfisher
 
 protocol IMainScreenViewModel {
-    func fetchFightersModel()
+    func fetchFightersModelLocally()
     func configureCell(forIndexPath indexPath: IndexPath, cell: FighterCell)
     func fetchFightersModelFirebase(completion: @escaping ()->())
     var fighterModel : [Characters] {get}
@@ -22,8 +22,8 @@ class MainScreenViewModel: IMainScreenViewModel {
     var fighterProvider: DataProviderProtocol = DataProvider(loader: DataSource())
     
     
-    func fetchFightersModel() {
-        fighterProvider.fetchFighters { [weak self] (result) in
+    func fetchFightersModelLocally() {
+        fighterProvider.fetchFightersLocally { [weak self] (result) in
             guard let self = self else { return }
             switch result {
             case .success(let response):

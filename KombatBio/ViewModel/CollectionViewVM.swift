@@ -10,7 +10,7 @@ import Kingfisher
 
 
 protocol ICollectionViewViewModel {
-    func fetchFightersModel()
+    func fetchFightersModelLocally()
     func fetchFightersModelFirebase(completion: @escaping ()->())
     func configureCell(forIndexPath indexPath: IndexPath, cell: CollectionViewCell)
     var fighterModel : [Characters] {get}
@@ -23,8 +23,8 @@ class CollectionViewVM: ICollectionViewViewModel {
     var fighterProvider: DataProviderProtocol = DataProvider(loader: DataSource())
     
     
-    func fetchFightersModel() {
-        fighterProvider.fetchFighters { [weak self] (result) in
+    func fetchFightersModelLocally() {
+        fighterProvider.fetchFightersLocally { [weak self] (result) in
             guard let self = self else { return }
             switch result {
             case .success(let response):
