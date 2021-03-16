@@ -12,6 +12,7 @@ class CollectionViewVC: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     var viewModel: CollectionViewVMProtocol?
     
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var searchBar: UISearchBar!
     private let segueID = "fromGridToDetail"
     
@@ -25,11 +26,13 @@ class CollectionViewVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        activityIndicator.startAnimating()
         viewModel = CollectionViewVM()
         searchBar.searchTextField.text = ""
         viewModel?.fetchFightersModelFirebase {[weak self] in
             self?.filteredFighters = self?.viewModel?.fighterModel
             self?.collectionView.reloadData()
+            self?.activityIndicator.isHidden = true
         }
     }
 }
