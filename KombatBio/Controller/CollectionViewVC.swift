@@ -26,6 +26,7 @@ class CollectionViewVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         viewModel = CollectionViewVM()
+        searchBar.searchTextField.text = ""
         viewModel?.fetchFightersModelFirebase {[weak self] in
             self?.filteredFighters = self?.viewModel?.fighterModel
             self?.collectionView.reloadData()
@@ -47,6 +48,8 @@ extension CollectionViewVC: UICollectionViewDelegate, UICollectionViewDataSource
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         performSegue(withIdentifier: segueID, sender: indexPath)
+        collectionView.keyboardDismissMode = .onDrag
+        searchBar.endEditing(true)
     }
     
 //MARK: Prepare for Segue
@@ -91,5 +94,6 @@ extension CollectionViewVC: UISearchBarDelegate {
             }
         }
         collectionView.reloadData()
+        
     }
 }
