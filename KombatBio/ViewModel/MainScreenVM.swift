@@ -8,7 +8,7 @@
 import UIKit
 import Kingfisher
 
-protocol IMainScreenViewModel {
+protocol TableViewVMProtocol {
     func fetchFightersModelLocally()
     func configureCell(forIndexPath indexPath: IndexPath, cell: FighterCell)
     func fetchFightersModelFirebase(completion: @escaping ()->())
@@ -16,7 +16,7 @@ protocol IMainScreenViewModel {
     var fighterProvider: DataProviderProtocol {get}
 }
 
-class MainScreenViewModel: IMainScreenViewModel {
+class MainScreenViewModel: TableViewVMProtocol {
 
     var fighterModel : [Characters] = []
     var fighterProvider: DataProviderProtocol = DataProvider(loader: DataSource())

@@ -9,7 +9,7 @@ import UIKit
 
 class TableViewVC: UIViewController {
     var fighter : [Characters] = []
-    var viewModel : IMainScreenViewModel?
+    var viewModel : TableViewVMProtocol?
     
     private let segueID = "goToDetail"
     

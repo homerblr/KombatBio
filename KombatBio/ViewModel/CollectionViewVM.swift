@@ -9,15 +9,15 @@ import UIKit
 import Kingfisher
 
 
-protocol ICollectionViewViewModel {
+protocol CollectionViewVMProtocol {
     func fetchFightersModelLocally()
     func fetchFightersModelFirebase(completion: @escaping ()->())
-    func configureCell(forIndexPath indexPath: IndexPath, cell: CollectionViewCell)
+    func configureCell(forIndexPath indexPath: IndexPath, cell: CollectionViewCell, model: [Characters])
     var fighterModel : [Characters] {get}
     var fighterProvider: DataProviderProtocol {get}
 }
 
-class CollectionViewVM: ICollectionViewViewModel {
+class CollectionViewVM: CollectionViewVMProtocol {
   
     var fighterModel: [Characters] = []
     var fighterProvider: DataProviderProtocol = DataProvider(loader: DataSource())
@@ -48,8 +48,8 @@ class CollectionViewVM: ICollectionViewViewModel {
         }
     }
     
-    func configureCell(forIndexPath indexPath: IndexPath, cell: CollectionViewCell) {
-        let model = fighterModel[indexPath.row]
+    func configureCell(forIndexPath indexPath: IndexPath, cell: CollectionViewCell, model: [Characters]) {
+        let model = model[indexPath.row]
         cell.fighterImage.image = nil
         cell.layer.borderColor = UIColor.cellBorderColor.cgColor
         cell.layer.borderWidth = 1
