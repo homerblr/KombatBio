@@ -7,6 +7,7 @@
 
 import UIKit
 import AVKit
+import SafariServices
 
 
 class DetailVC: UIViewController {
@@ -84,7 +85,8 @@ class DetailVC: UIViewController {
     
     @IBAction func fandomButtonTapped(_ sender: UIButton) {
         if let fandomURL = selectedFighter?.fandomURL, let url = URL(string: fandomURL) {
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            let safariViewController = SFSafariViewController(url: url)
+            present(safariViewController, animated: true, completion: nil)
         }
     }
     

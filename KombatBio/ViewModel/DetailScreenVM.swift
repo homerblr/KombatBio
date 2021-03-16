@@ -9,6 +9,7 @@ import UIKit
 import Kingfisher
 
 
+
 protocol DetailScreenVMProtocol {
     var fighter : Characters? {get}
     var fighterName: String? {get}
