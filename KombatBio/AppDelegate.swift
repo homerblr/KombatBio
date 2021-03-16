@@ -15,14 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let standard = UINavigationBarAppearance()
         standard.configureWithOpaqueBackground()
-        standard.backgroundColor = .navBarColor
+        //standard.backgroundColor = .navBarColor
         standard.titlePositionAdjustment = UIOffset(horizontal: -110, vertical: 0)
         standard.titleTextAttributes = [.foregroundColor: UIColor.charactersColor, .font: UIFont(name: "MortalKombat-Regular", size: 20)]
         UINavigationBar.appearance().standardAppearance = standard
         
         let finishersAppereance = UINavigationBarAppearance()
         finishersAppereance.configureWithOpaqueBackground()
-        finishersAppereance.backgroundColor = .navBarColor
+        //finishersAppereance.backgroundColor = .navBarTintColor
+        //navBarDetailTint
         finishersAppereance.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 0)
         finishersAppereance.titleTextAttributes = [.foregroundColor: UIColor.charactersColor, .font: UIFont(name: "MortalKombat-Regular", size: 20)]
         UINavigationBar.appearance().compactAppearance = finishersAppereance

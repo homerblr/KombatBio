@@ -51,7 +51,7 @@ extension CollectionViewVC: UICollectionViewDelegate, UICollectionViewDataSource
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         performSegue(withIdentifier: segueID, sender: indexPath)
-        collectionView.keyboardDismissMode = .onDrag
+//        collectionView.keyboardDismissMode = .onDrag
         searchBar.endEditing(true)
     }
     
