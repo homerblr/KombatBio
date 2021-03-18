@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CB1802D225FF73B1007410EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB1802D125FF73B1007410EE /* GoogleService-Info.plist */; };
+		CB2388B2260389D3000DD0EB /* Kitana_UMK3.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2388B0260389D3000DD0EB /* Kitana_UMK3.gif */; };
+		CB2388B3260389D3000DD0EB /* Umk3s.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2388B1260389D3000DD0EB /* Umk3s.gif */; };
 		CB2DE22925E91B7A001A8F5E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DE22825E91B7A001A8F5E /* DetailVC.swift */; };
 		CB8BB2AE25E5009200809D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2AD25E5009200809D73 /* AppDelegate.swift */; };
 		CB8BB2B025E5009200809D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2AF25E5009200809D73 /* SceneDelegate.swift */; };
@@ -22,7 +24,7 @@
 		CB8BB2D225E5524C00809D73 /* FighterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8BB2D025E5524C00809D73 /* FighterCell.xib */; };
 		CB8BB2D825E5700F00809D73 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2D725E5700F00809D73 /* DataSource.swift */; };
 		CB8BB2DC25E573C100809D73 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2DB25E573C100809D73 /* DataProvider.swift */; };
-		CB8BB2DF25E576A000809D73 /* MainScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2DE25E576A000809D73 /* MainScreenVM.swift */; };
+		CB8BB2DF25E576A000809D73 /* TableViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2DE25E576A000809D73 /* TableViewVM.swift */; };
 		CB8BB2F025E67EE600809D73 /* CollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2EF25E67EE600809D73 /* CollectionViewVC.swift */; };
 		CB8BB2F425E67F6D00809D73 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2F225E67F6D00809D73 /* CollectionViewCell.swift */; };
 		CB8BB2F525E67F6D00809D73 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8BB2F325E67F6D00809D73 /* CollectionViewCell.xib */; };
@@ -33,8 +35,12 @@
 		CB9F4DFE25F113EB0033C077 /* FinishersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9F4DFD25F113EB0033C077 /* FinishersVC.swift */; };
 		CBC685A525F235E200FAFCC8 /* mklogogif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBC685A425F235E200FAFCC8 /* mklogogif.gif */; };
 		CBC685A825F236B600FAFCC8 /* LogoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC685A725F236B600FAFCC8 /* LogoAnimationView.swift */; };
+		CBC7892A2602547900CC5E4C /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC789292602547900CC5E4C /* SettingsVC.swift */; };
+		CBC7892D26026EC700CC5E4C /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7892C26026EC700CC5E4C /* Fonts.swift */; };
 		CBE6C35525F24A6C008F34D6 /* raidenGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBE6C35425F24A6C008F34D6 /* raidenGif.gif */; };
 		CBE6C35D25FA16E1008F34D6 /* DetailScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6C35C25FA16E1008F34D6 /* DetailScreenVM.swift */; };
+		CBEC3B5626037507009C92F8 /* AboutAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC3B5526037507009C92F8 /* AboutAppVC.swift */; };
+		CBEC3B592603802B009C92F8 /* AboutDevVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC3B582603802B009C92F8 /* AboutDevVC.swift */; };
 		D50464F0D0011B1946CDBF03 /* Pods_KombatBio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF60B59B916909879EE2FCD4 /* Pods_KombatBio.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +48,8 @@
 		36E73328AADE86143A10DDE7 /* Pods-KombatBio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KombatBio.debug.xcconfig"; path = "Target Support Files/Pods-KombatBio/Pods-KombatBio.debug.xcconfig"; sourceTree = "<group>"; };
 		BBD1D5D735A1329F992AF93B /* Pods-KombatBio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KombatBio.release.xcconfig"; path = "Target Support Files/Pods-KombatBio/Pods-KombatBio.release.xcconfig"; sourceTree = "<group>"; };
 		CB1802D125FF73B1007410EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB2388B0260389D3000DD0EB /* Kitana_UMK3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Kitana_UMK3.gif; sourceTree = "<group>"; };
+		CB2388B1260389D3000DD0EB /* Umk3s.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Umk3s.gif; sourceTree = "<group>"; };
 		CB2DE22825E91B7A001A8F5E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		CB8BB2AA25E5009200809D73 /* KombatBio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KombatBio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8BB2AD25E5009200809D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +66,7 @@
 		CB8BB2D025E5524C00809D73 /* FighterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FighterCell.xib; sourceTree = "<group>"; };
 		CB8BB2D725E5700F00809D73 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		CB8BB2DB25E573C100809D73 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
-		CB8BB2DE25E576A000809D73 /* MainScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenVM.swift; sourceTree = "<group>"; };
+		CB8BB2DE25E576A000809D73 /* TableViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVM.swift; sourceTree = "<group>"; };
 		CB8BB2EF25E67EE600809D73 /* CollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVC.swift; sourceTree = "<group>"; };
 		CB8BB2F225E67F6D00809D73 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		CB8BB2F325E67F6D00809D73 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
@@ -69,8 +77,12 @@
 		CB9F4DFD25F113EB0033C077 /* FinishersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishersVC.swift; sourceTree = "<group>"; };
 		CBC685A425F235E200FAFCC8 /* mklogogif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mklogogif.gif; sourceTree = "<group>"; };
 		CBC685A725F236B600FAFCC8 /* LogoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimationView.swift; sourceTree = "<group>"; };
+		CBC789292602547900CC5E4C /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		CBC7892C26026EC700CC5E4C /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		CBE6C35425F24A6C008F34D6 /* raidenGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = raidenGif.gif; sourceTree = "<group>"; };
 		CBE6C35C25FA16E1008F34D6 /* DetailScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenVM.swift; sourceTree = "<group>"; };
+		CBEC3B5526037507009C92F8 /* AboutAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppVC.swift; sourceTree = "<group>"; };
+		CBEC3B582603802B009C92F8 /* AboutDevVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDevVC.swift; sourceTree = "<group>"; };
 		CF60B59B916909879EE2FCD4 /* Pods_KombatBio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KombatBio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -136,6 +148,8 @@
 				CB8BB30525E6D4AE00809D73 /* Helpers */,
 				CB8BB2B825E5009E00809D73 /* LaunchScreen.storyboard */,
 				CBC685A425F235E200FAFCC8 /* mklogogif.gif */,
+				CB2388B0260389D3000DD0EB /* Kitana_UMK3.gif */,
+				CB2388B1260389D3000DD0EB /* Umk3s.gif */,
 				CBE6C35425F24A6C008F34D6 /* raidenGif.gif */,
 				CB1802D125FF73B1007410EE /* GoogleService-Info.plist */,
 				CB8BB2BB25E5009E00809D73 /* Info.plist */,
@@ -164,6 +178,9 @@
 				CB8BB30B25E7F5F300809D73 /* ContainerVC.swift */,
 				CB2DE22825E91B7A001A8F5E /* DetailVC.swift */,
 				CB9F4DFD25F113EB0033C077 /* FinishersVC.swift */,
+				CBC789292602547900CC5E4C /* SettingsVC.swift */,
+				CBEC3B5526037507009C92F8 /* AboutAppVC.swift */,
+				CBEC3B582603802B009C92F8 /* AboutDevVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,7 +188,7 @@
 		CB8BB2E525E57DEA00809D73 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				CB8BB2DE25E576A000809D73 /* MainScreenVM.swift */,
+				CB8BB2DE25E576A000809D73 /* TableViewVM.swift */,
 				CB8BB2F925E6828500809D73 /* CollectionViewVM.swift */,
 				CBE6C35C25FA16E1008F34D6 /* DetailScreenVM.swift */,
 			);
@@ -201,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				CB8BB30225E6D4A900809D73 /* Colors.swift */,
+				CBC7892C26026EC700CC5E4C /* Fonts.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -276,8 +294,10 @@
 				CB8BB2BA25E5009E00809D73 /* LaunchScreen.storyboard in Resources */,
 				CB8BB2CA25E50F3E00809D73 /* Kombat.json in Resources */,
 				CB8BB2F525E67F6D00809D73 /* CollectionViewCell.xib in Resources */,
+				CB2388B3260389D3000DD0EB /* Umk3s.gif in Resources */,
 				CBE6C35525F24A6C008F34D6 /* raidenGif.gif in Resources */,
 				CB8BB2D225E5524C00809D73 /* FighterCell.xib in Resources */,
+				CB2388B2260389D3000DD0EB /* Kitana_UMK3.gif in Resources */,
 				CB8BB2B725E5009E00809D73 /* Assets.xcassets in Resources */,
 				CB1802D225FF73B1007410EE /* GoogleService-Info.plist in Resources */,
 				CBC685A525F235E200FAFCC8 /* mklogogif.gif in Resources */,
@@ -334,10 +354,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC7892A2602547900CC5E4C /* SettingsVC.swift in Sources */,
+				CBEC3B5626037507009C92F8 /* AboutAppVC.swift in Sources */,
 				CB8BB2B225E5009200809D73 /* TableViewVC.swift in Sources */,
 				CB8BB2D125E5524C00809D73 /* FighterCell.swift in Sources */,
 				CBC685A825F236B600FAFCC8 /* LogoAnimationView.swift in Sources */,
-				CB8BB2DF25E576A000809D73 /* MainScreenVM.swift in Sources */,
+				CB8BB2DF25E576A000809D73 /* TableViewVM.swift in Sources */,
 				CB9F4DFE25F113EB0033C077 /* FinishersVC.swift in Sources */,
 				CB8BB2DC25E573C100809D73 /* DataProvider.swift in Sources */,
 				CB8BB2C625E504CB00809D73 /* Networking.swift in Sources */,
@@ -348,7 +370,9 @@
 				CB8BB30C25E7F5F300809D73 /* ContainerVC.swift in Sources */,
 				CB8BB30325E6D4A900809D73 /* Colors.swift in Sources */,
 				CB8BB2AE25E5009200809D73 /* AppDelegate.swift in Sources */,
+				CBEC3B592603802B009C92F8 /* AboutDevVC.swift in Sources */,
 				CB8BB2B025E5009200809D73 /* SceneDelegate.swift in Sources */,
+				CBC7892D26026EC700CC5E4C /* Fonts.swift in Sources */,
 				CBE6C35D25FA16E1008F34D6 /* DetailScreenVM.swift in Sources */,
 				CB8BB2F025E67EE600809D73 /* CollectionViewVC.swift in Sources */,
 				CB8BB2F425E67F6D00809D73 /* CollectionViewCell.swift in Sources */,

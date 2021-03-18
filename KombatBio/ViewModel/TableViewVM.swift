@@ -49,6 +49,8 @@ class MainScreenViewModel: TableViewVMProtocol {
     }
     
     func configureCell(forIndexPath indexPath: IndexPath, cell: FighterCell) {
+        
+        //TODO: Index out of range while in bad network condition
         let model = fighterModel[indexPath.row]
         cell.fighterImage.image = nil
         DispatchQueue.main.async {

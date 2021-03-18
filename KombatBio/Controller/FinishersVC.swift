@@ -15,18 +15,29 @@ struct finishersVideosID {
     var finisherVideoID: String
 }
 
-class FinishersVC: UIViewController {
+class FinishersVC: UIViewController, YTPlayerViewDelegate {
     
     @IBOutlet weak var endingView: YTPlayerView!
     @IBOutlet weak var comboView: YTPlayerView!
     @IBOutlet weak var fatalityView: YTPlayerView!
     
+    @IBOutlet weak var endingActivityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var finishersActivityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var comboActivityIndicator: UIActivityIndicatorView!
+    
     var finishersID : finishersVideosID?
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.standardAppearance.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 0)
         setIDForYoutube()
+        endingView.delegate = self
+    }
+    func playerViewDidBecomeReady(_ playerView: YTPlayerView) {
+        endingActivityIndicator.isHidden = true
+        finishersActivityIndicator.isHidden = true
+        comboActivityIndicator.isHidden = true
     }
     
     func setIDForYoutube() {

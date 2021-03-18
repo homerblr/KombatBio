@@ -28,6 +28,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         finishersAppereance.titleTextAttributes = [.foregroundColor: UIColor.charactersColor, .font: UIFont(name: "MortalKombat-Regular", size: 20)]
         UINavigationBar.appearance().compactAppearance = finishersAppereance
         
+        
+//        let settingsAppereance = UINavigationBarAppearance()
+//        settingsAppereance.configureWithOpaqueBackground()
+//        //finishersAppereance.backgroundColor = .navBarTintColor
+//        //navBarDetailTint
+//        settingsAppereance.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 0)
+//        settingsAppereance.titleTextAttributes = [.foregroundColor: UIColor.charactersColor, .font: UIFont(name: "AppleSDGothicNeo-Regular", size: 16)]
+//        UINavigationBar.appearance().standardAppearance = settingsAppereance
+        
         FirebaseApp.configure()
         
         // Override point for customization after application launch.

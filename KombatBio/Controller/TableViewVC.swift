@@ -18,15 +18,14 @@ class TableViewVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName: FighterCell.nibName, bundle: nil), forCellReuseIdentifier: FighterCell.cellID)
-        
-        
-    }
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         viewModel = MainScreenViewModel()
         viewModel?.fetchFightersModelFirebase { [weak self] in
             self?.tableView.reloadData()
         }
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
     }
 }
 
