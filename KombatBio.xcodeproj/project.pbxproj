@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB1802D225FF73B1007410EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB1802D125FF73B1007410EE /* GoogleService-Info.plist */; };
 		CB2388B2260389D3000DD0EB /* Kitana_UMK3.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2388B0260389D3000DD0EB /* Kitana_UMK3.gif */; };
 		CB2388B3260389D3000DD0EB /* Umk3s.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2388B1260389D3000DD0EB /* Umk3s.gif */; };
+		CB2388DA2603BF8E000DD0EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB2388D92603BF8E000DD0EB /* GoogleService-Info.plist */; };
 		CB2DE22925E91B7A001A8F5E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DE22825E91B7A001A8F5E /* DetailVC.swift */; };
 		CB8BB2AE25E5009200809D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2AD25E5009200809D73 /* AppDelegate.swift */; };
 		CB8BB2B025E5009200809D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2AF25E5009200809D73 /* SceneDelegate.swift */; };
@@ -47,9 +47,9 @@
 /* Begin PBXFileReference section */
 		36E73328AADE86143A10DDE7 /* Pods-KombatBio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KombatBio.debug.xcconfig"; path = "Target Support Files/Pods-KombatBio/Pods-KombatBio.debug.xcconfig"; sourceTree = "<group>"; };
 		BBD1D5D735A1329F992AF93B /* Pods-KombatBio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KombatBio.release.xcconfig"; path = "Target Support Files/Pods-KombatBio/Pods-KombatBio.release.xcconfig"; sourceTree = "<group>"; };
-		CB1802D125FF73B1007410EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CB2388B0260389D3000DD0EB /* Kitana_UMK3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Kitana_UMK3.gif; sourceTree = "<group>"; };
 		CB2388B1260389D3000DD0EB /* Umk3s.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Umk3s.gif; sourceTree = "<group>"; };
+		CB2388D92603BF8E000DD0EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CB2DE22825E91B7A001A8F5E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		CB8BB2AA25E5009200809D73 /* KombatBio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KombatBio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8BB2AD25E5009200809D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,8 +150,8 @@
 				CBC685A425F235E200FAFCC8 /* mklogogif.gif */,
 				CB2388B0260389D3000DD0EB /* Kitana_UMK3.gif */,
 				CB2388B1260389D3000DD0EB /* Umk3s.gif */,
+				CB2388D92603BF8E000DD0EB /* GoogleService-Info.plist */,
 				CBE6C35425F24A6C008F34D6 /* raidenGif.gif */,
-				CB1802D125FF73B1007410EE /* GoogleService-Info.plist */,
 				CB8BB2BB25E5009E00809D73 /* Info.plist */,
 			);
 			path = KombatBio;
@@ -295,11 +295,11 @@
 				CB8BB2CA25E50F3E00809D73 /* Kombat.json in Resources */,
 				CB8BB2F525E67F6D00809D73 /* CollectionViewCell.xib in Resources */,
 				CB2388B3260389D3000DD0EB /* Umk3s.gif in Resources */,
+				CB2388DA2603BF8E000DD0EB /* GoogleService-Info.plist in Resources */,
 				CBE6C35525F24A6C008F34D6 /* raidenGif.gif in Resources */,
 				CB8BB2D225E5524C00809D73 /* FighterCell.xib in Resources */,
 				CB2388B2260389D3000DD0EB /* Kitana_UMK3.gif in Resources */,
 				CB8BB2B725E5009E00809D73 /* Assets.xcassets in Resources */,
-				CB1802D225FF73B1007410EE /* GoogleService-Info.plist in Resources */,
 				CBC685A525F235E200FAFCC8 /* mklogogif.gif in Resources */,
 				CB8BB2B525E5009200809D73 /* Main.storyboard in Resources */,
 			);
@@ -523,15 +523,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GUS9BRQ74H;
+				DEVELOPMENT_TEAM = M8SUW96MKR;
 				INFOPLIST_FILE = KombatBio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikhailKisly.KombatBio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikhailKisliy.KombatBio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -543,15 +545,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GUS9BRQ74H;
+				DEVELOPMENT_TEAM = M8SUW96MKR;
 				INFOPLIST_FILE = KombatBio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikhailKisly.KombatBio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikhailKisliy.KombatBio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
