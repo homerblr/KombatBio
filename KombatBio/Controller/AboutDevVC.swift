@@ -7,6 +7,7 @@
 
 import UIKit
 import SwiftyGif
+import FirebaseCrashlytics
 
 class AboutDevVC: UIViewController {
     @IBOutlet weak var mishaGif: UIImageView!
