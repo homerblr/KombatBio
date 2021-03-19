@@ -23,7 +23,7 @@ class LogoAnimationView: UIView {
        }
 
        private func commonInit() {
-        backgroundColor = UIColor.splashBackgroundColor
+        backgroundColor = UIColor.black
            addSubview(logoGifImageView)
            logoGifImageView.translatesAutoresizingMaskIntoConstraints = false
            logoGifImageView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true

@@ -12,6 +12,7 @@ pod 'youtube-ios-player-helper'
 pod 'Firebase/Analytics'
 pod 'Firebase/Database'
 pod 'Firebase/Crashlytics'
+pod 'Firebase/RemoteConfig'
 
 
 end

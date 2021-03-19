@@ -9,6 +9,7 @@ import UIKit
 import SwiftyGif
 
 
+
 class ContainerVC: UIViewController {
     
     @IBOutlet weak var container: UIView!
@@ -21,7 +22,6 @@ class ContainerVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //fatalError()
         view.addSubview(logoAnimationView)
         logoAnimationView.pinEdgesToSuperView()
         logoAnimationView.logoGifImageView.delegate = self
@@ -44,6 +44,10 @@ class ContainerVC: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         logoAnimationView.logoGifImageView.startAnimatingGif()
+    }
+    
+    
+    func fetchRemoteConfigData() {
         
     }
     
@@ -78,7 +82,6 @@ class ContainerVC: UIViewController {
 extension ContainerVC: SwiftyGifDelegate {
     func gifDidStop(sender: UIImageView) {
         logoAnimationView.isHidden = true
-        
     }
 }
 

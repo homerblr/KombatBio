@@ -657,14 +657,14 @@
                                     <action selector="mishaLinkedInTapped:" destination="0IC-F7-gmx" eventType="touchUpInside" id="vIC-B9-oiS"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Umk3s.gif" translatesAutoresizingMaskIntoConstraints="NO" id="vZg-2N-OeH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vZg-2N-OeH">
                                 <rect key="frame" x="252" y="269" width="142" height="172"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="142" id="hN6-fX-BHs"/>
                                     <constraint firstAttribute="height" constant="172" id="uay-DT-a15"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kitana_UMK3.gif" translatesAutoresizingMaskIntoConstraints="NO" id="U8t-hc-Ugk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="U8t-hc-Ugk">
                                 <rect key="frame" x="252" y="460" width="142" height="172"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="142" id="EnF-9S-DcI"/>
@@ -841,8 +841,6 @@ I hope you enjoy KombatBio. Please send me feedback about your thoughts and wish
         <segue reference="578-wQ-ii0"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Kitana_UMK3.gif" width="77" height="132"/>
-        <image name="Umk3s.gif" width="74" height="130"/>
         <image name="erron" width="924" height="854"/>
         <image name="fandomLogo" width="206" height="44"/>
         <image name="grid" catalog="system" width="128" height="112"/>

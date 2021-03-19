@@ -11,6 +11,10 @@
 		CB2388B3260389D3000DD0EB /* Umk3s.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2388B1260389D3000DD0EB /* Umk3s.gif */; };
 		CB2388DA2603BF8E000DD0EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB2388D92603BF8E000DD0EB /* GoogleService-Info.plist */; };
 		CB2DE22925E91B7A001A8F5E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DE22825E91B7A001A8F5E /* DetailVC.swift */; };
+		CB69E0FC2604EEFD00CCFF30 /* shaokanGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB69E0FB2604EEFD00CCFF30 /* shaokanGif.gif */; };
+		CB69E1012604F11C00CCFF30 /* shangTsungGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB69E0FE2604F11C00CCFF30 /* shangTsungGif.gif */; };
+		CB69E1022604F11C00CCFF30 /* sonyaGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB69E0FF2604F11C00CCFF30 /* sonyaGif.gif */; };
+		CB69E1032604F11C00CCFF30 /* raidenMKGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB69E1002604F11C00CCFF30 /* raidenMKGif.gif */; };
 		CB8BB2AE25E5009200809D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2AD25E5009200809D73 /* AppDelegate.swift */; };
 		CB8BB2B025E5009200809D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2AF25E5009200809D73 /* SceneDelegate.swift */; };
 		CB8BB2B225E5009200809D73 /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB2B125E5009200809D73 /* TableViewVC.swift */; };
@@ -51,6 +55,10 @@
 		CB2388B1260389D3000DD0EB /* Umk3s.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Umk3s.gif; sourceTree = "<group>"; };
 		CB2388D92603BF8E000DD0EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CB2DE22825E91B7A001A8F5E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		CB69E0FB2604EEFD00CCFF30 /* shaokanGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shaokanGif.gif; sourceTree = "<group>"; };
+		CB69E0FE2604F11C00CCFF30 /* shangTsungGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shangTsungGif.gif; sourceTree = "<group>"; };
+		CB69E0FF2604F11C00CCFF30 /* sonyaGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sonyaGif.gif; sourceTree = "<group>"; };
+		CB69E1002604F11C00CCFF30 /* raidenMKGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = raidenMKGif.gif; sourceTree = "<group>"; };
 		CB8BB2AA25E5009200809D73 /* KombatBio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KombatBio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8BB2AD25E5009200809D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB8BB2AF25E5009200809D73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +123,20 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CB69E1052604F12600CCFF30 /* GIF for RemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				CB69E0FB2604EEFD00CCFF30 /* shaokanGif.gif */,
+				CBC685A425F235E200FAFCC8 /* mklogogif.gif */,
+				CB69E1002604F11C00CCFF30 /* raidenMKGif.gif */,
+				CB69E0FE2604F11C00CCFF30 /* shangTsungGif.gif */,
+				CB69E0FF2604F11C00CCFF30 /* sonyaGif.gif */,
+				CB2388B0260389D3000DD0EB /* Kitana_UMK3.gif */,
+				CB2388B1260389D3000DD0EB /* Umk3s.gif */,
+			);
+			path = "GIF for RemoteConfig";
+			sourceTree = "<group>";
+		};
 		CB8BB2A125E5009200809D73 = {
 			isa = PBXGroup;
 			children = (
@@ -147,9 +169,7 @@
 				CBE6C35925F258A1008F34D6 /* Fonts */,
 				CB8BB30525E6D4AE00809D73 /* Helpers */,
 				CB8BB2B825E5009E00809D73 /* LaunchScreen.storyboard */,
-				CBC685A425F235E200FAFCC8 /* mklogogif.gif */,
-				CB2388B0260389D3000DD0EB /* Kitana_UMK3.gif */,
-				CB2388B1260389D3000DD0EB /* Umk3s.gif */,
+				CB69E1052604F12600CCFF30 /* GIF for RemoteConfig */,
 				CB2388D92603BF8E000DD0EB /* GoogleService-Info.plist */,
 				CBE6C35425F24A6C008F34D6 /* raidenGif.gif */,
 				CB8BB2BB25E5009E00809D73 /* Info.plist */,
@@ -291,16 +311,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB69E0FC2604EEFD00CCFF30 /* shaokanGif.gif in Resources */,
 				CB8BB2FD25E6D11300809D73 /* MKtitle.ttf in Resources */,
 				CB8BB2BA25E5009E00809D73 /* LaunchScreen.storyboard in Resources */,
 				CB8BB2CA25E50F3E00809D73 /* Kombat.json in Resources */,
+				CB69E1032604F11C00CCFF30 /* raidenMKGif.gif in Resources */,
 				CB8BB2F525E67F6D00809D73 /* CollectionViewCell.xib in Resources */,
 				CB2388B3260389D3000DD0EB /* Umk3s.gif in Resources */,
 				CB2388DA2603BF8E000DD0EB /* GoogleService-Info.plist in Resources */,
 				CBE6C35525F24A6C008F34D6 /* raidenGif.gif in Resources */,
+				CB69E1022604F11C00CCFF30 /* sonyaGif.gif in Resources */,
 				CB8BB2D225E5524C00809D73 /* FighterCell.xib in Resources */,
 				CB2388B2260389D3000DD0EB /* Kitana_UMK3.gif in Resources */,
 				CB8BB2B725E5009E00809D73 /* Assets.xcassets in Resources */,
+				CB69E1012604F11C00CCFF30 /* shangTsungGif.gif in Resources */,
 				CBC685A525F235E200FAFCC8 /* mklogogif.gif in Resources */,
 				CB8BB2B525E5009200809D73 /* Main.storyboard in Resources */,
 			);
