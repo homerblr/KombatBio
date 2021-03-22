@@ -8,6 +8,7 @@
 import UIKit
 import AVKit
 import SafariServices
+import GoogleMobileAds
 
 
 class DetailVC: UIViewController {
@@ -35,6 +36,13 @@ class DetailVC: UIViewController {
     var videoURL: URL?
     var selectedFighter: Characters?
     
+    private let adMobID = "ca-app-pub-3155855996937060/5631423799"
+    private let admobTestID = "ca-app-pub-3940256099942544/4411468910"
+    
+
+    
+    private var interstitialAD : GADInterstitialAd?
+    
     let finishersScreenSegueID = "goToFinishersVC"
     
     var detailVM : DetailScreenVMProtocol! {
@@ -52,10 +60,15 @@ class DetailVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        interstitialAD = createAD()
+        interstitialAD?.fullScreenContentDelegate = self
+        
         detailVM = DetailScreenVM(fighter: selectedFighter)
         playVideo(with: videoURL)
         fandomButton.layer.borderColor = UIColor.white.cgColor
         fandomButton.layer.borderWidth = 1
+       
     }
     
     func playVideo(with url: URL?) {
@@ -87,12 +100,19 @@ class DetailVC: UIViewController {
         if let fandomURL = selectedFighter?.fandomURL, let url = URL(string: fandomURL) {
             let safariViewController = SFSafariViewController(url: url)
             present(safariViewController, animated: true, completion: nil)
+            
         }
     }
     
     @IBAction func finishersButtonTapped(_ sender: UIButton) {
         performSegue(withIdentifier: finishersScreenSegueID, sender: self)
+        let timerForAds = Int.random(in: 0..<16)
+        if timerForAds % 2 == 0 && interstitialAD != nil {
+            interstitialAD?.present(fromRootViewController:self)
+        }
     }
+    
+
     
     //MARK: Prepare for Segue
     
@@ -105,4 +125,21 @@ class DetailVC: UIViewController {
         }
     }
     
+}
+
+extension DetailVC: GADFullScreenContentDelegate {
+    
+    //TODO: Change AdMob ID before release
+    
+    private func createAD() -> GADInterstitialAd {
+        let ad = GADInterstitialAd()
+        GADInterstitialAd.load(withAdUnitID: admobTestID, request: GADRequest()) { (ad, error) in
+            if let error = error {
+                print(error)
+            } else {
+                self.interstitialAD = ad
+            }
+        }
+        return ad
+    }
 }

@@ -721,11 +721,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbo-fc-sLI">
-                                <rect key="frame" x="16" y="64" width="382" height="458.5"/>
-                                <string key="text">KombatBio is a fan created app that has nothing to do with the NetherRealm Studios and  Warner Bros. Interactive Entertainment. 
-This app has been designed to give tips and information about Mortal Kombat 11 fighters. 
-I, the developer also acknowledge that certain assets within the app app are owned by NetherRealm Studios and  Warner Bros. Interactive Entertainment. I consider this app as fan art. 
-I hope you enjoy KombatBio. Please send me feedback about your thoughts and wishes.</string>
+                                <rect key="frame" x="16" y="64" width="382" height="430"/>
+                                <string key="text">KombatBio is a fan created app that has nothing to do with the NetherRealm Studios and  Warner Bros. Interactive Entertainment.  This app has been designed to give tips and information about Mortal Kombat 11 fighters.  I, the developer also acknowledge that certain assets within the app app are owned by NetherRealm Studios and  Warner Bros. Interactive Entertainment. I consider this app as fan art.  I hope you enjoy KombatBio. Please send me feedback about your thoughts and wishes.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -734,7 +731,7 @@ I hope you enjoy KombatBio. Please send me feedback about your thoughts and wish
                                 <rect key="frame" x="16" y="44" width="382" height="20"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separator" translatesAutoresizingMaskIntoConstraints="NO" id="7MV-nG-8c3">
-                                <rect key="frame" x="16" y="522.5" width="382" height="20"/>
+                                <rect key="frame" x="16" y="494" width="382" height="20"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bO2-u3-NAq"/>
