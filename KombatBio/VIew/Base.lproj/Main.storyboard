@@ -751,6 +751,9 @@ I hope you enjoy KombatBio. Please send me feedback about your thoughts and wish
                             <constraint firstAttribute="trailing" secondItem="gbo-fc-sLI" secondAttribute="trailing" constant="16" id="zvp-UV-bGE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="gbo-fc-sLI" id="NfL-1E-MD7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Jw-gd-8yP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

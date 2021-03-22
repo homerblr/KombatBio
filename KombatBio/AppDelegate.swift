@@ -9,10 +9,17 @@ import UIKit
 import Firebase
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
+    
+    let notifications = Notifications()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        
+        notifications.notificationCenter.delegate = self
+        notifications.notificationRequest()
+        notifications.scheduleNotification(notificationType: "Finish him!")
+    
         let standard = UINavigationBarAppearance()
         standard.configureWithOpaqueBackground()
         //standard.backgroundColor = .navBarColor
