@@ -66,6 +66,10 @@ class DetailVC: UIViewController {
         playVideo(with: videoURL)
         fandomButton.layer.borderColor = UIColor.white.cgColor
         fandomButton.layer.borderWidth = 1
+        
+        if IAPManager.shared.isPurchased() {
+            IAPManager.shared.hideAds()
+        }
        
     }
     
@@ -94,6 +98,13 @@ class DetailVC: UIViewController {
         }
     }
     
+    func presentAd() {
+        if !IAPManager.shared.isPurchased() {
+            interstitialAD?.present(fromRootViewController: self)
+        }
+        
+    }
+    
     @IBAction func fandomButtonTapped(_ sender: UIButton) {
         if let fandomURL = selectedFighter?.fandomURL, let url = URL(string: fandomURL) {
             let safariViewController = SFSafariViewController(url: url)
@@ -104,9 +115,9 @@ class DetailVC: UIViewController {
     
     @IBAction func finishersButtonTapped(_ sender: UIButton) {
         performSegue(withIdentifier: finishersScreenSegueID, sender: self)
-        let timerForAds = Int.random(in: 0..<16)
+        let timerForAds = Int.random(in: 0..<2)
         if timerForAds % 2 == 0 && interstitialAD != nil {
-            interstitialAD?.present(fromRootViewController:self)
+            presentAd()
         }
     }
     
@@ -133,7 +144,7 @@ extension DetailVC: GADFullScreenContentDelegate {
         let ad = GADInterstitialAd()
         GADInterstitialAd.load(withAdUnitID: admobTestID, request: GADRequest()) { (ad, error) in
             if let error = error {
-                print(error)
+                print("Found an error while creating ad \(error)")
             } else {
                 self.interstitialAD = ad
             }

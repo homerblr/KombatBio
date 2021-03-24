@@ -14,4 +14,6 @@ struct Constants {
     static let dashaLinkedInURL = "https://www.linkedin.com/in/dkislaya/"
     static let myEmail = "mailto:mikhail.kisly@gmail.com"
     static let dashaEmail = "mailto:dariana1902@gmail.com"
+    static let notificationCompleted = "Transaction Completed"
+    static let notificationRestored = "Transaction Completed"
 }

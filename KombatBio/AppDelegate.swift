@@ -22,6 +22,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         notifications.notificationCenter.delegate = self
         notifications.notificationRequest()
         notifications.scheduleNotification(notificationType: "Finish him!")
+        
+        IAPManager.shared.setupPurchases { success in
+            if success {
+                print("can make payments")
+                IAPManager.shared.getProducts()
+            }
+        }
     
         let standard = UINavigationBarAppearance()
         standard.configureWithOpaqueBackground()

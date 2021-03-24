@@ -9,21 +9,24 @@ import UIKit
 import StoreKit
 
 class SettingsVC: UIViewController {
-     
-    private var purchaseModel = [SKProduct]()
+    
+    @IBOutlet weak var tableView: UITableView!
     
     private let cellID = "settingsCell"
     
-    
-    let model = ["Remove ads","Restore purchase","Rate app","About app","About developer", "Share App"]
+    var modelForTableView = ["Remove ads","Restore purchase","Rate app","About app","About developer", "Share App"]
 
-    let story = UIStoryboard(name: "Main", bundle: nil)
+    let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        SKPaymentQueue.default().add(self)
         navigationController?.navigationBar.standardAppearance.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 0)
-        fetchProducts()
-
+        NotificationCenter.default.addObserver(self, selector: #selector(showAlertPurchased), name: NSNotification.Name(rawValue: Constants.notificationCompleted), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(showAlertRestored), name: NSNotification.Name(rawValue: Constants.notificationRestored), object: nil)
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -35,12 +38,12 @@ class SettingsVC: UIViewController {
 
 extension SettingsVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return model.count
+        return modelForTableView.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath)
-        cell.textLabel?.text = model[indexPath.row]
+        cell.textLabel?.text = modelForTableView[indexPath.row]
         return cell
     }
     
@@ -48,98 +51,17 @@ extension SettingsVC: UITableViewDelegate, UITableViewDataSource {
         goToSelected(indexPath: indexPath.row)
         tableView.deselectRow(at: indexPath, animated: true)
     }
-    
-    enum storyBoardID: String {
-        case aboutDev
-        case aboutApp
-        case rateApp
-        case removeAds
-        case restorePurchase
+        
+    @objc func showAlertPurchased() {
+        let alert = UIAlertController(title: "Your purchase completed", message: "Thanks for your purchase, advertisements disabled", preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
     }
     
-    func goToSelected(indexPath row: Int) {
-        var selectedVC = UIViewController()
-        switch row {
-        case 0:
-            if SKPaymentQueue.canMakePayments() {
-                let payment = SKPayment(product: purchaseModel[row])
-                SKPaymentQueue.default().add(payment)
-            }
-        case 1:
-            SKPaymentQueue.default().add(self)
-              SKPaymentQueue.default().restoreCompletedTransactions()
-        case 2:
-            print("case2")
-            //selectedVC = story.instantiateViewController(identifier: storyBoardID.rateApp.rawValue)
-        case 3:
-            selectedVC = story.instantiateViewController(identifier: storyBoardID.aboutApp.rawValue)
-            navigationController?.pushViewController(selectedVC, animated: true)
-        case 4:
-            selectedVC = story.instantiateViewController(identifier: storyBoardID.aboutDev.rawValue)
-            navigationController?.pushViewController(selectedVC, animated: true)
-        case 5:
-            shareApp()
-        default:
-            break
-        }
-    }
-}
-
-extension SettingsVC: SKProductsRequestDelegate, SKPaymentTransactionObserver {
-    func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
-        purchaseModel = response.products
-    }
-    
-    private func fetchProducts() {
-        let request = SKProductsRequest(productIdentifiers: ["com.temporary.id"])
-        request.delegate = self
-        request.start()
-    }
-    
-    func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
-        for transaction in transactions {
-            switch transaction.transactionState {
-            case .purchasing:
-                print("purchasing")
-            case .purchased:
-                SKPaymentQueue.default().finishTransaction(transaction)
-                //SKPaymentQueue.default().remove(self)
-            case .failed:
-                SKPaymentQueue.default().finishTransaction(transaction)
-                SKPaymentQueue.default().remove(self)
-            case .restored:
-                if SKPaymentQueue.canMakePayments() {
-                    SKPaymentQueue.default().finishTransaction(transaction)
-                }
-                //SKPaymentQueue.default().remove(self)
-                print("restored")
-            case .deferred:
-                SKPaymentQueue.default().finishTransaction(transaction)
-                SKPaymentQueue.default().remove(self)
-            @unknown default:
-                SKPaymentQueue.default().finishTransaction(transaction)
-                SKPaymentQueue.default().remove(self)
-            }
-        }
-    }
-    
-    func paymentQueueRestoreCompletedTransactionsFinished(_ queue: SKPaymentQueue) {
-        print("transaction restored")
-        showAlertRestore(title: "Purchase restored", message: "Your purchase was successfuly restored")
-    }
-    
-    func paymentQueue(_ queue: SKPaymentQueue, restoreCompletedTransactionsFailedWithError error: Error) {
-        print("error restoring transaction: \(error)")
-        if queue.transactions.count == 0 {
-            showAlertRestore(title: "Oops", message: "There are no purchases to restore, please buy one")
-        }
-        showAlertRestore(title: "Failed at restoring purchase", message: "There was an error restoring your purchase, please try again")
-    }
-    
-    
-    func showAlertRestore(title: String, message: String) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let action = UIAlertAction(title: "Ok", style: .default, handler: nil)
+    @objc func showAlertRestored() {
+        let alert = UIAlertController(title: "Your purchase was restored", message: "Your purchase was successfuly restored, enjoy!", preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
     }
@@ -155,6 +77,38 @@ extension SettingsVC: SKProductsRequestDelegate, SKPaymentTransactionObserver {
                 }
             }
             self.present(activityVC, animated: true, completion: nil)
+        }
+    }
+
+    
+    enum storyBoardID: String {
+        case aboutDev
+        case aboutApp
+        case rateApp
+        case removeAds
+        case restorePurchase
+    }
+    
+    func goToSelected(indexPath row: Int) {
+        var selectedVC = UIViewController()
+        switch row {
+        case 0:
+            IAPManager.shared.purchase(purchaseWith: IAPProducts.testConsumable.rawValue)
+        case 1:
+            IAPManager.shared.restoreCompletedTransactions()
+        case 2:
+            print("rate app")
+            //selectedVC = story.instantiateViewController(identifier: storyBoardID.rateApp.rawValue)
+        case 3:
+            selectedVC = storyBoard.instantiateViewController(identifier: storyBoardID.aboutApp.rawValue)
+            navigationController?.pushViewController(selectedVC, animated: true)
+        case 4:
+            selectedVC = storyBoard.instantiateViewController(identifier: storyBoardID.aboutDev.rawValue)
+            navigationController?.pushViewController(selectedVC, animated: true)
+        case 5:
+            shareApp()
+        default:
+            break
         }
     }
 }

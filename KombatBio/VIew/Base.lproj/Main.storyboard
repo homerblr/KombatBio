@@ -568,6 +568,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="ECd-Kk-0bw"/>
+                    <connections>
+                        <outlet property="tableView" destination="vOQ-l4-HrH" id="jrX-kR-MRC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IqA-ao-B7q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

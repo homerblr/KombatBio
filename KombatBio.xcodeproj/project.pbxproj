@@ -46,6 +46,8 @@
 		CBE0F32A2608FB5F00C27DC2 /* GoogleAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE0F3292608FB5F00C27DC2 /* GoogleAds.swift */; };
 		CBE6C35525F24A6C008F34D6 /* raidenGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBE6C35425F24A6C008F34D6 /* raidenGif.gif */; };
 		CBE6C35D25FA16E1008F34D6 /* DetailScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6C35C25FA16E1008F34D6 /* DetailScreenVM.swift */; };
+		CBE7814C260B7BFF009A0FA8 /* IAPProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7814B260B7BFF009A0FA8 /* IAPProducts.swift */; };
+		CBE7814F260B7C80009A0FA8 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7814E260B7C80009A0FA8 /* IAPManager.swift */; };
 		CBEC3B5626037507009C92F8 /* AboutAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC3B5526037507009C92F8 /* AboutAppVC.swift */; };
 		CBEC3B592603802B009C92F8 /* AboutDevVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC3B582603802B009C92F8 /* AboutDevVC.swift */; };
 		D50464F0D0011B1946CDBF03 /* Pods_KombatBio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF60B59B916909879EE2FCD4 /* Pods_KombatBio.framework */; };
@@ -96,6 +98,8 @@
 		CBE0F32C26090C6F00C27DC2 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 		CBE6C35425F24A6C008F34D6 /* raidenGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = raidenGif.gif; sourceTree = "<group>"; };
 		CBE6C35C25FA16E1008F34D6 /* DetailScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenVM.swift; sourceTree = "<group>"; };
+		CBE7814B260B7BFF009A0FA8 /* IAPProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProducts.swift; sourceTree = "<group>"; };
+		CBE7814E260B7C80009A0FA8 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
 		CBEC3B5526037507009C92F8 /* AboutAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppVC.swift; sourceTree = "<group>"; };
 		CBEC3B582603802B009C92F8 /* AboutDevVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDevVC.swift; sourceTree = "<group>"; };
 		CF60B59B916909879EE2FCD4 /* Pods_KombatBio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KombatBio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -250,6 +254,8 @@
 				CBE0F3292608FB5F00C27DC2 /* GoogleAds.swift */,
 				CBE0F32C26090C6F00C27DC2 /* Configuration.storekit */,
 				CB9AC16D260A5F3900EF69E1 /* Constants.swift */,
+				CBE7814B260B7BFF009A0FA8 /* IAPProducts.swift */,
+				CBE7814E260B7C80009A0FA8 /* IAPManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -425,8 +431,10 @@
 				CB8BB30325E6D4A900809D73 /* Colors.swift in Sources */,
 				CBE0F32A2608FB5F00C27DC2 /* GoogleAds.swift in Sources */,
 				CB8BB2AE25E5009200809D73 /* AppDelegate.swift in Sources */,
+				CBE7814F260B7C80009A0FA8 /* IAPManager.swift in Sources */,
 				CBEC3B592603802B009C92F8 /* AboutDevVC.swift in Sources */,
 				CB8BB2B025E5009200809D73 /* SceneDelegate.swift in Sources */,
+				CBE7814C260B7BFF009A0FA8 /* IAPProducts.swift in Sources */,
 				CBC7892D26026EC700CC5E4C /* Fonts.swift in Sources */,
 				CB69E1082608AF8B00CCFF30 /* Notifications.swift in Sources */,
 				CBE6C35D25FA16E1008F34D6 /* DetailScreenVM.swift in Sources */,
