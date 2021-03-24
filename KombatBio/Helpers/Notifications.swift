@@ -10,7 +10,6 @@ import UserNotifications
 
 class Notifications: NSObject, UNUserNotificationCenterDelegate {
     
-    
     let notificationCenter = UNUserNotificationCenter.current()
     
     
@@ -29,6 +28,7 @@ class Notifications: NSObject, UNUserNotificationCenterDelegate {
         let userActions = "MK Bio"
         content.title = notificationType
         content.body = "Polish your favorite fighter skill"
+        //TODO: Remote config at local notification body
         content.sound = UNNotificationSound.default
         content.categoryIdentifier = userActions
         

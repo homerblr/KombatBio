@@ -58,44 +58,24 @@ class AboutDevVC: UIViewController {
                 
             }
         }
-        
-        
-//        remoteConfig.fetchAndActivate { [weak self] (status, error) in
-//            if error != nil {
-//                print(error?.localizedDescription)
-//            } else {
-//                if status != .error {
-//                    if let mishaGifName = self?.remoteConfig["misha_gif_name"].stringValue, let dashaGifName = self?.remoteConfig["dasha_gif_name"].stringValue  {
-//                        let mishaGifToDisplay = try? UIImage(gifName: mishaGifName)
-//                        let dashaGifToDisplay = try? UIImage(gifName: dashaGifName)
-//                        DispatchQueue.main.async {
-//                            self?.mishaGif.setGifImage(mishaGifToDisplay!, manager: .defaultManager, loopCount: -1)
-//                            self?.dashaGif.setGifImage(dashaGifToDisplay!, manager: .defaultManager, loopCount: -1)
-//                        }
-//                    }
-//                }
-//
-//            }
-//
-//        }
     }
     
     @IBAction func mishaLinkedInTapped(_ sender: UIButton) {
-        let linkedInURL = URL(string:"https://www.linkedin.com/in/mkisly/")
+        let linkedInURL = URL(string: Constants.myLinkedInURL)
         UIApplication.shared.open(linkedInURL!, options: [:], completionHandler: nil)
         
     }
     @IBAction func mishaEmailTapped(_ sender: UIButton) {
-        let url = URL(string: "mailto:mikhail.kisly@gmail.com")
+        let url = URL(string: Constants.myEmail)
         UIApplication.shared.open(url!, options: [:], completionHandler: nil)
     }
     @IBAction func dashaLinkedInTapped(_ sender: UIButton) {
-        let linkedInURL = URL(string:"https://www.linkedin.com/in/dkislaya/")
+        let linkedInURL = URL(string: Constants.dashaLinkedInURL)
         UIApplication.shared.open(linkedInURL!, options: [:], completionHandler: nil)
         
     }
     @IBAction func dashaEmailTapped(_ sender: UIButton) {
-        let url = URL(string: "mailto:dariana1902@gmail.com")
+        let url = URL(string: Constants.dashaEmail)
         UIApplication.shared.open(url!, options: [:], completionHandler: nil)
     }
     

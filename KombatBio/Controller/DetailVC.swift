@@ -39,8 +39,6 @@ class DetailVC: UIViewController {
     private let adMobID = "ca-app-pub-3155855996937060/5631423799"
     private let admobTestID = "ca-app-pub-3940256099942544/4411468910"
     
-
-    
     private var interstitialAD : GADInterstitialAd?
     
     let finishersScreenSegueID = "goToFinishersVC"
