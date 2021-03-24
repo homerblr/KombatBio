@@ -8,11 +8,12 @@
 import Foundation
 
 protocol FighterDataSourceProtocol {
-    func fetchFightersList(_ completion: @escaping (Result<[Characters], Error>) -> Void)
+    func fetchFightersListLocally(_ completion: @escaping (Result<[Characters], Error>) -> Void)
+    func fetchFightersListFirebase(_ completion: @escaping (Result<[Characters], Error>) -> Void)
 }
 
 struct DataSource: FighterDataSourceProtocol {
-    func fetchFightersList(_ completion: @escaping (Result<[Characters], Error>) -> Void) {
+    func fetchFightersListLocally(_ completion: @escaping (Result<[Characters], Error>) -> Void) {
         LocalNetworking.getFighters { (result) in
             switch result {
             case .success(let fighterModel):
@@ -20,6 +21,20 @@ struct DataSource: FighterDataSourceProtocol {
                 completion(.success(fighterModel.characters))
             case .failure(let error):
                 print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func fetchFightersListFirebase(_ completion: @escaping (Result<[Characters], Error>) -> Void) {
+        var fighters = [Characters]()
+        FirebaseNetworking.getFighters { (result) in
+            switch result {
+            case .success(let fighterModel):
+                let transformedFighter = Characters(snapshot: fighterModel)
+                fighters.append(transformedFighter)
+                completion(.success(fighters))
+            case .failure(let err):
+                print(err)
             }
         }
     }

@@ -9,5 +9,11 @@ target 'KombatBio' do
  pod 'Kingfisher', '~> 6.0'
 pod 'SwiftyGif'
 pod 'youtube-ios-player-helper'
+pod 'Firebase/Analytics'
+pod 'Firebase/Database'
+pod 'Firebase/Crashlytics'
+pod 'Firebase/RemoteConfig'
+pod 'Google-Mobile-Ads-SDK'
+
 
 end

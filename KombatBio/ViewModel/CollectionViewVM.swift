@@ -9,23 +9,22 @@ import UIKit
 import Kingfisher
 
 
-protocol ICollectionViewViewModel {
-    func fetchFightersModel()
-    func configureCell(forIndexPath indexPath: IndexPath, cell: CollectionViewCell)
-    //var boxPhotoModel : Box<[PhotoObject]> {get}
+protocol CollectionViewVMProtocol {
+    func fetchFightersModelLocally()
+    func fetchFightersModelFirebase(completion: @escaping ()->())
+    func configureCell(forIndexPath indexPath: IndexPath, cell: CollectionViewCell, model: [Characters])
     var fighterModel : [Characters] {get}
     var fighterProvider: DataProviderProtocol {get}
-    //var loadingButtonBox: Box<ButtonState> {get}
 }
 
-class CollectionViewVM: ICollectionViewViewModel {
+class CollectionViewVM: CollectionViewVMProtocol {
   
     var fighterModel: [Characters] = []
     var fighterProvider: DataProviderProtocol = DataProvider(loader: DataSource())
     
     
-    func fetchFightersModel() {
-        fighterProvider.fetchFighters { [weak self] (result) in
+    func fetchFightersModelLocally() {
+        fighterProvider.fetchFightersLocally { [weak self] (result) in
             guard let self = self else { return }
             switch result {
             case .success(let response):
@@ -36,8 +35,21 @@ class CollectionViewVM: ICollectionViewViewModel {
         }
     }
     
-    func configureCell(forIndexPath indexPath: IndexPath, cell: CollectionViewCell) {
-        let model = fighterModel[indexPath.row]
+    func fetchFightersModelFirebase(completion: @escaping ()->()) {
+        fighterProvider.fetchFightersFirebase { [weak self] (result) in
+            guard let self = self else { return }
+            switch result {
+            case .success(let response):
+                self.fighterModel = response
+                completion()
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func configureCell(forIndexPath indexPath: IndexPath, cell: CollectionViewCell, model: [Characters]) {
+        let model = model[indexPath.row]
         cell.fighterImage.image = nil
         cell.layer.borderColor = UIColor.cellBorderColor.cgColor
         cell.layer.borderWidth = 1

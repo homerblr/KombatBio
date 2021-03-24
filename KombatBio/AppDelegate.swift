@@ -6,25 +6,55 @@
 //
 
 import UIKit
+import Firebase
+import GoogleMobileAds
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
+    
+    let notifications = Notifications()
+    
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
         
+        notifications.notificationCenter.delegate = self
+        notifications.notificationRequest()
+        notifications.scheduleNotification(notificationType: "Finish him!")
+        
+        IAPManager.shared.setupPurchases { success in
+            if success {
+                print("can make payments")
+                IAPManager.shared.getProducts()
+            }
+        }
+    
         let standard = UINavigationBarAppearance()
         standard.configureWithOpaqueBackground()
-        standard.backgroundColor = .navBarColor
+        //standard.backgroundColor = .navBarColor
         standard.titlePositionAdjustment = UIOffset(horizontal: -110, vertical: 0)
         standard.titleTextAttributes = [.foregroundColor: UIColor.charactersColor, .font: UIFont(name: "MortalKombat-Regular", size: 20)]
         UINavigationBar.appearance().standardAppearance = standard
         
         let finishersAppereance = UINavigationBarAppearance()
         finishersAppereance.configureWithOpaqueBackground()
-        finishersAppereance.backgroundColor = .navBarColor
+        //finishersAppereance.backgroundColor = .navBarTintColor
+        //navBarDetailTint
         finishersAppereance.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 0)
         finishersAppereance.titleTextAttributes = [.foregroundColor: UIColor.charactersColor, .font: UIFont(name: "MortalKombat-Regular", size: 20)]
         UINavigationBar.appearance().compactAppearance = finishersAppereance
+        
+        
+//        let settingsAppereance = UINavigationBarAppearance()
+//        settingsAppereance.configureWithOpaqueBackground()
+//        //finishersAppereance.backgroundColor = .navBarTintColor
+//        //navBarDetailTint
+//        settingsAppereance.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 0)
+//        settingsAppereance.titleTextAttributes = [.foregroundColor: UIColor.charactersColor, .font: UIFont(name: "AppleSDGothicNeo-Regular", size: 16)]
+//        UINavigationBar.appearance().standardAppearance = settingsAppereance
+        
+        FirebaseApp.configure()
         
         // Override point for customization after application launch.
         return true

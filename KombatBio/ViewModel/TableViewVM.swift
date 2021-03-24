@@ -8,30 +8,40 @@
 import UIKit
 import Kingfisher
 
-protocol IMainScreenViewModel {
-    func fetchFightersModel()
+protocol TableViewVMProtocol {
+    func fetchFightersModelLocally()
     func configureCell(forIndexPath indexPath: IndexPath, cell: FighterCell)
-    //var boxPhotoModel : Box<[PhotoObject]> {get}
+    func fetchFightersModelFirebase(completion: @escaping ()->())
     var fighterModel : [Characters] {get}
     var fighterProvider: DataProviderProtocol {get}
-    //var loadingButtonBox: Box<ButtonState> {get}
 }
 
-class MainScreenViewModel: IMainScreenViewModel {
+class MainScreenViewModel: TableViewVMProtocol {
 
     var fighterModel : [Characters] = []
     var fighterProvider: DataProviderProtocol = DataProvider(loader: DataSource())
     
-//    var boxPhotoModel: Box<[PhotoObject]> = Box([PhotoObject]())
-//    let loadingButtonBox = Box<ButtonState>(.doingNothing)
     
-    func fetchFightersModel() {
-        //loadingButtonBox.value = .downloading
-        fighterProvider.fetchFighters { [weak self] (result) in
+    func fetchFightersModelLocally() {
+        fighterProvider.fetchFightersLocally { [weak self] (result) in
             guard let self = self else { return }
             switch result {
             case .success(let response):
                 self.fighterModel = response
+           
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func fetchFightersModelFirebase(completion: @escaping ()->()) {
+        fighterProvider.fetchFightersFirebase { [weak self] (result) in
+            guard let self = self else { return }
+            switch result {
+            case .success(let response):
+                self.fighterModel = response
+                completion()
             case .failure(let error):
                 print(error.localizedDescription)
             }
@@ -39,6 +49,8 @@ class MainScreenViewModel: IMainScreenViewModel {
     }
     
     func configureCell(forIndexPath indexPath: IndexPath, cell: FighterCell) {
+        
+        //TODO: Index out of range while in bad network condition
         let model = fighterModel[indexPath.row]
         cell.fighterImage.image = nil
         DispatchQueue.main.async {

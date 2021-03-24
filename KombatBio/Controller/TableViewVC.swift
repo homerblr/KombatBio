@@ -7,9 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TableViewVC: UIViewController {
     var fighter : [Characters] = []
-    var viewModel : IMainScreenViewModel?
+    var viewModel : TableViewVMProtocol?
     
     private let segueID = "goToDetail"
     
@@ -19,19 +19,25 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tableView.register(UINib(nibName: FighterCell.nibName, bundle: nil), forCellReuseIdentifier: FighterCell.cellID)
         viewModel = MainScreenViewModel()
-        viewModel?.fetchFightersModel()
+        viewModel?.fetchFightersModelFirebase { [weak self] in
+            self?.tableView.reloadData()
+        }
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+    }
 }
 
+
 //MARK: TableView Data Source, Delegate
-extension ViewController: UITableViewDataSource, UITableViewDelegate {
+extension TableViewVC: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel?.fighterModel.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: FighterCell.cellID, for: indexPath) as? FighterCell else {return UITableViewCell()}
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: FighterCell.cellID, for: indexPath) as? FighterCell else {fatalError("fatal error at cellForRowAt indexPath tableview's method")}
         
         viewModel?.configureCell(forIndexPath: indexPath, cell: cell)
         

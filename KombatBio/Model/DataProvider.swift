@@ -8,16 +8,17 @@
 import Foundation
 
 protocol DataProviderProtocol {
-    func fetchFighters(_ completion: @escaping (Result<[Characters], Error>) -> Void)
+    func fetchFightersLocally(_ completion: @escaping (Result<[Characters], Error>) -> Void)
     var fighterModel: [Characters] {get}
+    func fetchFightersFirebase(_ completion: @escaping (Result<[Characters], Error>) -> Void)
 }
 
 class DataProvider : DataProviderProtocol {
     private var loader: FighterDataSourceProtocol
     var fighterModel: [Characters] = [Characters]()
 
-    func fetchFighters(_ completion: @escaping (Result<[Characters], Error>) -> Void) {
-        loader.fetchFightersList { [weak self] (result) in
+    func fetchFightersLocally(_ completion: @escaping (Result<[Characters], Error>) -> Void) {
+        loader.fetchFightersListLocally { [weak self] (result) in
             switch result {
             case .success(let fighterList):
                 completion(.success(fighterList))
@@ -25,6 +26,18 @@ class DataProvider : DataProviderProtocol {
             case .failure(let error):
                 print(error.localizedDescription)
                 completion(.failure(error))
+            }
+        }
+    }
+    
+    func fetchFightersFirebase(_ completion: @escaping (Result<[Characters], Error>) -> Void) {
+        loader.fetchFightersListFirebase { [weak self] (result) in
+            switch result {
+            case .success(let fighterList):
+                completion(.success(fighterList))
+                self?.fighterModel.append(contentsOf: fighterList)
+            case .failure(let error):
+                print(error.localizedDescription)
             }
         }
     }

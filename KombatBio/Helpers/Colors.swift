@@ -21,4 +21,8 @@ extension UIColor {
         return UIColor(named: "charactersColor")!
     }
     
+    @nonobjc class var navBarTintColor : UIColor {
+        return UIColor(named: "navBarDetailTint")!
+    }
+    
 }

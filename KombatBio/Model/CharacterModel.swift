@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Firebase
 
 // MARK: - Character
 
@@ -31,6 +32,12 @@ struct Characters: Codable {
     let storyEndingVideoID: String
     let comboVideoID: String
     let finisherVideoID: String
+    let fandomURL: String
+    let strength1: String
+    let strength2: String
+    let weakness1: String
+    let weakness2: String
+    //let ref: DatabaseReference?
    
 
     enum CodingKeys: String, CodingKey {
@@ -46,6 +53,33 @@ struct Characters: Codable {
         case storyEndingVideoID = "story_ending_video_id"
         case comboVideoID = "combo_video_id"
         case finisherVideoID =  "finisher_video_id"
+        case fandomURL = "fandom_url"
+        case strength1 = "strength1"
+        case strength2 = "strength2"
+        case weakness1 = "weakness1"
+        case weakness2 = "weakness2"
+    }
+    
+    init(snapshot: DataSnapshot) {
+        let snapshotValue = snapshot.value as! [String: AnyObject]
+        id = snapshotValue["id"] as! Int
+        name = snapshotValue["name"] as! String
+        realName = snapshotValue["real_name"] as! String
+        motto = snapshotValue["motto"] as! String
+        gender = snapshotValue["gender"] as! String
+        description = snapshotValue["description"] as! String
+        thumbImageURL = snapshotValue["thumb_image_URL"] as! String
+        fullSizeImageURL = snapshotValue["fullsize_image_URL"] as! String
+        introVideo = snapshotValue["intro_video"] as! String
+        storyEndingVideoID = snapshotValue["story_ending_video_id"] as! String
+        comboVideoID = snapshotValue["combo_video_id"] as! String
+        finisherVideoID = snapshotValue["finisher_video_id"] as! String
+        fandomURL = snapshotValue["fandom_url"] as! String
+        strength1 = snapshotValue["strength1"] as! String
+        strength2 = snapshotValue["strength2"] as! String
+        weakness1 = snapshotValue["weakness1"] as! String
+        weakness2 = snapshotValue["weakness2"] as! String
+        //ref = snapshot.ref
     }
 
 }
