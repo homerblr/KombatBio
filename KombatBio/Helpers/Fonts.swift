@@ -8,8 +8,10 @@
 import UIKit
 
 
-struct Fonts {
+extension UIFont {
     
-
+    @nonobjc class var mortalKombatFont : UIFont {
+        return UIFont(name: "MortalKombat-Regular", size: 20)!
+    }
   
 }

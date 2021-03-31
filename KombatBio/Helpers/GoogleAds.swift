@@ -18,7 +18,7 @@ class GoogleAds: NSObject, GADFullScreenContentDelegate {
     func createAndShowAd(){
         
         interstitialAD?.fullScreenContentDelegate = self
-        GADInterstitialAd.load(withAdUnitID: admobTestID, request: GADRequest()) { [weak self] (admobAd, error) in
+        GADInterstitialAd.load(withAdUnitID: adMobID, request: GADRequest()) { [weak self] (admobAd, error) in
             if let error = error {
                 print(error)
             } else {

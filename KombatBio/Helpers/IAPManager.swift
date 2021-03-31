@@ -47,7 +47,7 @@ class IAPManager: NSObject {
     }
     
     public func getProducts() {
-        let identifiers: Set = [IAPProducts.testConsumable.rawValue]
+        let identifiers: Set = [IAPProducts.removeAds.rawValue]
         let productRequest = SKProductsRequest(productIdentifiers: identifiers)
         productRequest.delegate = self
         productRequest.start()
@@ -112,17 +112,28 @@ extension IAPManager: SKPaymentTransactionObserver {
     
     func paymentQueueRestoreCompletedTransactionsFinished(_ queue: SKPaymentQueue) {
         print("finished")
+        if queue.transactions.count == 0 {
+            print("no transactions")
+        }
     }
     
     func paymentQueue(_ queue: SKPaymentQueue, restoreCompletedTransactionsFailedWithError error: Error) {
         print("Found an error while restoring purchase: \(error)")
+        if queue.transactions.count == 0 {
+            print("no transactions")
+        }
     }
 }
 
 extension IAPManager: SKProductsRequestDelegate {
-    
     func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
         self.products = response.products
         products.forEach {print($0.localizedTitle)}
+        print("делегат сработал")
     }
+    
+    func request(_ request: SKRequest, didFailWithError error: Error) {
+        print("HERE IS YOUR ERROR \(error)")
+    }
+    
 }

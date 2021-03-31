@@ -14,15 +14,15 @@ protocol FighterDataSourceProtocol {
 
 struct DataSource: FighterDataSourceProtocol {
     func fetchFightersListLocally(_ completion: @escaping (Result<[Characters], Error>) -> Void) {
-        LocalNetworking.getFighters { (result) in
-            switch result {
-            case .success(let fighterModel):
-                guard let fighterModel = fighterModel else { return }
-                completion(.success(fighterModel.characters))
-            case .failure(let error):
-                print(error.localizedDescription)
-            }
-        }
+//        LocalNetworking.fetch { (result) in
+//            switch result {
+//            case .success(let fighterModel):
+//                guard let fighterModel = fighterModel else { return }
+//                completion(.success(fighterModel.characters))
+//            case .failure(let error):
+//                print(error.localizedDescription)
+//            }
+//        }
     }
     
     func fetchFightersListFirebase(_ completion: @escaping (Result<[Characters], Error>) -> Void) {

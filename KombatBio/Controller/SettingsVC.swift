@@ -66,21 +66,6 @@ extension SettingsVC: UITableViewDelegate, UITableViewDataSource {
         present(alert, animated: true, completion: nil)
     }
     
-    func shareApp() {
-        if let urlStr = NSURL(string: Constants.shareAppStoreURL) {
-            let objectsToShare = [urlStr]
-            let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
-            if UIDevice.current.userInterfaceIdiom == .pad {
-                if let popup = activityVC.popoverPresentationController {
-                    popup.sourceView = self.view
-                    popup.sourceRect = CGRect(x: self.view.frame.size.width / 2, y: self.view.frame.size.height / 4, width: 0, height: 0)
-                }
-            }
-            self.present(activityVC, animated: true, completion: nil)
-        }
-    }
-
-    
     enum storyBoardID: String {
         case aboutDev
         case aboutApp
@@ -93,12 +78,11 @@ extension SettingsVC: UITableViewDelegate, UITableViewDataSource {
         var selectedVC = UIViewController()
         switch row {
         case 0:
-            IAPManager.shared.purchase(purchaseWith: IAPProducts.testConsumable.rawValue)
+            IAPManager.shared.purchase(purchaseWith: IAPProducts.removeAds.rawValue)
         case 1:
             IAPManager.shared.restoreCompletedTransactions()
         case 2:
-            print("rate app")
-            //selectedVC = story.instantiateViewController(identifier: storyBoardID.rateApp.rawValue)
+            ReviewService.shared.requestReview()
         case 3:
             selectedVC = storyBoard.instantiateViewController(identifier: storyBoardID.aboutApp.rawValue)
             navigationController?.pushViewController(selectedVC, animated: true)
@@ -106,7 +90,7 @@ extension SettingsVC: UITableViewDelegate, UITableViewDataSource {
             selectedVC = storyBoard.instantiateViewController(identifier: storyBoardID.aboutDev.rawValue)
             navigationController?.pushViewController(selectedVC, animated: true)
         case 5:
-            shareApp()
+            ShareAppSerivce.shared.shareApp(VC: self)
         default:
             break
         }

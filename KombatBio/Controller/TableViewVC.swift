@@ -6,10 +6,11 @@
 //
 
 import UIKit
+import Kingfisher
 
 class TableViewVC: UIViewController {
     var fighter : [Characters] = []
-    var viewModel : TableViewVMProtocol?
+    private var viewModel : TableViewVMProtocol?
     
     private let segueID = "goToDetail"
     
@@ -23,10 +24,6 @@ class TableViewVC: UIViewController {
             self?.tableView.reloadData()
         }
     }
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-
-    }
 }
 
 
@@ -39,8 +36,16 @@ extension TableViewVC: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: FighterCell.cellID, for: indexPath) as? FighterCell else {fatalError("fatal error at cellForRowAt indexPath tableview's method")}
         
-        viewModel?.configureCell(forIndexPath: indexPath, cell: cell)
+        //viewModel?.configureCell(forIndexPath: indexPath, cell: cell)
         
+        if let model = viewModel?.fighterModel[indexPath.row] {
+            DispatchQueue.main.async {
+                cell.fighterImage.image = nil
+                cell.fighterMotto.text = model.motto.uppercased()
+                cell.fighterName.text = model.name
+                cell.fighterImage.kf.setImage(with: URL(string: model.fullSizeImageURL))
+            }
+        }
         return cell
     }
     

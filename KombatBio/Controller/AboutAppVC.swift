@@ -24,7 +24,7 @@ class AboutAppVC: UIViewController {
         super.viewWillAppear(animated)
         remoteConfig.fetchAndActivate { [weak self] (status, error) in
             if error != nil {
-                print(error?.localizedDescription)
+                print(error!.localizedDescription)
             } else {
                 if status != .error {
                     if let descriptionText = self?.remoteConfig["about_app_description"].stringValue  {

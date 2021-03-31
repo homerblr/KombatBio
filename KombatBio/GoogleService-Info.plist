@@ -32,5 +32,7 @@
 	<string>1:752439051970:ios:ef0399b18229470dccdd5b</string>
 	<key>DATABASE_URL</key>
 	<string>https://kombatbio-default-rtdb.europe-west1.firebasedatabase.app</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-3155855996937060~4357870571</string>
 </dict>
 </plist>

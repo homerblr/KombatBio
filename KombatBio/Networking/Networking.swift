@@ -13,23 +13,37 @@ protocol MKNetwork {
    static func getFighters(_ completion: @escaping(Result<CharacterModel?, Error>) -> Void)
 }
 
-struct LocalNetworking: MKNetwork {
-    
-    let fighters = [Characters]()
-    
-   static func getFighters(_ completion: @escaping (Result<CharacterModel?, Error>) -> Void) {
-        if let jsonPath: String = Bundle.main.path(forResource: "Kombat", ofType: "json"), let jsonData: Data = NSData(contentsOfFile: jsonPath) as? Data {
+protocol BaseNetworkingProtocol {
+    static func fetch<T: Decodable>(path: String, _ completion: @escaping (Result<T?, Error>) -> ())
+}
+
+extension BaseNetworkingProtocol {
+    static func fetch<T: Decodable>(path: String, _ completion: @escaping (Result<T?, Error>) -> ()) {
+        if let jsonData: Data = NSData(contentsOfFile: path) as? Data {
             let jsonDecoder = JSONDecoder()
             do {
-                let data = try jsonDecoder.decode(CharacterModel.self, from: jsonData)
+                let data = try jsonDecoder.decode(T.self, from: jsonData)
                 completion(.success(data))
             } catch let error {
                 completion(.failure(error))
                 print(error.localizedDescription)
             }
+        } else {
+            completion(.failure(NSError(domain: "Path Error", code: -1, userInfo: [NSLocalizedDescriptionKey: "Invalid Path"])))
+        }
+    }
+}
+
+struct LocalNetworking: BaseNetworkingProtocol {
+    
+    let fighters = [Characters]()
+    static func fetch<T>(path: String, _ completion: @escaping (Result<T?, Error>) -> ()) where T : Decodable {
+        if let jsonPath: String = Bundle.main.path(forResource: "Kombat", ofType: "json") {
+            fetch(path: jsonPath, completion)
         }
     }
     
+  
 }
 
 

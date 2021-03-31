@@ -6,14 +6,16 @@
 //
 
 import UIKit
+import Kingfisher
 
 class CollectionViewVC: UIViewController {
     
-    @IBOutlet weak var collectionView: UICollectionView!
-    var viewModel: CollectionViewVMProtocol?
-    
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var collectionView: UICollectionView!
+    
+    private var viewModel: CollectionViewVMProtocol?
+
     private let segueID = "fromGridToDetail"
     
     var filteredFighters : [Characters]?
@@ -45,7 +47,17 @@ extension CollectionViewVC: UICollectionViewDelegate, UICollectionViewDataSource
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCell.cellID, for: indexPath) as? CollectionViewCell else { return UICollectionViewCell()}
-        viewModel?.configureCell(forIndexPath: indexPath, cell: cell, model: filteredFighters!)
+        //viewModel?.configureCell(forIndexPath: indexPath, cell: cell, model: filteredFighters!)
+        if let model = filteredFighters?[indexPath.row] {
+            cell.fighterImage.image = nil
+            cell.layer.borderColor = UIColor.cellBorderColor.cgColor
+            cell.layer.borderWidth = 1
+            DispatchQueue.main.async {
+                cell.fighterName.text = model.name
+                cell.fighterImage.kf.setImage(with: URL(string: model.thumbImageURL))
+            }
+        }
+       
         return cell
     }
     
@@ -96,6 +108,5 @@ extension CollectionViewVC: UISearchBarDelegate {
             }
         }
         collectionView.reloadData()
-        
     }
 }

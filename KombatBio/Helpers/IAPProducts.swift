@@ -9,4 +9,5 @@ import Foundation
 
 enum IAPProducts: String {
     case testConsumable = "com.temporary.id"
+    case removeAds = "com.mikhailKisliy.KombatBio.RemoveAds"
 }

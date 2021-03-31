@@ -45,12 +45,7 @@ class ContainerVC: UIViewController {
         super.viewDidAppear(animated)
         logoAnimationView.logoGifImageView.startAnimatingGif()
     }
-    
-    
-    func fetchRemoteConfigData() {
         
-    }
-    
     private func setupChildViews() {
         addChild(gridVC)
         addChild(tableViewVC)

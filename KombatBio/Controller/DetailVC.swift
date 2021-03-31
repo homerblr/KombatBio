@@ -93,6 +93,8 @@ class DetailVC: UIViewController {
                     print("Media Playing")
                 case AVPlayerTimeControlStatus.waitingToPlayAtSpecifiedRate:
                     self?.activityIndicator.isHidden = false
+                @unknown default:
+                    print("default case at playerItem.timeControlStatus")
                 }
             })
         }
@@ -142,7 +144,7 @@ extension DetailVC: GADFullScreenContentDelegate {
     
     private func createAD() -> GADInterstitialAd {
         let ad = GADInterstitialAd()
-        GADInterstitialAd.load(withAdUnitID: admobTestID, request: GADRequest()) { (ad, error) in
+        GADInterstitialAd.load(withAdUnitID: adMobID, request: GADRequest()) { (ad, error) in
             if let error = error {
                 print("Found an error while creating ad \(error)")
             } else {

@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         standard.configureWithOpaqueBackground()
         //standard.backgroundColor = .navBarColor
         standard.titlePositionAdjustment = UIOffset(horizontal: -110, vertical: 0)
-        standard.titleTextAttributes = [.foregroundColor: UIColor.charactersColor, .font: UIFont(name: "MortalKombat-Regular", size: 20)]
+        standard.titleTextAttributes = [.foregroundColor: UIColor.charactersColor, .font: UIFont.mortalKombatFont]
         UINavigationBar.appearance().standardAppearance = standard
         
         let finishersAppereance = UINavigationBarAppearance()
@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         //finishersAppereance.backgroundColor = .navBarTintColor
         //navBarDetailTint
         finishersAppereance.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 0)
-        finishersAppereance.titleTextAttributes = [.foregroundColor: UIColor.charactersColor, .font: UIFont(name: "MortalKombat-Regular", size: 20)]
+        finishersAppereance.titleTextAttributes = [.foregroundColor: UIColor.charactersColor, .font: UIFont.mortalKombatFont]
         UINavigationBar.appearance().compactAppearance = finishersAppereance
         
         

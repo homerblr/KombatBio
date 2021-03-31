@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		CB2388B2260389D3000DD0EB /* Kitana_UMK3.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2388B0260389D3000DD0EB /* Kitana_UMK3.gif */; };
 		CB2388B3260389D3000DD0EB /* Umk3s.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2388B1260389D3000DD0EB /* Umk3s.gif */; };
-		CB2388DA2603BF8E000DD0EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB2388D92603BF8E000DD0EB /* GoogleService-Info.plist */; };
 		CB2DE22925E91B7A001A8F5E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DE22825E91B7A001A8F5E /* DetailVC.swift */; };
+		CB670F962614B71400DD1D20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB670F952614B71400DD1D20 /* GoogleService-Info.plist */; };
+		CB670F992614D47200DD1D20 /* ReviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB670F982614D47200DD1D20 /* ReviewService.swift */; };
+		CB670F9C2614D65800DD1D20 /* ShareAppSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB670F9B2614D65800DD1D20 /* ShareAppSerivce.swift */; };
 		CB69E0FC2604EEFD00CCFF30 /* shaokanGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB69E0FB2604EEFD00CCFF30 /* shaokanGif.gif */; };
 		CB69E1012604F11C00CCFF30 /* shangTsungGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB69E0FE2604F11C00CCFF30 /* shangTsungGif.gif */; };
 		CB69E1022604F11C00CCFF30 /* sonyaGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB69E0FF2604F11C00CCFF30 /* sonyaGif.gif */; };
@@ -39,7 +41,6 @@
 		CB8BB30C25E7F5F300809D73 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8BB30B25E7F5F300809D73 /* ContainerVC.swift */; };
 		CB9AC16E260A5F3900EF69E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9AC16D260A5F3900EF69E1 /* Constants.swift */; };
 		CB9F4DFE25F113EB0033C077 /* FinishersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9F4DFD25F113EB0033C077 /* FinishersVC.swift */; };
-		CBC685A525F235E200FAFCC8 /* mklogogif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBC685A425F235E200FAFCC8 /* mklogogif.gif */; };
 		CBC685A825F236B600FAFCC8 /* LogoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC685A725F236B600FAFCC8 /* LogoAnimationView.swift */; };
 		CBC7892A2602547900CC5E4C /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC789292602547900CC5E4C /* SettingsVC.swift */; };
 		CBC7892D26026EC700CC5E4C /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7892C26026EC700CC5E4C /* Fonts.swift */; };
@@ -58,8 +59,10 @@
 		BBD1D5D735A1329F992AF93B /* Pods-KombatBio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KombatBio.release.xcconfig"; path = "Target Support Files/Pods-KombatBio/Pods-KombatBio.release.xcconfig"; sourceTree = "<group>"; };
 		CB2388B0260389D3000DD0EB /* Kitana_UMK3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Kitana_UMK3.gif; sourceTree = "<group>"; };
 		CB2388B1260389D3000DD0EB /* Umk3s.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Umk3s.gif; sourceTree = "<group>"; };
-		CB2388D92603BF8E000DD0EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CB2DE22825E91B7A001A8F5E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		CB670F952614B71400DD1D20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB670F982614D47200DD1D20 /* ReviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewService.swift; sourceTree = "<group>"; };
+		CB670F9B2614D65800DD1D20 /* ShareAppSerivce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAppSerivce.swift; sourceTree = "<group>"; };
 		CB69E0FB2604EEFD00CCFF30 /* shaokanGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shaokanGif.gif; sourceTree = "<group>"; };
 		CB69E0FE2604F11C00CCFF30 /* shangTsungGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shangTsungGif.gif; sourceTree = "<group>"; };
 		CB69E0FF2604F11C00CCFF30 /* sonyaGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sonyaGif.gif; sourceTree = "<group>"; };
@@ -90,7 +93,6 @@
 		CB8BB30B25E7F5F300809D73 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		CB9AC16D260A5F3900EF69E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CB9F4DFD25F113EB0033C077 /* FinishersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishersVC.swift; sourceTree = "<group>"; };
-		CBC685A425F235E200FAFCC8 /* mklogogif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mklogogif.gif; sourceTree = "<group>"; };
 		CBC685A725F236B600FAFCC8 /* LogoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimationView.swift; sourceTree = "<group>"; };
 		CBC789292602547900CC5E4C /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		CBC7892C26026EC700CC5E4C /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
@@ -138,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				CB69E0FB2604EEFD00CCFF30 /* shaokanGif.gif */,
-				CBC685A425F235E200FAFCC8 /* mklogogif.gif */,
 				CB69E1002604F11C00CCFF30 /* raidenMKGif.gif */,
 				CB69E0FE2604F11C00CCFF30 /* shangTsungGif.gif */,
 				CB69E0FF2604F11C00CCFF30 /* sonyaGif.gif */,
@@ -181,8 +182,8 @@
 				CB8BB30525E6D4AE00809D73 /* Helpers */,
 				CB8BB2B825E5009E00809D73 /* LaunchScreen.storyboard */,
 				CB69E1052604F12600CCFF30 /* GIF for RemoteConfig */,
-				CB2388D92603BF8E000DD0EB /* GoogleService-Info.plist */,
 				CBE6C35425F24A6C008F34D6 /* raidenGif.gif */,
+				CB670F952614B71400DD1D20 /* GoogleService-Info.plist */,
 				CB8BB2BB25E5009E00809D73 /* Info.plist */,
 			);
 			path = KombatBio;
@@ -256,6 +257,8 @@
 				CB9AC16D260A5F3900EF69E1 /* Constants.swift */,
 				CBE7814B260B7BFF009A0FA8 /* IAPProducts.swift */,
 				CBE7814E260B7C80009A0FA8 /* IAPManager.swift */,
+				CB670F982614D47200DD1D20 /* ReviewService.swift */,
+				CB670F9B2614D65800DD1D20 /* ShareAppSerivce.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -335,14 +338,13 @@
 				CB69E1032604F11C00CCFF30 /* raidenMKGif.gif in Resources */,
 				CB8BB2F525E67F6D00809D73 /* CollectionViewCell.xib in Resources */,
 				CB2388B3260389D3000DD0EB /* Umk3s.gif in Resources */,
-				CB2388DA2603BF8E000DD0EB /* GoogleService-Info.plist in Resources */,
 				CBE6C35525F24A6C008F34D6 /* raidenGif.gif in Resources */,
 				CB69E1022604F11C00CCFF30 /* sonyaGif.gif in Resources */,
+				CB670F962614B71400DD1D20 /* GoogleService-Info.plist in Resources */,
 				CB8BB2D225E5524C00809D73 /* FighterCell.xib in Resources */,
 				CB2388B2260389D3000DD0EB /* Kitana_UMK3.gif in Resources */,
 				CB8BB2B725E5009E00809D73 /* Assets.xcassets in Resources */,
 				CB69E1012604F11C00CCFF30 /* shangTsungGif.gif in Resources */,
-				CBC685A525F235E200FAFCC8 /* mklogogif.gif in Resources */,
 				CB8BB2B525E5009200809D73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB9AC16E260A5F3900EF69E1 /* Constants.swift in Sources */,
+				CB670F992614D47200DD1D20 /* ReviewService.swift in Sources */,
 				CBC7892A2602547900CC5E4C /* SettingsVC.swift in Sources */,
 				CBEC3B5626037507009C92F8 /* AboutAppVC.swift in Sources */,
 				CB8BB2B225E5009200809D73 /* TableViewVC.swift in Sources */,
@@ -437,6 +440,7 @@
 				CBE7814C260B7BFF009A0FA8 /* IAPProducts.swift in Sources */,
 				CBC7892D26026EC700CC5E4C /* Fonts.swift in Sources */,
 				CB69E1082608AF8B00CCFF30 /* Notifications.swift in Sources */,
+				CB670F9C2614D65800DD1D20 /* ShareAppSerivce.swift in Sources */,
 				CBE6C35D25FA16E1008F34D6 /* DetailScreenVM.swift in Sources */,
 				CB8BB2F025E67EE600809D73 /* CollectionViewVC.swift in Sources */,
 				CB8BB2F425E67F6D00809D73 /* CollectionViewCell.swift in Sources */,
@@ -516,7 +520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -571,7 +575,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -592,6 +596,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = M8SUW96MKR;
 				INFOPLIST_FILE = KombatBio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -600,7 +605,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -614,6 +619,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M8SUW96MKR;
 				INFOPLIST_FILE = KombatBio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -622,7 +628,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
