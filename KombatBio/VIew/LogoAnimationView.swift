@@ -21,12 +21,13 @@ class LogoAnimationView: UIView {
            super.init(coder: aDecoder)
            commonInit()
        }
-
-       private func commonInit() {
+    
+    private func commonInit() {
         backgroundColor = UIColor.black
-           addSubview(logoGifImageView)
-           logoGifImageView.translatesAutoresizingMaskIntoConstraints = false
-           logoGifImageView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
-           logoGifImageView.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
-       }
+        addSubview(logoGifImageView)
+        logoGifImageView.contentMode = .scaleAspectFill
+        logoGifImageView.translatesAutoresizingMaskIntoConstraints = false
+        logoGifImageView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        logoGifImageView.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+    }
 }
