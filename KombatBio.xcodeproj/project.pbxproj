@@ -176,10 +176,10 @@
 				CB8BB2E525E57DEA00809D73 /* ViewModel */,
 				CB8BB2E725E57DFA00809D73 /* Model */,
 				CB8BB2E925E57E0300809D73 /* Networking */,
-				CB8BB2E125E57DD600809D73 /* VIew */,
+				CB8BB2E125E57DD600809D73 /* View */,
+				CB8BB30525E6D4AE00809D73 /* Helpers */,
 				CB8BB2B625E5009E00809D73 /* Assets.xcassets */,
 				CBE6C35925F258A1008F34D6 /* Fonts */,
-				CB8BB30525E6D4AE00809D73 /* Helpers */,
 				CB69E1052604F12600CCFF30 /* GIF for RemoteConfig */,
 				CBE6C35425F24A6C008F34D6 /* raidenGif.gif */,
 				CB670F952614B71400DD1D20 /* GoogleService-Info.plist */,
@@ -188,7 +188,7 @@
 			path = KombatBio;
 			sourceTree = "<group>";
 		};
-		CB8BB2E125E57DD600809D73 /* VIew */ = {
+		CB8BB2E125E57DD600809D73 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				CB8BB2B325E5009200809D73 /* Main.storyboard */,
@@ -199,7 +199,7 @@
 				CBC685A725F236B600FAFCC8 /* LogoAnimationView.swift */,
 				CB8BB2B825E5009E00809D73 /* LaunchScreen.storyboard */,
 			);
-			path = VIew;
+			path = View;
 			sourceTree = "<group>";
 		};
 		CB8BB2E325E57DDE00809D73 /* Controller */ = {
@@ -601,6 +601,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikhailKisliy.KombatBio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -624,6 +625,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mikhailKisliy.KombatBio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
